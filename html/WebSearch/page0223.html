@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=222";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=223",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=222";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=223" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Cuando llegaron los primeros colonos ingleses, los indígenas norteamericanos a menudo cooperaban con ellos, en especial con la agricultura. No obstante, las relaciones pronto cambiarían, a medida que los colonos empezaron a adentrarse en el territorio indígena. Se desataron guerras y, con la llegada de la pólvora, las guerras se volvieron más violentas.Colonos e indígenasAntes de que los colonos llegaran a las Américas, los indígenas usaban la tierra para lo que la necesitaban. La usaban para cultivar y algunos les mostraron a los colonos cómo podían cultivarla. Los indígenas no tenían un sistema de propiedad privada de la tierra. Por el contrario, pensaban que todos podían trabajar la tierra juntos. INTERACTIVITY Explora las ideas clave deesta lección.Los miembros de los grupos indígenas sostenían que ninguna persona poseía la tierra. Cuando los colonos europeos y los líderes indígenas hacían acuerdos sobreun terreno, los colonos pensabanque eran dueños de la tierra.Los grupos indígenas pensabanque solo estaban aceptandoque compartirían o alquilaríanla tierra. Según la costumbreindígena, la tierra no se podíavender. Esa era solo una de lasdiferencias culturales que causaroncon ictos.ograLSuperiorLRangíooaHMgiuihsroisatonOii.LsnsMipopgieiraE.LLOtra fuente de con icto eraque los europeos no consideraban que debían obedecer las reglas de una nación indígena. En cambio, reclamaban la tierra en nombre de sus países de origen. Los colonos europeos comenzaron a crear límites, o líneas que dividen un área de otra. Los colonos también empezaron a usar la fuerza mediante armas.Las 13 colonias se fundaron en tierras indígenas.IllinoisShawneeChickasaw ChoctawIroquois DelawarePowhatanoCheroquí CreekOCÉANO ATLÁNTICOLas 13 colonias y los grupos indígenasChippewaOttawaAlgonquino AbenakiRío OhioippississiMoícRN OE SPE12 ESS19_SE04_CA_M0001760 Second ProofLección 4 • Cooperación y conflicto 169Seminola00200 mi 200 kmCreekLEYENDALas 13 colonias Grupos indígenas </noscript> 
+ </body>
+</html>

@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=571";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=572",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=571";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=572" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Polk, James K., 378Pólvora, 54, 70, 169Ponce de León, Juan, 63, 79Pontiac (líder ottawa), 177–178, 177i Pony Express, 396Poor Richard’s Almanack (Franklin), 180 Portugalexploradores de, 51rechazo al pedido de Colón, 59 y el Tratado de Tordesillas conEspaña, 89Pory, John, 130Postes totémicos, 31, 31iPowhatan (jefe tsenacommacah), 103, 171 Preámbulo de la Constitución, 265, 269,282–283, 288–289 Preámbulo de la Declaración deIndependencia, 216 Preámbulo de los Artículos de laConfederación, 283 Prefijos, 284Prescott, Samuel, 207Presidente de los Estados Unidos, 1, 238,266. Ver también los presidentesespecíficosPrimer Banco de los Estados Unidos, 307i Primer Congreso Continental, 206–207,206i, 213, 238Primer meridiano, MES2Princeton, Nueva Jersey, 225 Príncipe Enrique el Navegante, 51–53,56–57, 76Principios fundacionales (de laConstitución), 277Proclamación de 1763, 178, 179c, 193 Producción, geografía del Norte y, 457 Producción de armas, 364Producción en masa, 364Propiedad de las tierras, 169, 170t, 320 Propietario, 133, 143Propio (apropiado), 114Propuesta, 272, 274Proteccionismo, 150Protestantes, 99, 102Providence, Rhode Island, 141 Provincia real, 119Provisiones, 46–47, 81Proyecto de escritura de un texto deopinión, 248–249, 295 Pueblo de la Vivienda Comunal(Haudenosaunee), 28 Pueblos, 3iPueblos para Rezar, 113Puerto de Boston, 198, 200i, 201, 203i, 205i Puerto Real, 118Puerto Rico, Ponce de León instalado en,63Puestos de comercio, 118, 174 Puritanos, 109, 112, 141–142, 142t, 172QQuebec, Canadá, 106, 117–118, 125, 177 “Quinta carta al emperador Carlos V”(Cortés), 90RRaíces de palabras, 51, 266, 332 Raleigh, Walter, 99–100Ranchos, establecimiento de, 88, 92–93,373, 397Randolph, Edmund, 247, 247i, 263, 294, 304 RapEl poder de la Geografía, 1 Explorando el mundo, 43La lucha por la libertad, 187La lucha por la libertad y la unión, 407 La nación crece, 297Nación en movimiento, 357Una nueva vida en las colonias, 133 Una unión más perfecta, 245 Viajando a América del Norte, 83Ratificación, 245, 251, 285Rebelión de la Bandera del Oso, 378–379 Rebelión de Shays, 254–255, 254i Rebelión Stono, 164Rebeliones de esclavos, 164–165 Recaudar, 282–283Recetas, 5, 41Reclamos de tierras (1817), 331m Reclutamiento forzado, 322 Reconstrucción, 448Guerra Civil y, 406-407 luego de, 452Congreso y, 449nuevas enmiendas, 451 sureños y derechos de losafroamericanos, 452 éxitos de, 450Reconquista, 59 Recursosde las primeras colonias, 148de los indígenas norteamericanos, 34,37treclamos por los, 88recursos naturales, 101, 109, 117, 366Recursos compartidos, 12t Recursos naturalescrecimiento de la población y los, 366 exploradores franceses en busca de,117ventas de la Compañía de Virginia enEuropa, 101, 109Reflejar, 174, 176Reforma Protestante, 99, 109 Reformar, 340Refuerzos, 234Región fronteriza, 297, 313 Regionesmapas de la región, MES6regiones de los Estados Unidos, MES6m ubicaciones de las colonias inglesas,134m, 139mRegla de la mayoría, 266 Reglas, hacer, 108 Regular, 253Reina Isabel, 59 Relación, 122Relieve (en los mapas), MES4 Religionesanglicanos, 102cristianismo, 59, 64, 88, 90–91, 113, 202 de los ancestros, 22en la colonia de la bahía deMassachusetts, 112–113entre diferentes culturas, 72Gran Despertar, 154–155guerra por la religión, 99Iglesia de Inglaterra, 102, 109–110 islam (musulmanes), 59libertad para practicar la religión, 109 misiones y misioneros, 64, 83, 88, 92,96, 385 mormones, 386Pueblos para rezar, 113puritanos, 141Repaso visual, 37, 77, 127, 181, 239, 291, 351, 401Representantes, 105, 264, 276, 276i República constitucional, 272, 276 República de Texas, 376República Dominicana, 60, 75 Republicanos, Johnson y, 449 Resolución de problemas, 126 Resolución del conflicto, 174 Resumir, 258–259Reuniones municipales, 110Revere, Paul, 202, 207, 210–211Revels, Hiram R., 450Revolución Estadounidense, 222, 222i,223t, 208, 226acumular bienes durante la, 242 afroamericanos en la, 228, 228ibatallas de la, 188m, 208m, 234m, 225m deudas de la, 307efectos económicos y políticos, 241 España y la, 226Francia y la, 226hessianos, 223Holanda y la, 226indígenas norteamericanos en la, 225 las mujeres y la, 227Lexington y Concord, 208mRusia y la, 226Saratoga, Batalla de, 225, 225m, 226 Sitio de Boston, 224Tratado de París, 236Washington como comandante en jefedel Ejército Continental, 238Revolución Industrial, 364–365, 370, 413 Rey Fernando, 59Rhode Island, pawtuxet en, 126Ribault, Jean, 90Richmond, Virginia, 448iRío Arkansas, 317m, 318, 318m Río Delaware, 224iRío Hudson, 120Río Mississippi, 2, 119, 313Río Platte, 318, 384, 386Río San Jacinto, 376Río San Lorenzo, 117R58 </noscript> 
+ </body>
+</html>

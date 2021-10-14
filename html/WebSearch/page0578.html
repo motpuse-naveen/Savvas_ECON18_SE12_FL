@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=577";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=578",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=577";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=578" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Photo; 280R: Bettmann/Getty Images; 282: Justin Sullivan/ Getty Images; 284: Chuck Place/Alamy Stock Photo; 285: Omersukrugoksu/E+/Getty Images; 286: Francis Miller/The LIFE Picture Collection/Getty Images; 287: SU Archives/ Everett Collection Inc/Alamy Stock Photo; 288: Keystone Pictures USA/Alamy Stock Photo; 290B: Michael Neelon (tourism)/Alamy Stock Photo; 290T: Everett Historical/ Shutterstock; 295: Asiseeit/E+/Getty ImagesChapter 07296‐297: Rudi1976/Alamy Stock Photo; 298: Picsbyst/ Shutterstock; 299BL: North Wind Picture Archives/Alamy Stock Photo; 299BR: Niday Picture Library/Alamy Stock Photo; 299TL: Lewis and Clark with Sacagawea(colour litho)(detail), Paxson,Edgar Samuel (1852‐1915)/Private Collection/Peter Newark American Pictures/Bridgeman Art Library; 299TR: B. Christopher/Alamy Stock Photo; 302‐303: First in War,First in Peace and First in the Hearts of His Countrymen (colour litho), American School,(19th century) /©Collection of the New‐York Historical Society, USA/Bridgeman Art Library.; 304: North Wind Picture Archives/Alamy Stock Photo; 305: Amble Design/ Shutterstock; 307: Nikreates/Alamy Stock Photo; 308: North Wind Picture Archives/Alamy Stock Photo; 310: Bettmann/Getty Images; 312: North Wind Picture Archives; 314: North Wind Picture Archives/Alamy Stock Photo; 316: North Wind Picture Archives/Alamy Stock Photo; 318: Andrew Molinaro/Alamy Stock Photo; 319: North Wind Picture Archives/Alamy Stock Photo; 320: GL Archive/ Alamy Stock Photo; 321L: North Wind Picture Archives/ Alamy Stock Photo; 321R: Backyard Productions/Alamy Stock Photo; 323: Niday Picture Library/Alamy Stock Photo; 324B: XAOC/Shutterstock; 324T: Bettmann/Getty Images; 325: World History Archive/Alamy Stock Photo; 326: A Hundred Years Peace, the signing of the Treaty of Ghent between Great Britain and the US Dec. 24, 1814, to endthe War of 1812.Painting by Amedee Forestier (1854‐1930) made in 1914, oil on canvas, 71.4 x102 cm.Belgium,19th century/De Agostini Picture Library/Bridgeman Art Library.; 328: Sarin Images/Granger, NYC; 329: Print Collector/ Hulton Archive/Getty Images; 330: North Wind Picture Archives; 333: Jackson slaying the many headed monster’, 1828 (colour litho), American School, (19th century)/Private Collection/Peter Newark American Pictures/ Bridgeman Art Library.; 334: Niday Picture Library/Alamy Stock Photo; 336: Granger, NYC; 337: North Wind Picture Archives/Alamy Stock Photo; 338: Aldo Liverani/Andia/ Alamy Stock Photo; 339: Everett Collection Historical/ Alamy Stock Photo; 340: North Wind Picture Archives/ Alamy Stock Photo; 342T: The Great Famine of Ireland in 1849 (gouache on paper), Nicolle, Pat (Patrick)(1907‐95)/ Private Collection/Look and Learn/Bridgeman Art Library.; 344BL: Shutterstock; 344BR: Everett Collection Inc/Alamy Stock Photo; 344T: Encyclopaedia Britannica, Inc./Library of Congress/Universal Images Group North America LLC/ Alamy Stock Photo; 345: Pictorial Press Ltd/Alamy Stock Photo; 346: Everett Historical/Shutterstock; 347: Bettmann/Getty Images; 348: Niday Picture Library/Alamy Stock Photo; 350: Niday Picture Library/Alamy Stock Photo; 351BC: IanDagnall Computing/Alamy Stock Photo; 351BL: World History Archive/Alamy Stock Photo; 351BR: Everett Collection Historical/Alamy Stock Photo; 351TC: IanDagnall Computing/Alamy Stock Photo; 351TL: Collection/Active Museum/Alamy Stock Photo; 351TR: Niday Picture Library/ Alamy Stock Photo; 642B: North Wind Picture Archives/ Alamy Stock PhotoChapter 08356‐357: Charles Phelps Cushing/ClassicStock/ Archive Photos/Getty Images; 358: George Ostertag/Age Fotostock; 359BL: Everett Collection Historical/Alamy Stock Photo; 359BR: Fotosearch/Archive Photos/Getty Images; 359TL: Stock Montage/Hulton Archive/Archive Photos/ Getty Images; 359TR: Narcissa Whitman (1808‐47) (litho) (see also 268168)0, American School, (19th century)/ Private Collection/Peter Newark American Pictures/ Bridgeman Art Library; 362: Photo Researchers, Inc/Alamy Stock Photo; 364: North Wind Picture Archives; 365: North Wind Picture Archives; 367: North Wind Picture Archives/ Alamy Stock Photo; 369: Bettmann/Getty Images; 372: Ricardo Reitmeyer/Shutterstock; 373: Bettmann/Getty Images; 376B: Ed Vebell/Archive Photos/Getty Images; 376T: T. Lesia/Shutterstock; 378: Bettmann/Getty Images; 379: Plan‐B/Shutterstock; 383B: MPI/Archive Photos/Getty Images; 383T: Gary Crabbe/Enlightened Images/ Alamy Stock Photo; 385: Presbyterian Historical Society; 386: North Wind Picture Archives/Alamy Stock Photo; 387: North Wind Picture Archives/Alamy Stock Photo; 390: Kali9/iStock/Getty Images; 391: Nata‐Lunata/Shutterstock; 392: North Wind Picture Archives/Alamy Stock Photo;393: Bettmann/Getty Images; 394: Gold prospectorsusing a ‘long tom’ sluice at Spanish Flat, California, 1852 (b/w photo), American Photographer, (19th century)/ Private Collection/Peter Newark American Pictures/ Bridgeman Art Library; 395: Granger, NYC; 396: Chinese Immigrants working on the gold fields, 1849 (coloured engraving), American School, (19th century)/Private Collection/Peter Newark American Pictures/BridgemanArt Library; 398: George A. Crofutt/Library of Congress Prints and Photographs Division[LC‐DIG‐ppmsca‐09855]; 400:Peter Stackpole/The Life Picture Collection/Getty Images; 401BCL: Ed Vebell/Archive Photos/Getty Images; 401BCR: MPI/Archive Photos/Getty Images; 401BR: Plan‐B/ Shutterstock; 401TC: T. Lesia/Shutterstock; 401TL: North Wind Picture Archives/Alamy Stock Photo; 401TR: North Wind Picture Archives/Alamy Stock PhotoChapter 09408 Juanmonino/E+/Getty Images; 406‐407 Karen Bleier/ AFP/Getty Images; 409TL Stocktrek Images, Inc./Alamy Stock Photo; 409TR Bettmann/Getty Images; 409BL Pictorial Press Ltd/Alamy Stock Photo; 409BR Stocktrek Images, Inc./Alamy Stock Photo; 412 North Wind Picture Archives/Alamy Stock Photo; 416T PF‐(bygone1)/AlamyR64 </noscript> 
+ </body>
+</html>

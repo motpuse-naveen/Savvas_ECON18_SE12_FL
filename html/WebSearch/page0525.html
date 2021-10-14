@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=524";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=525",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=524";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=525" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼4. El Congreso podrá fijar la época de designación de los electores, así como el día en que deberán emitir sus votos, el cual deberá ser el mismo en todos los Estados Unidos.5. Solo las personas que sean ciudadanos por nacimiento o que hayan sido ciudadanos de los Estados Unidos al tiempo de adoptarse esta Constitución, serán elegibles para el cargo de Presidente; tampoco será elegible una persona que no haya cumplido 35 años de edad y que no haya residido 14 años en los Estados Unidos.6. En caso de que el Presidente sea separado de su puesto, de que muera, renuncie o se incapacite para dar cumplimiento a los poderes y deberes del referido cargo, este pasará al Vicepresidente y el Congreso podrá prever por medio de una ley el caso de separación, muerte, renuncia o incapacidad, tanto del Presidente como del Vicepresidente, y declarar que funcionario fungirá como Presidente hasta que desaparezca la causa de incapacidad o se elija un Presidente.7. El Presidente recibirá una remuneración por sus servicios, en las épocas que se determinarán, la cual no podrá ser aumentada ni disminuida durante el período para el cual haya sido designado y no podrá recibir durante ese tiempo ningún otro emolumento de parte de los Estados Unidos o de cualquiera de estos.8. Antes de entrar a desempeñar su cargo prestará el siguiente juramento o protesta: “Juro (o protesto) solemnemente que desempeñaré legalmente el cargo de Presidente de los Estados Unidos y que sostendré, protegeré y defenderé la Constitución de los Estados Unidos, empleando en ello el máximo de mis facultades”.Sección 2.1. El Presidente será comandante en jefe del ejército y la marina de los Estados Unidos y de la milicia de los diversos Estados cuando se la llame al servicio activo de los Estados Unidos; podrá solicitar la opinión por escrito del funcionario principal de cada uno de los departamentos administrativos con relación a cualquier asunto que se relacione con los deberes de sus respectivos empleos, y estará facultado para suspender la ejecución de las sentencias y para conceder indultos tratándose de delitos contra los Estados Unidos, excepto en los casos de acusación por responsabilidades oficiales.El Congreso decide cuándose escogen los electores ycuándo votan al presidente. Los estadounidenses votan en la actualidad a los electores el Día de elecciones, el martes que sigue al primer lunes de noviembre.Para ser presidente, una persona debe haber nacido en los Estados Unidos y ser un ciudadano. Debe tener al menos 35 años de edad y haber vivido en los Estados Unidos al menos durante 14 años.Si un presidente muere o abandona su cargo por cualquier motivo, el vicepresidente se convierte en presidente. Si no hay un vicepresidente, el Congreso determina al próximo presidente. (En 1967, la Vigesimoquinta Enmienda cambió la manera en que se deben ocupar estos cargos).7. Explica por qué es importante estar de acuerdo en la manera de reemplazar al Presidente o al Vicepresidente si muere repentinamente o abandona su cargo.Mientras se encuentre en funciones, el presidente recibirá un sueldo que no aumentará ni disminuirá y no podrá aceptar dinero o regalos.Antes de comenzar su mandato, debe jurar que sostendrá, protegerá y defenderá la Constitución.Sección 2. Los poderes del PresidenteEl Presidente está a cargo de las fuerzas armadas y la Guardia Nacional. Puede pedir consejoa los líderes de las secretarías del poder ejecutivo. (Hoy se los llama “gabinete presidencial”). El Presidente puede perdonar a las personas condenadas por delitos federales.R11 </noscript> 
+ </body>
+</html>

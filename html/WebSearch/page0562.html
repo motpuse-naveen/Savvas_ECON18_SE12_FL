@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=561";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=562",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=561";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=562" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Chamanes, 22Champlain, Samuel de, 124i, 125 Charbonneau (expedición de Lewis yClark), 317Charleston, Carolina del Sur, 144, 153, 234,456Niños sentados en las ruinas de edificios de Charleston, 445iCharlestown, Massachusetts, 112 China, tecnología de, 55Chinampas, 10iCincinnati, Ohio, inmigrantes alemanesen, 342Ciudad de México, México, 89iCiudad de Nueva York, Nueva York, MES1,149, 153, 303Ciudades portuarias, 140 Ciudades, organización de las, 141 Civilizaciones, 9CivismoAdams, Abigail, 290Adams, John, 290Douglass, Frederick, 350 Franklin, Benjamín, 180, 180i Lincoln, Abraham, 34 Mankiller, Wilma, 36Príncipe Enrique, el Navegante, 76 promesas en el Tratado de GuadalupeHidalgo, 380tareas de los ciudadanosestadounidenses, 293 Tisquantum, 126Tubman, Harriet, 454 Washington, George, 238 Whitman, Narcissa, 400Clalin, Frances, 435Clark, George Rogers, 188Clark, William, SCH19, 316Clasificar y categorizar, 428-429 Clase alta, 152Clase baja, 152Clase de los criollos y criollas, 92 Clase media, 152Clases y sistema de clases, 92t, 152t,152, 226Cláusula de Apropiaciones, 284 Cláusula de contratos, 284 Cláusula de Gastos, 283 Cláusula de Patentes y Derechosde Autor, 284“Cláusula del abuelo”, constitucionesestatales y, 453Claves del contexto, 30, 198, 255, 326, 366 Clay, Henry, 322, 333–334, 338Clermont (barco de vapor), 367Clifford, Thomas, 206Clima, 1, MES1, 133Clinton, Henry, 225, 234Código legal, 290Código Morse, 363Códigos negros, 448, 450Colegio Electoral, 303, 309Colón, Cristóbalbúsqueda de una nueva ruta a Asia, 45i Diario del primer viaje de Cristóbal Colón,66, 80mapa de los viajes, 60mpartida de España para buscar un nuevocamino a Asia, 58–60, 58iprimeros tres viajes, 75 reclamo de Nueva España, 88 texto de opinión sobre, MES11Colonia de Georgia, 144 Colonia de Jamestown, Virginiaafroamericanos esclavizados vendidos a la, 159áreas de pantanos, 139como la primera colonia inglesa, 84m,84i–85, 102en el territorio de los tsenacommacah,171 hambruna, 103línea de tiempo, 103lColonia de la bahía de Massachusetts, 112, 142, 160Colonia de Nueva York, 143Colonia de Pennsylvania, 143Colonia de Plymouth, 111, 111t, 114 Colonia de Virginia, 100, 102, 109, 128t Colonia perdida de Roanoke, 100 Colonias. Ver también las coloniasespecíficasComités de Correspondencia formados, 202de América del Norte, 138–145 esclavitud en todas las colonias, 160 establecimiento de las, 84m–85 industrias en las, 150infomerciales sobre las, 136–137, 185 productos de las, 150mprotección británica de las, 206 protestas de las colonias por losimpuestos británicos, 196i recursos de las, 148Repaso visual, 181ttierras quitadas a los indígenasnorteamericanos, 169m, 171–173 vida cotidiana en las, 148–153Colonias centrales, 140, 143, 149, 193 Colonias de Nueva España, 64, 88, 92, 130 Colonias de Nueva Inglaterraárea común de la ciudad, 141i cercanía con los puertos, 138–139i ciudades y granjas en, 141clima, 140Gran Despertar en, 154–155Colonias de propietarios, 143, 144 Colonias del Norte, esclavitud en las,160–161, 160iColonias del Sur, 140, 144, 160–162, 165 Colonias inglesas. Ver Colonias; Coloniasde Nueva Inglaterra; coloniasespecíficasColonias reales, 144 Colonosen la colonia de Jamestown, 102 indígenas norteamericanos y los, 168i,169, 171, 181tColonos y asentamientos. Ver también Guerra Franco-India; Ley de Expulsión de Indígenas de 1830; Expansión hacia el Oesteacuerdo comercial con el pueblowampanoag, 111 conflictos con los indígenasnorteamericanos, 169–173, 178, 256 en el retrato El progreso americano, 398i en la colonia de Jamestown, 102–104en la isla Roanoke, 99–100en Nueva España, 88en Nueva Francia, 119en Nueva Holanda, 121en Nueva Suecia, 122 estadounidenses en Texas, 373–374 indígenas norteamericanos en loscaminos hacia el oeste, 389 influencia de la geografía en, 139–140 leyes para la, 104sistema de encomienda, 88, 91, 92Coloradoderecho de las mujeres a votar, 347 pico Pikes en, 318, 318iTratado de Guadalupe Hidalgo y, 380Comerciantes, 50 Comercioartículos intercambiados, 32ayuda de Tisquantum a los peregrinoscon el, 126 comercio, 284con California, 388de bienes, 33ten California, 393en Nueva Holanda, 121en Santa Fe, Nuevo México, 387 entre las colonias y los países, 150 entre los Estados Unidos y Francia eInglaterra, 321indígenas norteamericanos en loscaminos hacia el oeste, 389 indígenas norteamericanos y loseuropeos, 30i, 32leyes sobre el comercio, 268redes de comercio, 26, 32regulación del gobierno federal, 276 rutas comerciales, 50, 50t, 52, 94, 155Comercio interestatal, 284Comercio triangular, 151Comité de Cinco, 215Comités de Correspondencia, 202, 206 Compañía de la bahía de Massachusetts,112Compañía de la Nueva Suecia, 122 Compañía de Virginia, 101t, 101–102, 130,144Compañía Inglesa de las Indias Orientales,203Compañía Neerlandesa de las IndiasOccidentales, 120Compañía Neerlandesa de las IndiasOrientales, 120–121Comparar puntos de vista, 280–281, 281t Comparar y contrastar, 34–35Compartir el idioma, 73tCompra de Gadsden, 381Comprar de Louisiana, 315, 377 Comunicación, tipos de, 148Concord, Batalla de, 242Concord, Massachusetts, municionesalmacenadas en, 207 Conductores, 416 Confederación, 28, 412fortalezas de, 429Juliet Opie Hopkins y, 433la capital de, 444la Proclamación de Emancipación, 438,457los estados en, 423 proclamación de, 431 significado de, 419 Scott y, 425Unión contra., 424R48 </noscript> 
+ </body>
+</html>

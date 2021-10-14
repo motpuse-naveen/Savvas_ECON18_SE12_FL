@@ -1,0 +1,35 @@
+
+#id-1{border-bottom:none;}
+#id-2{border-bottom:none;}
+#id-3{border-bottom:none;}
+#id-4{border-bottom:none;}
+#id-5{border-bottom:none;}
+#id-6{border-bottom:none;}
+#id-7{border-bottom:none;}
+#id-8{border-bottom:none;}
+#id-9{border-bottom:none;}
+#header_container 
+{
+background:#eee; 
+border:1px solid #666; 
+height:30px; 
+left:0; 
+position:fixed; 
+width:100%; 
+top:0;
+z-index:999;
+}
+#header
+{
+line-height:30px; 
+margin:0 auto; 
+width:100%; 
+text-align:center;
+z-index:999;
+}
+button{
+background-color: #4977ff;
+color: #ffffff;
+padding: 0.5em;
+font-weight:700;
+}

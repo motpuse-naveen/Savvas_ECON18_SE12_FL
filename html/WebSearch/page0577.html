@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=576";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=577",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=576";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=577" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Stock Photo; 116: George Bernard/Science Source; 118L: Photo Researchers, Inc/Alamy Stock Photo; 118R: Lebrecht Music and Arts Photo Library/Alamy Stock Photo; 119: Robert Stanton/AFP/Getty Images; 121: North Wind Picture Archives/Alamy Stock Photo; 122: American Swedish Historical Museum; 125: Alexey Smolyanyy/Shutterstock; 126B: Branislavpudar/Shutterstock; 126T: Sarin Images/ Granger, NYCChapter 04132‐133: Dennis Tarnay, Jr./Alamy Stock Photo; 134: Philip Scalia/Alamy Stock Photo; 135BL: North Wind Picture Archives/Alamy Stock Photo; 135BR: Interfoto/ Personalities/Alamy Stock Photo; 135TL: North Wind Picture Archives/Alamy Stock Photo; 135TR: NorthWind Picture Archives/Alamy Stock Photo; 137: Syda Productions/Shutterstock; 138‐139: Mira/Alamy Stock Photo; 141: David Persson/Shutterstock; 143: JG Photography/Alamy Stock Photo; 145: North Wind Picture Archives; 146: Ad Oculos/Shutterstock; 147: African Americans picking cotton on a southern plantation. 1883/ Universal History Archive/UIG/Bridgeman Art Library; 149: Mark Summerfield/Alamy Stock Photo; 153: Pat & Chuck Blackley/Alamy Stock Photo; 154: North Wind Picture Archives/Alamy Stock Photo; 155: North Wind Picture Archives/Alamy Stock Photo; 158: Pictorial Press Ltd/ Alamy Stock Photo; 158: World History Archive/Alamy Stock Photo; 160: North Wind Picture Archives; 161: Photo Researchers, Inc/Alamy Stock Photo; 162: North Wind Picture Archives/Alamy Stock Photo; 163: Music Alan King/Alamy Stock Photo; 164: Nat Turner (1800‐31) with fellow insurgent slaves during the Slave Rebellionof 1831 (coloured engraving 1863), Darley, Felix Octavius Carr (1822‐88) (after)/Private Collection/Peter Newark American Pictures/Bridgeman Art Library; 166: Pictorial Press Ltd/Alamy Stock Photo; 168: North Wind Picture Archives/Alamy Stock Photo; 170‐171: Michael Runkel Appalacheans/Alamy Stock Photo; 172: North Wind Picture Archives/Alamy Stock Photo; 175: Richard Nowitz/National Geographic Creative/Alamy Stock Photo; 177: North Wind Picture Archives/Alamy Stock Photo; 178: North Wind Picture Archives; 180B: Stock Montage/Archive Photos/ Getty Images; 180T: Wim Wiskerke/Alamy Stock PhotoChapter 05186‐187: Nancy Carter/North Wind Picture Archives/Alamy Stock Photo; 188: Daniel Dempster Photography/ Alamy Stock Photo; 189BL: Photo Researchers, Inc/Alamy Stock Photo; 189BR: James Lafayette Armistead (engraving), Martin, John (1789‐1854)/Virginia Historical Society, Richmond, Virginia, USA/Bridgeman Art Library; 189TL: GraphicaArtis/Archive Photos/Getty Images; 189TR: SuperStock/Getty Images; 192‐193: Niday Picture Library/ Alamy Stock Photo; 194B: Bettmann/GettyImages; 194T: JT Vintage/Glasshouse Images/AlamyStock Photo; 195: Benjamin Franklin/Library of Congress Prints and Photographs Division[LC‐USZC4‐5315]; 196:North Wind Picture Archives/Alamy Stock Photo; 200: Niday Picture Library/Alamy Stock Photo; 201B: North Wind Picture Archives/Alamy Stock Photo; 201T: Carol M. Highsmith/Library of Congress Prints and Photographs Division[LC‐DIG‐highsm‐09900]; 203: Bettmann/Getty Images; 204L: John Singleton Copley/De Agostini Picture Library/Getty Images; 204R: Thomas Hutchinson (1711‐80) 1741 (oil on canvas), Truman, Edward (18th century)/ Massachusetts Historical Society, Boston, MA, USA/ Bridgeman Art Library; 205: VCG Wilson/Fine Art/Corbis Historical/Getty Images; 206: North Wind Picture Archives/ Alamy Stock Photo; 210: Barney Burstein/Corbis Historical/ VCG/Getty Images; 212: Bettmann/Getty Images; 214:Fine Art Images/Heritage Images/Hulton Archive/Getty Images; 215: Universal History Archive/Universal Images Group/Getty Images; 216: Culture Club/Hulton Archive/ Getty Images; 218B: EvgeniyQ/iStock/Getty Images;218T: Stock Montage/Archive Photos/Getty Images; 220: North Wind Picture Archives/Alamy Stock Photo; 222: North Wind Picture Archives/Alamy Stock Photo; 224:VCG Wilson/Fine Art/Corbis Historical/Getty Images;227C: Universal History Archive/Universal Images Group/ Getty Images; 227L: Photo Researchers, Inc/Alamy Stock Photo; 227R: Lebrecht Authors/Lebrecht Music and Arts Photo Library/Alamy Stock Photo; 228: North Wind Picture Archives/Alamy Stock Photo; 229: Fotosearch/Archive Photos/Getty Images; 230: Edmund P. Restein/Ludwig Restein/Library of Congress Prints and Photographs Division[LC‐DIG‐pga‐02468]; 233: World History Archive/ Alamy Stock Photo; 235: Everett Collection Historical/ Alamy Stock Photo; 236: North Wind Picture Archives/ Alamy Stock Photo; 238B: JacobH/E+/Getty Images; 238T: Photos.com/Getty Images; 243: Kevin Dodge/Corbis/Getty ImagesChapter 06244: Tim Mainiero/Shutterstock; 246: Kickstand/E+/Getty Images; 247BL: North Wind Picture Archives/Alamy Stock Photo; 247BR: North Wind Picture Archives/Alamy Stock Photo; 247TL: National Portrait Gallery, Smithsonian Institution/Art Resource; 247TR: Everett Historical/ Shutterstock; 249: Tom Grill/JGI/Blend Images/Getty Images; 250‐251: The Artchives/Alamy StockPhoto; 254: North Wind Picture Archives/Alamy Stock Photo; 258: Kali Nine LLC/E+/Getty Images; 260‐261: GraphicaArtis/Archive Photos/Getty Images; 262: World History Archive/Alamy Stock Photo; 264: Kickstand/ E+/Getty Images; 266: Peter Gridley/Stockbyte/Getty Images; 269: Mark Wilson/Getty Images; 270: Duplessis, Joseph‐Siffrède/Library of Congress Prints and Photographs Division[LC‐USZC4‐7214]; 273L: Albert Knapp/ Alamy Stock Photo; 273R: Everett Collection Historical/ Alamy Stock Photo; 274: Everett Historical/Shutterstock; 275: Niday Picture Library/Alamy Stock Photo; 276:Brooks Kraft/Corbis Historical/Getty Images; 277B: Max Herman/SIPPL Sipa USA/AP Images; 277T: Jim West/Alamy Stock Photo; 280L: Pictorial Press Ltd/Alamy StockR63 </noscript> 
+ </body>
+</html>

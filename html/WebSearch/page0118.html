@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=117";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=118",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=117";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=118" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Sobre palabrasSufijos Los sufijos son partes de palabras que se agregan al final de una palabra. Estos cambian el significado dela palabra. Por ejemplo, en la palabra asentamiento, se agrega el sufijo −miento al verbo asentar. Cuando se agrega −miento al final de asentar, este se convierte en un sustantivo, asentamiento.ConexiónPiensa en las travesías de los exploradores españoles. ¿Por qué fueron exitosas? Recuerda tus primeras ideas mientras completas tu Misión. INTERACTIVITYAprende más sobre las expediciones de los exploradores españoles.Nuevo territorio de EspañaDespués de un tiempo de explorar, España estaba lista para establecerse en las Américas. Entonces, en 1535, fundó la colonia de Nueva España en América del Norte. Una colonia es un asentamiento o un área que está lejos del país que la gobierna. Nueva España, que ahora es conocida como Nuevo México, se volvió una parte importante del Imperio Español. Con el paso del tiempo, Nueva España se expandiría hasta incluir muchas islas del Caribe y también grandes partes de América del Nortey América Central.Comenzaron a surgir ciudades por toda Nueva España. En 1565, se fundó San Agustín en lo que hoy es la Florida. Esa es la ciudad más antigua fundada por los europeos en los Estados Unidos.Con el paso del tiempo, España impuso su cultura, idioma, religión y modo de vida a los indígenas que vivían en la región mucho antes de la llegada de los españoles. Estos construyeron ciudades con estilo español sobre las ruinas de las ciudades indígenas. Funcionarios españoles se mudaron a la coloniapara formar un gobierno. Sacerdotes católicos fueron a lacolonia para enseñarles sobre el cristianismo a los indígenas. Construyeron misiones en aldeas indígenas, donde los alentaban a adoptar el cristianismo como religión. Muchos indígenas fueron in uenciados para vivir y trabajar en las misiones. Algunos indígenas se vieron tentados por tener alimento y vivienda estables. Pero muchos fueron obligados a trabajar en el campo. Otros huyeron de las misiones.Esta iglesia se construyó en la década de 1620 como parte de una misión española. Hoy, es parte del Monumento Nacional de las Misiones del Pueblo de Salinas, en el valle Salinas, Nuevo México.La toma de poder de Nueva España por partede los españoles provocó duros cambios para los indígenas. Los españoles enfrentaban a distintos grupos de indígenas entre sí en un intento de formar alianzas con algunos de ellos. Luego, muchos indígenas murieron mientras luchaban contra los conquistadores. Muchos más murieron por enfermedades, como la viruela, que los españoles llevaron sin saberlo a las Américas.Los indígenas nunca habían estado expuestos ala viruela y a otras enfermedades europeas. No tenían inmunidad natural. Hubo epidemias entre los pueblos. Una epidemia es un brote de una enfermedad que se difunde rápidamente y afecta a muchas personas.64 Capítulo 2 • La era de la exploración </noscript> 
+ </body>
+</html>

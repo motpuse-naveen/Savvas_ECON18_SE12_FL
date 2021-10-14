@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=575";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=576",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=575";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=576" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼ReconocimientosText AcknowledgmentsHarperCollins PublishersLIttle House on the Prairie by Laura Ingalls Wilder. Copyright © HarperCollins Publishers.St.Martin’s PressMankilller: A Chief and Her People by Wilma Mankiller. Copyright © St.Martin’s Press.Scholastic Inc.The Encounter by Jane Yolen. Copyright © Scholastic Inc.ImagesCoverDann Tardif/Getty ImagesFront MatterrSSH1BL: Jjwithers/iStock Unreleased/Getty Images; SSH1BR: Jamie Pham/Alamy Stock Photo; SSH1TL: LiHui Chen/Shutterstock; SSH1TR: Jenny E. Ross/Corbis Documentary/Getty Images; SSH11: Heritage Images/ Hulton Fine Art Collection/Getty Images; SSH12: Lambert/ Hulton Fine Art Collection/Getty Images; SSH14: Shalom Ormsby/Blend Images/Alamy Stock Photo; SSH15: National Museum of American History, Kenneth E. Behring Center; SSH16: Beeboys/Shutterstock; SSH17: Hulton Fine Art Collection/Fine Art Images/Heritage Images/Getty Images; SSH19: Erich Lessing/Art Resource, NY; copyright page: Rachid Dahnoun/Aurora Open RF/Alamy Stock Photo; i: Chris Putnam/Alamy Stock Photo; iii: Camarillo Dr. Albert M.; iii: Dr. James B. Kracht; iii: Dr. Kathy Swan; iii: Dr. Linda B. Bennett; iii: Elfrieda H. Hiebert; iii: Jim Cummins; iii: Kathy Tuchman Glass; iii: Paul Apodaca; iii: Steven Hackel; iii: Warren J. Blumenfeld; iii: Xiaojian ZhaoChapter 01001: kravka/Shutterstock; 003BL: W. Langdon Kihn/ National Geographic Creative; 003BR: Stock Montage, Inc./Alamy Stock Photo; 003TL: American Indian, desert dewellers, 1992 (acrylic on board), Wood, Rob (b.1946)/ Private Collection/Wood Ronsaville Harlin, Inc. USA/ Bridgeman Art Library; 003TR: W. Langdon Kihn/National Geographic Creative/Alamy Stock Photo; 005B: Ajlatan/ Shutterstock; 008: Walrus harpoon/Werner Forman Archive/ Bridgeman Art Library; 010: G. Dagli Orti/De Agostini Picture Library/Getty Images; 011: Richard A. Cooke/Corbis Documentary/Getty Images; 012: snow shoes, Mario Bonotto/Age Fotostock; 016: FineArt/Alamy Stock Photo; 017: Jose Galvez/PhotoEdit; 018: Lawrence Migdale/PIX/ Alamy Stock Photo; 019: Werner Forman Archive/Heritage Image Partnership Ltd/Alamy Stock Photo; 020B: Dan Nourie/Glasshouse Images/Alamy Stock Photo;020T: Charles Phelps Cushing/ClassicStock/Alamy StockPhoto; 022: Jim Zuckerman/Alamy Stock Photo; 024: Krasowit/Shutterstock; 027: MPI/Archive Photos/Getty Images; 028: Photobucket; 029L: Chronicle/Alamy Stock Photo; 029R: Carl Iwasaki/The LIFE Images Collection/ Getty Images; 030: North Wind Picture Archives/Alamy Stock Photo; 031: Dani Simmonds/Alamy Stock Photo; 031L: Gunter Marx/AT/Alamy Stock Photo; 031R: Gary Warnimont/Alamy Stock Photo; 032BL: NativeStock/ North Wind Picture Archives; 032BR: Digitalfarmer/ Alamy Stock Photo; 032T: Nativestock/North Wind Picture Archives; 034: BlueRingMedia/Shutterstock;035: BioLife Pics/Shutterstock; 036B: Maggie Steber/ National Geographic Creative/Alamy Stock Photo; 036T: Buddy Mays/Alamy Stock Photo; 037B: Randy Duchaine/ Alamy Stock Photo; 037CB: Edward Fielding/Alamy Stock Photo; 037T: Gordon Wildman/Alamy Stock Photo; 037TC: kravka/ShutterstockChapter 02043: Dioscoro Teofilo de la Puebla Tolin/Getty Images; 044: Peter Schickert/Westend61 GmbH/Alamy Stock Photo; 045BL: Heritage Images/Hulton Fine Art Collection/Getty Images; 045BR: Science Source/Getty Images; 045TL: Bartholemew Dias (1450‐1500) (oil on cork), Portuguese School (19th century)/Private Collection/Ancient Artand Architecture Collection Ltd./Bridgeman Art Library; 045TR: Stock Montage/Archive Photos/Getty Images; 048‐049: Bettmann/Getty Images; 051: DEA/G. Dagli Orti/ De Agostini/Getty Images; 053: Leemage/Universal Images Group/Getty Images; 054: Antonio Figueiredo/Shutterstock; 056: Monkeybusinessimages/iStock/Getty Images; 058: Universal History Archive/Universal Images Group/Getty Images; 061: TopFoto/The Image Works; 063: North Wind Picture Archives/Alamy Stock Photo; 064: Wendy Connett / Robert Harding/Getty Images; 066: PHAS/Universal Images Group/Getty Images; 070: Inga Spence/Photolibrary/Getty Images; 071: North Wind Picture Archives; 072: Joel Blit/ Shutterstock; 076B: Phantom1311/iStock/Getty Images; 076T: Universal Images Group/Getty ImagesChapter 03082: Print Collector/Hulton Archive/Getty Images; 084: Matt Purciel/Alamy Stock Photo; 085BL: North Wind Picture Archives/Alamy Stock Photo; 085BR: Stock Montage/ Archive Photos/Getty Images; 085TL: Prisma Archivo/Alamy Stock Photo; 085TR: Stock Montage/Archive Photos/Getty Images; 089: Lanmas/Alamy Stock Photo; 090: Tiziano Vecelli/english.habsburger.net; 094L: Floridamemory.com; 094R: Glowimages/Getty Images; 095L: Floridamemory. com; 095R: Prisma Archivo/Alamy Stock Photo; 098: North Wind Picture Archives/Alamy Stock Photo; 100: Stock Montage/Archive Photos/Getty Images; 102: NationalParks Service; 104: Hulton Archive/Getty Images; 108: Lambert/Hulton Fine Art Collection/Getty Images; 112: North Wind Picture Archives; 114: Stillman Rogers/AlamyR62 </noscript> 
+ </body>
+</html>

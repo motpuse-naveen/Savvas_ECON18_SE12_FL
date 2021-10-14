@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=562";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=563",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=562";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=563" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Confederación de Iroquois, 28 Confederación Powhatana, 28 Confederado(s)aprobar enmiendas y, 451 batalla de Gettysburg y, 441 creación de nuevas armas, 425 generales de, 426indígenas norteamericanos que sirvieron en, 431la Unión ataca en Vicksburg, 441las fuerzas dispararon contra el fuerteSumter en 1861, 422i, 423 marchar hacia Gettysburg, 440 Sherman y, 443sobre las fortalezas de, 428total de (cantidad estimada), 455t Truth como espía, 435Conferencia de Liderazgo Cristiano del Sur, 286Congreso, convocatoria a un, 193 Congreso Constitucional, 290 Congreso de los Estados UnidosAcuerdo, 456aprobación de la decimoquintaenmienda, 451aprobación de la decimoterceraenmienda, 451conformado por representantes ysenadores, 276Gran Concertación, 264–265Plan de Virginia y el Plan de NuevaJersey, 263 reconstrucción y, 449 regulación del comercio, 284Connecticut, 142Conquistadores, 61Consejo de Gobernadores de Todos losIndígenas Pueblo, 28Consejo de la Nación Navajo, 28–29 Consejos, 27i, 38Consejos tribales, 28Constitución de las Naciones de Iroquois,40Constitución de los Estados Unidos,R4–R26. Ver también Declaración de Derechosadopción de la ConvenciónConstitucional, 275cambios a la, 285Carta al editor, 248–249, 295como un plan escrito para el gobierno,261conceptos clave de la, 282–289creación de la, 260–269debate por la Constitución, 291tderecho de las mujeres a votar en la, 290 discurso de Franklin sobre la, 270 economía fuerte y la, 285enmiendas, 285facultad para establecer impuestos,derechos y consumos, 285 federalistas y antifederalistas, 272 límites a los períodos presidenciales enla, 305poderes compartidos entre el gobiernofederal y los gobiernos estatales,276poderes del Congreso, 307 producido por la ConvenciónConstitucional, 238protección de los derechos individuales,271ratificación de la, 279Constituciones y cargos, 114 Construcción de barcos, 54–55, 148 Constructores de montículos, 11, 40 Contaminación, 171Contar cuentos, 17i, 24Continentals (moneda), 253 Contracciones, 154Contrarreforma, 99Convención Constitucional, 238, 261, 261i,263, 270, 274. Ver también Artículos dela ConfederaciónConvención de Seneca Falls, 346 Conversación colaborativa, 360–361, 405 Cooperación y conflicto, 173Cornwallis, Charles, 235, 237Coronado, Francisco Vásquez de, 63i Correspondencia, reparto de la, 396 Cortés, Hernán, MES25, 45, 61, 90Costa de Oro, afroamericanosesclavizados tomados de la, 159 Costa del océano Atlántico, exploraciónfrancesa de la, 117Costo de los bienes, 292tCostumbres, 17i, 197, 340Cowpens, Carolina del Sur, 234 Creación de objetos de cerámica, 19 Crear, 448, 450Criollo, origen de la palabra, 92Crisis del té, 202–203Cristianismo, 59, 64, 88, 90–91, 113, 202 CROATAN tallada en un árbol, 100, 100i Crockett, Davy, 375Cronómetro, 54Cruz Roja Americana, 433, 437 Cuáqueros, 143Cuatro de Julio, 218iCucharón, 19iCuentos del bromista, 24Cuentos folklóricos, 24Cuerpos de bomberos, 180Cuerpos de Descubrimiento, MES19,316–317Cultivo Comercial, 92, 104, 140 Cultivos, 93, 95, 126, 144. Ver tambiénAgricultura; cultivos específicos Culturas. Ver también Inmigrantes einmigracióncaracterísticas, 18choques entre personas de Occidente yde Oriente, 72 comida de los indígenasnorteamericanos, 4–5 cultura española impuesta a losindígenas norteamericanos, 64–65 datos culturales, 14de los africanos esclavizados, 162–163,165 definición, 17–18en el intercambio colombino, 69grupos culturales, 15tgrupos indígenas ancestrales, 11–12 impacto de los caballos en los indígenasnorteamericanos, 70indígenas norteamericanos, 16–17 intercambio entre las Américas, Europay África, 72Curas, 88, 95DDa Gama, Vasco, 53, 56–57 Da Verrazano, Giovanni, 117 Dare, Virginia, 100Davis, Jeffersonel 8 de abril, 1861, 423contra Lincoln, 424, 429el mensaje del General Lee para, 444 fotografía de, 409i, 419ila elección por los EstadosConfederados, 419 razón para querer luchar, 427Dawes, William, 207De Champlain, Samuel, 85, 85i, 118 De Magallanes, Fernando, 45, 62 De Soto, Hernando, 63Debates entre federalistas yantifederalistas, 272–273 Décadas, 56Decimocuarta enmienda, 409, 451, 455 Decimonovena enmienda y movimientodel sufragio, 287t, 287i, 287, 290, 347 Decimoquinta Enmienda; derecho al votode 1870, R21, 286, 286t Decimotercera Enmienda, 286 , 451, 455 Decisiones grupales, 26, 58, 64, 250 Declaración de Derechos, 207, 213 Declaración de Derechos, 272–279enmiendas, 278tHenry, Patrick, discurso de, 274 Madison, James, discurso de, 275 principios fundacionales, 277–278 propuesta por los antifederalistas, 274,274irazones para la, 274–275Declaración de Independencia, 406–409, R1aprobada por el Congreso, 215 borrador de la, 215, 215icitas, 217tcomo la fundación de la democraciaestadounidense, 216, 216i sobre la esclavitud, 218“Declaración de Sentimientos” (Stanton), 348–349Delaware, 431Defensa, proveer la, 283Delegados, 245, 261Democracia como un derecho, 216 Demócratas del Norte, 418Demócratas del Sur, 418Demócratas republicanos, 305–306, 309,310Derecho a congregarse, 277, 277i Derecho a portar armas, 278 Derecho a un trato justo, 278 Derecho al voto. Ver también Colegioelectoralafroamericanos y el, 286 Decimonovena Enmienda y elmovimiento del sufragio, 287, 287i,290, 347Declaración de Sentimientos, 348 derecho de las mujeres a votar, 348 Ley de Derecho al Voto de 1965, 286 personas en condiciones de votar,141–142, 305i, 333prohibición del voto a la clase baja, 152R49 </noscript> 
+ </body>
+</html>

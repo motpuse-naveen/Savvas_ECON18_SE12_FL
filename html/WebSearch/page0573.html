@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=572";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=573",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=572";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=573" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Ríosbarcazas, 140río Arkansas, 318río Delaware, 224irío Hudson, 120río Mississippi, 2, 119, 313río Platte, 318, 384, 386río San Jacinto, 376río San Lorenzo, 117valle del río Ohio, 11, 92, 173–174, 177,178, 193, 253–254, 276, 283Rolfe, John, 104, 171Ropa, 32, 44, 72, 148Rosa de los vientos, MES3Ross, Araminta. Ver Tubman, Harriet Ross, John, 336Rush, Benjamin, 346Rusia, 226, 332Rutas desde Asia hasta las Américas, 7m RutasCarretera Nacional, 366, 366m construidas por los colonos, 140, 177 entre Europa y Asia, 50Ruta de la Seda, 44SSacagawea, 299, 299i, 317 Sacramento, California, 388 Salmón, 24, 24iSalomon, Haym, 235Salón de la Independencia, Filadelfia, 200, 212, 250–251i, 264iSampson, Deborah, 189, 189i, 227, 227i San Agustín, Florida, 64, 94, 94i, 96San Francisco, California, 393, 395i, 402t San Jacinto, Batalla de, 376Santa Anna, Antonio López de, 359, 359i, 375, 376Santos de los Últimos Días (mormones), 386Sarampión, 71Saratoga, Batalla de, 225 Savannah, Georgia, 234, 443 Scott, Winfield, 378Lincoln y, 424-425estrategia de, 424, 424iSeccionalismo, 413, 457Secesión, 412, 419Secuencia, 56–57, 437Segadora de McCormick, 362, 362i Segregación, 288, 448, 450, 456 Seguin, Juan, 376Según, 412, 414Segunda carta de Hernán Cortés al reyCarlos I de España, 1520 (Cortés),MES17Segundo Banco de los Estados Unidos,333, 333i, 338Segundo Congreso Continental, 213, 225,251Sello de la Nación Navajo, 28i Sello de un centavo, 194i Selma, Louisiana, 286Senado de los Estados Unidos, 264, 276 Sendero de Lágrimas, 336, 336i, 336 Separación de poderes, 265Separarse, 326Separatistas, 109, 110Sequía, MES8Sequoyah, 334Servicio de salud en la Nación Cheroquí,36 Sextantes, 54Sherman, General William Tecumsehejército de, 443ien Georgia, 443rol en el fin de la guerra, 443Shays, Daniel, 254–255Sherman, Roger, 215, 247, 247i, 264, 276 Siervos por contrato, 102, 104, 152 Símbolos, MES3, 203Sinónimos, 177Sistema de controles y equilibrios, 266,267tSistema de encomienda, 91, 92 Sistema de escritura de los mayas, 10 Sistema federal de gobierno, 268 Sistemas de carreteras, MES7 Sistemas de libre mercado, 118Sitio, 440, 441, 443Sitio de Boston, 224, 230–231Sitio de Filadelfia, 240Slater, Samuel, 365Smith, John, 85, 85i, 102, 103, 171 Smith, Joseph, 386Soberanía popular, 272, 276, 279 Sobre palabrasAbreviaturas, 94Claves de contexto, 30, 198, 255, 326,366Contracciones, 154Formación de palabras, 204 Homónimos, 119, 226Palabras con varios significados, 22, 171 Prefijos, 284Raíces de palabras, 51, 266, 332 Sinónimos, 177Sufijos, 64, 374Sociedad Antiesclavista Americana, 345, 454Soldados,el cuidado de los, 433enfermos y heridos, 433que le describen sus experiencias a lafamilia, 437 vida de, 432Squanto (Tisquantum), 126, 126iSt. Louis, Missouri, 298i, 342Stanton, Elizabeth Cady, 346, 348, 348i Stowe, Harriet Beecher, 417Steuben, Friedrich von, 233 Strauss, Levi, 359, 359i, 395 Stuyvesant, Peter, 121–122, 143 Sucesos actuales, MES9 Suecia, 49, 121Suecos en América del Norte, 122 Sufijos, 64, 374SureñosReconstrucción y, 450Derechos para afroamericanos y, 452Sufragistas, 287Surgimiento precolombino, 2 Suroeste, pobladores del, 3i Syracuse, New York, MES2TTabaco, 104, 122, 128t, 140, 161–162, 367 Tablas. Ver también Gráficas y Tablas;Líneas de tiempoAsentamientos en el Suroeste, 379t Avances tecnológicos, 401t Características de las regiones culturalesindígenas, 37t Características geográficas de lascolonias, 140tCartier y de Champlain, 118tClases sociales (coloniales), 152t Colonias europeas en América del Norte,127tComerciar bienes, 33tcomo fuentes secundarias, MES16 Compartir el idioma, 73tCosto de los bienes en 1850, 395t ¿Debería mudarme a un pueblo fabril?,371tEfectos de las acciones del rey, 219tEl debate por la Constitución, 291tEl disenso en las colonias puritanas, 142t Estados donde hubo 15 o más batallas,455tEstilo de vida de los pueblos antiguos delas Américas, 9tEstructura de clases en Nueva España,92tFunciones familiares tradicionales, 21t Grant y Lee, 442tGrupos culturales de indígenasnorteamericanos, 15tHechos sobre la exploración portuguesa,52tLa Declaración de Derechos, 278tLas 13 colonias, 181tLas guerras contra los powhatanos y lospequots, 172tLeyes y enmiendas, 455t Los colonos y los indígenasnorteamericanos, 181tLos niños de la frontera, 391tLos Planes de Virginia y Nueva Jersey,263tMedios de transporte a principios delsiglo XIX, 368tMedios de transporte: Antes y ahora,384tMotivaciones y resultados de lasprimeras exploraciones, 77t Nuevas rutas a Asia, 50t Opiniones sobre los Artículos de laConfederación, 262tPoblación de la colonia de Plymouth,1620–1630, 111tPoblación de San Francisco, 1847–1852,402tPoderes del gobierno nacional y delgobierno estatal, 268tPrimeros exploradores europeos, 77t Problemas de los Artículos, 252tR59 </noscript> 
+ </body>
+</html>

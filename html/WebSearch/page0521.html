@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=520";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=521",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=520";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=521" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Sección 7.1. Todo proyecto de ley que tenga por objeto la obtención de ingresos deberá proceder primeramente de la Cámara de Representantes; pero el Senado podrá proponer reformas o convenir en ellas de la misma manera que tratándose de otros proyectos.2. Todo proyecto aprobado por la Cámara de Representantes y elSenado se presentará al Presidente de los Estados Unidos antes deque se convierta en ley; si lo aprobare lo firmará; en caso contrariolo devolverá, junto con sus objeciones, a la Cámara de su origen,la que insertará íntegras las objeciones en su diario y procederá a reconsiderarlo. Si después de dicho nuevo examen las dos terceras partes de esa Cámara se pusieren de acuerdo en aprobar el proyecto,se remitirá, acompañado de las objeciones, a la otra Cámara, por la cual será estudiado también nuevamente y, si lo aprobaren los dos tercios de dicha Cámara, se convertirá en ley. Pero en todos los casosde que se habla, la votación de ambas Cámaras será nominal y los nombres de las personas que voten en pro o en contra del proyecto se asentarán en el diario de la Cámara que corresponda. Si algún proyecto no fuera devuelto por el Presidente dentro de 10 días (descontandolos domingos) después de haberle sido presentado, se convertirá enley, de la misma manera que si lo hubiera firmado, a menos de que al suspender el Congreso sus sesiones impidiera su devolución, en cuyo caso no será ley.3. Toda orden, resolución o votación para la cual sea necesaria la concurrencia del Senado y la Cámara de Representantes (salvo en materia de suspensión de las sesiones), se presentará al Presidente de los Estados Unidos y no tendrá efecto antes de ser aprobada por él o de ser aprobada nuevamente por dos tercios del Senado y de la Cámara de Representantes, en el caso de que la rechazare, de conformidad con las reglas y limitaciones prescritas en el caso de un proyecto de ley.Sección 8.El Congreso tendrá facultad:1. Para establecer y recaudar contribuciones, impuestos, derechos yconsumos; para pagar las deudas y proveer a la defensa común y bienestar general de los Estados Unidos; pero todos los derechos, impuestos y consumos serán uniformes en todos los Estados Unidos.2. Para contraer empréstitos a cargo de créditos de los Estados Unidos.3. Para reglamentar el comercio con las naciones extranjeras, entre losdiferentes Estados y con las tribus indias.4. Para establecer un régimen uniforme de naturalización y leyesuniformes en materia de quiebra en todos los Estados Unidos.Sección 7. Cómo se hacen las leyesTodos los proyectos de leysobre recaudación de dinero deben originarse en la Cámara de Representantes. El Senado puede sugerir o concordar con las enmiendas a estos proyectos de ley sobre impuestos y con cualquier otro proyecto de ley.Los proyectos de ley aprobados por la Cámara de Representantesy el Senado se presentarán al Presidente de los Estados Unidos antes de que se conviertan enley. Si el Presidente aprueba el proyecto de ley, lo firma. Si no está de acuerdo, veta el proyecto y lo devuelve a la cámara en la que se originó, junto con una explicación de sus objeciones. La cámara las incorpora a sus registros y luego reconsidera el proyecto. Si dos tercios de cada cámara acuerdan aprobar el proyecto, se convierte en ley. Si el Presidente no firma ni veta un proyecto en un plazo de diez días (excluyendo el domingo) desde el momento en que lo recibe, el proyecto se convierte en ley. Si el Congreso suspende las sesiones antes de que se cumpla el plazo de diez días, el proyecto no se convierte en ley.Sección 8. Los poderes del CongresoAlgunos de los poderes del Congreso enumerados en la Sección 8 son:• establecer y recaudar impuestos sobre los bienes importados y exportados y sobre los bienes que se venden dentro del país. Además, el Congreso debe pagar las deudas y proveer a la defensa y el bienestar general del país. Todos los impuestos debenser iguales en todo el territorioestadounidense;• contraer empréstitos a cargo decréditos de los Estados Unidos;• crear leyes sobre el comercio con otros países, entre los estados ycon las tribus de indígenas;• establecer un procedimiento quepermita a una persona de otro país convertirse en un ciudadano legal de los Estados Unidos;• proteger el trabajo de los artistas, científicos, autores e inventores;• crear tribunales federales inferiores a la Corte Suprema;R7 </noscript> 
+ </body>
+</html>

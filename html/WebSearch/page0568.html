@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=567";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=568",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=567";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=568" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼R54Colón y los, 60colonia de Jamestown y los, 103 colonos y los, 169m, 181t comanches, 373comercio, 30i, 32, 106, 389como trabajadores esclavos en NuevaEspaña, 88, 93como trabajadores esclavos enplantaciones, 71confederación tsenacommacah, 171 consejos, 27conversión al cristianismo, 88, 90–91,113cooperación con europeos, 256 cooperación inicial con colonos, 168i,169cooperación y conflicto con España, 96t creeks, 12, 325, 334crees, 31cuentos folklóricos, 24cultivando tabaco, 104Daniel Boone y los, 314defensa de la tierra, 325desigualdad en 1776, 218economía de los, 30–31educación de los, 334, 400en el sistema de clases español, 92en la Guerra Franco-India, 175, 192en la pintura El progreso americano, 398i en territorios del oeste, 312–313 enfermedades traídas por los españoles,71, 71iEstados Unidos y los, 326expedición de Lewis y Clark y los, 316 fuego, despejar tierras con, 12 gobiernos de los, 26–27, 28–29grupos culturales, 14mhaidas, 31ihopis, 12, 22Huron, 12, 118, 119, 125Imperio Español y los, 64–65indígenas de la isla Roanoke, 99–100 indígenas pueblo, 11, 17, 19, 31, 38 inuits, 11, 40Iroquois, 12, 30, 40, 117, 177, 223 jefes, 27, 29joyas, 32iLakota (Sioux), 12, 18, 27i, 119Ley de Expulsión de Indígenas de 1830,334, 335m líderes, 126los primeros habitantes de las Américas, 6–9, 7mlos Whitman como misioneros de, 385 lucha contra los, 314miamis, 256–257misioneros españoles y los, 93, 130 mohawks, 28, 223mujeres, 19navajos, 11, 12, 17, 28Nueva Holanda y los, 121oneidas, 28, 223onondagas, 28Ordenanza del Noroeste de 1785 y los,256 ottawas, 177 paiutes, 400pawtuxet, 126pequots, 172peregrinos y los, 111, 126 piel de castor, 32i powhatanos, 28, 103–104Pueblo de la Vivienda Comunal, 28 puritanos y los, 172recetas de los, 5, 41regiones culturales, 37tregiones y grupos culturales, 15t relaciones con europeos, 123 religiones, 22reservas para, 336Revolución Estadounidense y los, 218, 223roles de los niños, 19roles familiares, 20, 21tseminolas, 330i, 331, 334–335 Sendero de Lágrimas, 336, 336i senecas, 28shawnees, 256–257sistema de encomiendas, 91, 92 Tecumseh, 321–322tierras tomadas por colonos, 171–173 timucuas, 95tlingits, 18ituscaroras, 28, 223uso de la tierra y del agua, 169 vestido de cuero de búfalo, 32ivida cotidiana de, 19–21 wampanoags, 111, 173Whitman, Narcissa, 400yamacraw, 144Indudable privilegio, 220 Inflación, 228–229, 253t, 253 Infomerciales, 6, 185 Inglaterrabarcos estadounidenses capturados, 321control sobre el comercio en las colonias, 150Francia e, 172–177, 192, 226, 320, 320i guerra con España, 96, 226guerra con Holanda, 226inmigrantes a los Estados Unidos, 341 oposición cristiana al gobierno británico,202Primer Congreso Continental e, 206 tabaco de Jamestown, 104y América del Norte, 89Inmigrantes e inmigración. Ver también Culturaschinos en California, 396, 396ien los pueblos fabriles, 365 expansión hacia el oeste y los, 313 inmigrantes europeos en el siglo XIX,340–341Leyes de Extranjería y Sedición, 310 mexicanos en California, 396, 396i por barco, 340irazones para emigrar, 82, 138Innovación, 395Instituto para la el Alfabetismo Cheroquí,36Instrucciones para la colonia de Virginia,1606, 102Interacción entre los humanos y el medioambiente, MES1Intercambio colombino, 68, 68–69m, 68–73 Internet, buscar en, MES15 Interpretación, MES17, 457Inventos. Ver también los inventosespecíficosdesmotadora de algodón y aumento de la esclavitud, 342, 363Franklin como inventor, 146, 270herramientas de navegación, 51, 54 impacto de los, 363–365, 370leyes para proteger los, R7–8línea de tiempo de los, 358–359t mejoras en el transporte, 367–369 pólvora, 54Irlanda, 341–342Irrigación, 8, 11, 38, 386Isabel I (reina de Inglaterra), 99 Isla Roanoke, 98i, 99–100, 100iJJackson, Andrewcomo “El Presidente del Pueblo”, 334, 338, 338icomo presidente, 333–334, 333i, 351, 351idisputas por la tierra con los indígenas, 334invasión de la Florida, 331sobre la Ley de Expulsión de Indígenasen Georgia, 336victorias en la Guerra de 1812, 325–326Jackson, Thomas “Muralla de Piedra”, 423, 426Jacobo I (rey de Inglaterra), 101, 144 Jardines flotantes, 10tJay, John, 236, 236i, 275, 280i, 281 Jeans Levi, 395Jefferson, Thomascomo antifederalista, 272como el autor de la Declaración deIndependencia, 189, 189i como líder de los demócratasrepublicanos, 306, 306icomo presidente, 314, 351, 351i como secretario de Estado, 304 Declaración de Independencia y, 215i en una caricatura política, 328i misión de los Cuerpos de Descubrimiento, MES27 nominado por los demócratasrepublicanos, 309opositor a las Leyes de Extranjería ySedición, 310sobre los poderes del Congreso, 307y la compra de Louisiana, 315y la expedición de Lewis y Clark, 316–317Jinetes exprés, 202m Johnson, Andrew, 448, 449 Jorge II (rey de Inglaterra), 144 Jorge III (rey de Inglaterra)caricatura política, 328ienvío de barcos de guerra al puerto deBoston, 198estatua derribada, 212iLey Declaratoria de 1766, 196orden de retirada a las tropas británicas,225Proclamación de 1763, 178, 193rechazo a la Declaración de Derechos y ala petición de la Rama de Olivo, 213Judíos en Nueva Holanda, 121 Juegos y actividades, 21, 153i Juicio político, 448, 449 Justicia, establecer, 283 </noscript> 
+ </body>
+</html>

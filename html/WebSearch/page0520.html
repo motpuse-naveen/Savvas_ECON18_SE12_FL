@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>NA_SE_SP_G5a</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=519";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=520",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=519";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=520" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> ￼Sección 4. Las elecciones y las sesiones del Congreso El cuerpo legislativo de cada estado determina el momento, el lugar y la manera de llamara elecciones para senadores y miembros de la Cámara de Representantes.Sección 5. Reglas del CongresoEl Senado y la Cámara de Representantes decidirán silas elecciones fueron justas y evaluarán la capacidad legal de sus propios miembros. Al menos la mitad de los miembros deben estar presentes para sesionar. Cada cámara puede determinar las reglas de sus procedimientos y castigar a sus miembrospor conducta indebida. Cada cámara del Congreso debe llevar un registro de las sesiones y publicarlo cada tanto.3. Explica por qué es importante que el Congreso publique lo que hace.Sección 4.1. Los lugares, épocas y modo de celebrar las elecciones para senadores y representantes se prescribirán en cada Estado por la legislatura respectiva pero el Congreso podrá formular o alterar las reglas de referencia en cualquier tiempo por medio de una ley, excepto en lo tocante a los lugares de elección de los senadores.2. El Congreso se reunirá una vez al año, y esta reunión será el primer lunes de diciembre, a no ser que por ley se fije otro día.Sección 5.1. Cada Cámara calificará las elecciones, los informes sobre escrutiniosy la capacidad legal de sus respectivos miembros, y una mayoría de cada una constituirá el quórum necesario para deliberar; pero un número menor puede suspender las sesiones de un día para otro y estará autorizado para compeler a los miembros ausentes a que asistan, del modo y bajo las penas que determine cada Cámara.2. Cada Cámara puede elaborar su reglamento interior, castigar a sus miembros cuando se conduzcan indebidamente y expulsarlos de su seno con el asentimiento de las dos terceras partes.3. Cada Cámara llevará un diario de sus sesiones y lo publicará de tiempo en tiempo a excepción de aquellas partes que a su juicio exijan reserva, y los votos afirmativos y negativos de sus miembros con respecto a cualquier cuestión se harán constar en el diario, a petición de la quinta parte de los presentes.4. DuranteelperíododesesionesdelCongresoningunadelasCámaras puede suspenderlas por más de tres días ni acordar que se celebrarán en lugar diverso de aquel en que se reúnen ambas Cámaras sin el consentimiento de la otra.Sección 6.1. Los senadores y representantes recibirán por sus servicios una remuneración que será fijada por la ley y pagada por el tesoro delos EE. UU. En todos los casos, exceptuando los de traición, delito grave y perturbación del orden público, gozarán del privilegio deno ser arrestados durante el tiempo que asistan a las sesiones de sus respectivas Cámaras, así como al ir a ellas o regresar de las mismas, y no podrán ser objeto en ningún otro sitio de inquisición alguna con motivo de cualquier discusión o debate en una de las Cámaras.2. A ningún senador ni representante se le nombrará, durante el tiempo por el cual haya sido elegido, para ocupar cualquier empleo civilque dependa de los Estados Unidos, que haya sido creado o cuyos emolumentos hayan sido aumentados durante dicho tiempo, y ninguna persona que ocupe un cargo de los Estados Unidos podrá formar parte de las Cámaras mientras continúe en funciones.Sección 6. Derechos y restricciones de los miembros del CongresoLos senadores y los miembrosde la Cámara de Representantes recibirán una remuneración por sus servicios. El Tesoro de los Estados Unidos aportará el dinero. Los miembros del Congreso no pueden ser arrestados mientras participen en una sesión del Congreso, a menos que se trate de un delito grave. Tampoco se los puede arrestar por una cosa que diganen el Congreso. Ninguna persona puede tener simultáneamenteun trabajo en el gobierno y en el Congreso.R6 </noscript> 
+ </body>
+</html>
