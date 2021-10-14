@@ -1,587 +1,543 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
-    transitional.dtd">
+transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <title>Untitled Document</title>
-        <script src="js/jquery-min.js" type="text/javascript"></script>
-        <!--[if IE 7]>
-                <link rel="stylesheet" type="text/css" href="css/style-IE7.css" />
-        <![endif]-->
-        <!--[if IE 8]>
-                <link rel="stylesheet" type="text/css" href="css/style-IE8.css" />
-        <![endif]-->
-        <!--[if IE 6]>
-                <link rel="stylesheet" type="text/css" href="css/style-IE7.css" />
-        <![endif]-->
-        <!--[if IE 9]>
-                <link rel="stylesheet" type="text/css" href="css/style.css" />
-                <link rel="stylesheet" type="text/css" href="css/style-IE9.css" />
-        <![endif]-->
-        <![if !IE]>
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <![endif]>
-        <script src="js/myjquery.js" type="text/javascript"></script>
-        <script src="js/myjs.js" type="text/javascript"></script>
+ <meta charset="utf-8" />   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Untitled Document</title>
+    <script src="js/jquery-min.js" type="text/javascript"></script>
+    <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/style-IE7.css" />
+    <![endif]-->
+    <!--[if IE 8]>
+            <link rel="stylesheet" type="text/css" href="css/style-IE8.css" />
+    <![endif]-->
+    <!--[if IE 6]>
+            <link rel="stylesheet" type="text/css" href="css/style-IE7.css" />
+    <![endif]-->
+    <!--[if IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
+            <link rel="stylesheet" type="text/css" href="css/style-IE9.css" />
+    <![endif]-->
+    <![if !IE]>
+            <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <![endif]>
+    <script src="js/myjquery.js" type="text/javascript"></script>
+    <script src="js/myjs.js" type="text/javascript"></script>
 </head>
-
 <body>
-        <div id="header_container">
-                <div id="header"><b>miMundo Interactivo Grado 5A</b></div>
-        </div>
-        <ol style="margin-top:30px;">
-
-                <li id="border-id-1"><span class="txt"><img src="images/up.jpg" id="img-id-1" onClick="displayImg1();"
-                                        style="display:none;" /><img id="img-id-2" src="images/down.jpg"
-                                        onClick="displayImg2();" />Índice</span><span class="number"
-                                style="color:#4977ff;">Link</span></li>
-
-                <li id="id-1" class="ul-hide">
-                        <ol>
-                                <li id="border-id-2"><span class="txt"><img src="images/up.jpg" id="img-id-3"
-                                                        onClick="displayImg3();" style="display:none;" /><img
-                                                        id="img-id-4" src="images/down.jpg"
-                                                        onClick="displayImg4();" />Manuales de Estudios
-                                                Sociales</span><span class="number"></span></li>
-
-                                <li id="id-2" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-3"><span class="txt">Manual de destrezas de
-                                                                geografía</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=33"
-                                                                        target="contentFrame">MES0</a></span></li>
-
-                                                <li id="border-id-4"><span class="txt">Taller de escritura</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=43"
-                                                                        target="contentFrame">MES10</a></span></li>
-
-                                                <li id="border-id-5"><span class="txt">Usar fuentes primarias y
-                                                                secundarias</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=48"
-                                                                        target="contentFrame">MES15</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-6"><span class="txt"><img src="images/up.jpg" id="img-id-5"
-                                                        onClick="displayImg5();" style="display:none;" /><img
-                                                        id="img-id-6" src="images/down.jpg"
-                                                        onClick="displayImg6();" />Capítulo 1: Los primeros pobladores
-                                                de las Américas</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=53"
-                                                        target="contentFrame">0</a></span></li>
-
-                                <li id="id-3" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-7"><span class="txt">Lección 1: Las antiguas
-                                                                civilizaciones indígenas americanas</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=59"
-                                                                        target="contentFrame">6</a></span></li>
-
-                                                <li id="border-id-8"><span class="txt">Destrezas de mapas y gráficas:
-                                                                Interpretar datos culturales en mapas</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=67"
-                                                                        target="contentFrame">14</a></span></li>
-
-                                                <li id="border-id-9"><span class="txt">Lección 2: La cultura indígena
-                                                                norteamericana</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=69"
-                                                                        target="contentFrame">16</a></span></li>
-
-                                                <li id="border-id-10"><span class="txt">Fuentes primarias : Cuentos
-                                                                folklóricos indígenas</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=77"
-                                                                        target="contentFrame">24</a></span></li>
-
-                                                <li id="border-id-11"><span class="txt">Lección 3: El gobierno y la
-                                                                economía de los indígenas norteamericanos</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=79"
-                                                                        target="contentFrame">26</a></span></li>
-
-                                                <li id="border-id-12"><span class="txt">Destrezas de lectura: Comparar y
-                                                                contrastar</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=87"
-                                                                        target="contentFrame">34</a></span></li>
-
-                                                <li id="border-id-13"><span class="txt">Capítulo 1:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=91"
-                                                                        target="contentFrame">38</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-14"><span class="txt"><img src="images/up.jpg" id="img-id-7"
-                                                        onClick="displayImg7();" style="display:none;" /><img
-                                                        id="img-id-8" src="images/down.jpg"
-                                                        onClick="displayImg8();" />Capítulo 2: La era de la
-                                                exploración</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=95"
-                                                        target="contentFrame">42</a></span></li>
-
-                                <li id="id-4" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-15"><span class="txt">Lección 1: Los primeros
-                                                                exploradores y los desarrollos en la
-                                                                tecnología</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=101"
-                                                                        target="contentFrame">48</a></span></li>
-
-                                                <li id="border-id-16"><span class="txt">Destrezas de lectura:
-                                                                Secuencia</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=109"
-                                                                        target="contentFrame">56</a></span></li>
-
-                                                <li id="border-id-17"><span class="txt">Lección 2: Los exploradores de
-                                                                España</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=111"
-                                                                        target="contentFrame">58</a></span></li>
-
-                                                <li id="border-id-18"><span class="txt">Fuentes primaras : Diario de
-                                                                Cristóbal Colón</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=119"
-                                                                        target="contentFrame">66</a></span></li>
-
-                                                <li id="border-id-19"><span class="txt">Lección 3: El intercambio
-                                                                colombino</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=121"
-                                                                        target="contentFrame">68</a></span></li>
-
-                                                <li id="border-id-20"><span class="txt">Destrezas de mapas y gráficas:
-                                                                Interpretar líneas de tiempo</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=127"
-                                                                        target="contentFrame">74</a></span></li>
-
-                                                <li id="border-id-21"><span class="txt">Capítulo 2:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=131"
-                                                                        target="contentFrame">78</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-22"><span class="txt"><img src="images/up.jpg" id="img-id-9"
-                                                        onClick="displayImg9();" style="display:none;" /><img
-                                                        id="img-id-10" src="images/down.jpg"
-                                                        onClick="displayImg10();" />Capítulo 3: Se establecen las
-                                                colonias
-                                                en América del Norte</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=135"
-                                                        target="contentFrame">82</a></span></li>
-
-                                <li id="id-5" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-23"><span class="txt">Lección 1: Las colonias
-                                                                españolas en las Américas</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=141"
-                                                                        target="contentFrame">88</a></span></li>
-
-                                                <li id="border-id-24"><span class="txt">Lección 2: Las colonias inglesas
-                                                                en Virginia</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=151"
-                                                                        target="contentFrame">98</a></span></li>
-
-                                                <li id="border-id-25"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Hacer y responder preguntas</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=159"
-                                                                        target="contentFrame">106</a></span></li>
-
-                                                <li id="border-id-26"><span class="txt">Lección 3: Los peregrinos y los
-                                                                puritanos en Nueva Inglaterra</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=161"
-                                                                        target="contentFrame">108</a></span></li>
-
-                                                <li id="border-id-27"><span class="txt">Fuentes primarias: El Pacto del
-                                                                Mayflower</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=167"
-                                                                        target="contentFrame">114</a></span></li>
-
-                                                <li id="border-id-28"><span class="txt">Lección 4: Los franceses y los
-                                                                neerlandeses en América del Norte</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=169"
-                                                                        target="contentFrame">116</a></span></li>
-
-                                                <li id="border-id-29"><span class="txt">Destrezas de lectura: Distinguir
-                                                                los hechos
-                                                                de las opiniones</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=177"
-                                                                        target="contentFrame">124</a></span></li>
-
-                                                <li id="border-id-30"><span class="txt">Capítulo 3:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=181"
-                                                                        target="contentFrame">128</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-31"><span class="txt"><img src="images/up.jpg" id="img-id-11"
-                                                        onClick="displayImg11();" style="display:none;" /><img
-                                                        id="img-id-12" src="images/down.jpg"
-                                                        onClick="displayImg12();" />Capítulo 4: La vida en las
-                                                colonias</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=185"
-                                                        target="contentFrame">132</a></span></li>
-
-                                <li id="id-6" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-32"><span class="txt">Lección 1: Nueva Inglaterra, las
-                                                                colonias centrales y las colonias del Sur</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=191"
-                                                                        target="contentFrame">138</a></span></li>
-
-                                                <li id="border-id-33"><span class="txt">Destrezas de lectura : Idea
-                                                                principal y detalles</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=199"
-                                                                        target="contentFrame">146</a></span></li>
-
-                                                <li id="border-id-34"><span class="txt">Lección 2: La vida diaria en las
-                                                                colonias</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=201"
-                                                                        target="contentFrame">148</a></span></li>
-
-                                                <li id="border-id-35"><span class="txt">Destrezas de mapas y gráficas:
-                                                                Leer gráficas circulares</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=209"
-                                                                        target="contentFrame">156</a></span></li>
-
-                                                <li id="border-id-36"><span class="txt">Lección 3: La esclavitud en las
-                                                                colonias</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=211"
-                                                                        target="contentFrame">158</a></span></li>
-
-                                                <li id="border-id-37"><span class="txt">Fuentes primarias : Narración de
-                                                                la vida de Olaudah Equiano</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=219"
-                                                                        target="contentFrame">166</a></span></li>
-
-                                                <li id="border-id-38"><span class="txt">Lección 4: Cooperación y
-                                                                conflicto</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=221"
-                                                                        target="contentFrame">168</a></span></li>
-
-                                                <li id="border-id-39"><span class="txt">Lección 5: La Guerra
-                                                                Franco-India</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=228"
-                                                                        target="contentFrame">175</a></span></li>
-
-                                                <li id="border-id-40"><span class="txt">Capítulo 4:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=235"
-                                                                        target="contentFrame">182</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-41"><span class="txt"><img src="images/up.jpg" id="img-id-13"
-                                                        onClick="displayImg13();" style="display:none;" /><img
-                                                        id="img-id-14" src="images/down.jpg"
-                                                        onClick="displayImg14();" />Capítulo 5: La Guerra de
-                                                Independencia </span><span class="number"><a
-                                                        href="html/html5forpc.html?page=239"
-                                                        target="contentFrame">186</a></span></li>
-
-                                <li id="id-7" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-42"><span class="txt">Lección 1: Tensiones con Gran
-                                                                Bretaña</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=245"
-                                                                        target="contentFrame">192</a></span></li>
-
-                                                <li id="border-id-43"><span class="txt">Lección 2: Camino a la
-                                                                guerra</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=253"
-                                                                        target="contentFrame">200</a></span></li>
-
-                                                <li id="border-id-44"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Analizar imágenes: La Masacre de Boston
-                                                        </span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=263"
-                                                                        target="contentFrame">210</a></span></li>
-
-                                                <li id="border-id-45"><span class="txt">Lección 3: Se declara la
-                                                                independencia</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=265"
-                                                                        target="contentFrame">212</a></span></li>
-
-                                                <li id="border-id-46"><span class="txt">Fuentes primarias: El sentido
-                                                                común, de Thomas Paine</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=273"
-                                                                        target="contentFrame">220</a></span></li>
-
-                                                <li id="border-id-47"><span class="txt">Lección 4: En el campo de
-                                                                batalla y en casa</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=275"
-                                                                        target="contentFrame">222</a></span></li>
-
-                                                <li id="border-id-48"><span class="txt">Destrezas de lectura: Causa y
-                                                                efecto</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=283"
-                                                                        target="contentFrame">230</a></span></li>
-
-                                                <li id="border-id-49"><span class="txt">Lección 5: Se logra la
-                                                                independencia</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=285"
-                                                                        target="contentFrame">232</a></span></li>
-
-                                                <li id="border-id-50"><span class="txt">Capítulo 5:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=293"
-                                                                        target="contentFrame">240</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-51"><span class="txt"><img src="images/up.jpg" id="img-id-15"
-                                                        onClick="displayImg15();" style="display:none;" /><img
-                                                        id="img-id-16" src="images/down.jpg"
-                                                        onClick="displayImg16();" />Capítulo 6: Una nueva
-                                                nación</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=297"
-                                                        target="contentFrame">244</a></span></li>
-
-                                <li id="id-8" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-52"><span class="txt">Lección 1: Los Artículos de la
-                                                                Confederación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=303"
-                                                                        target="contentFrame">250</a></span></li>
-
-                                                <li id="border-id-53"><span class="txt">Destrezas de lectura:
-                                                                Resumir</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=311"
-                                                                        target="contentFrame">258</a></span></li>
-
-                                                <li id="border-id-54"><span class="txt">Lección 2: La creación de la
-                                                                Constitución</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=313"
-                                                                        target="contentFrame">260</a></span></li>
-
-                                                <li id="border-id-55"><span class="txt">Fuentes primarias: El último
-                                                                discurso de Benjamín Franklin</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=323"
-                                                                        target="contentFrame">270</a></span></li>
-
-                                                <li id="border-id-56"><span class="txt">Lección 3: La Declaración de
-                                                                Derechos</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=325"
-                                                                        target="contentFrame">272</a></span></li>
-
-                                                <li id="border-id-57"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Comparar puntos de vista</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=333"
-                                                                        target="contentFrame">280</a></span></li>
-
-                                                <li id="border-id-58"><span class="txt">Lección 4: Conceptos clave de la
-                                                                Constitución</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=335"
-                                                                        target="contentFrame">282</a></span></li>
-
-                                                <li id="border-id-59"><span class="txt">Capítulo 6:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=345"
-                                                                        target="contentFrame">292</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-60"><span class="txt"><img src="images/up.jpg" id="img-id-17"
-                                                        onClick="displayImg17();" style="display:none;" /><img
-                                                        id="img-id-18" src="images/down.jpg"
-                                                        onClick="displayImg18();" />Capítulo 7: La vida en la nueva
-                                                república</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=349"
-                                                        target="contentFrame">296</a></span></li>
-
-                                <li id="id-9" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-61"><span class="txt">Lección 1: Los primeros
-                                                                presidentes </span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=355"
-                                                                        target="contentFrame">302</a></span></li>
-
-                                                <li id="border-id-62"><span class="txt">Lección 2: Jefferson y la Compra
-                                                                de Louisiana</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=365"
-                                                                        target="contentFrame">312</a></span></li>
-
-                                                <li id="border-id-63"><span class="txt">Lección 3: La Guerra de
-                                                                1812</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=373"
-                                                                        target="contentFrame">320</a></span></li>
-
-                                                <li id="border-id-64"><span class="txt">Destrezas de lectura: Hacer
-                                                                inferencias</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=381"
-                                                                        target="contentFrame">328</a></span></li>
-
-                                                <li id="border-id-65"><span class="txt">Lección 4: Los indígenas
-                                                                norteamericanos y el Sendero de Lágrimas</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=383"
-                                                                        target="contentFrame">330</a></span></li>
-
-                                                <li id="border-id-66"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Usar e interpretar evidencia</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=391"
-                                                                        target="contentFrame">338</a></span></li>
-
-                                                <li id="border-id-67"><span class="txt">Lección 5: Nuevos inmigrantes y
-                                                                la lucha por la libertad</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=393"
-                                                                        target="contentFrame">340</a></span></li>
-
-                                                <li id="border-id-68"><span class="txt">Fuentes primarias: “La
-                                                                Declaración de Sentimientos”</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=401"
-                                                                        target="contentFrame">348</a></span></li>
-
-                                                <li id="border-id-69"><span class="txt">Capítulo 7:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=405"
-                                                                        target="contentFrame">352</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-70"><span class="txt"><img src="images/up.jpg" id="img-id-19"
-                                                        onClick="displayImg19();" style="display:none;" /><img
-                                                        id="img-id-20" src="images/down.jpg"
-                                                        onClick="displayImg20();" />Capítulo 8: La expansión hacia el
-                                                Oeste</span><span class="number"><a href="html/html5forpc.html?page=409"
-                                                        target="contentFrame">356</a></span></li>
-
-                                <li id="id-10" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-71"><span class="txt">Lección 1: Inventos, carreteras
-                                                                y ferrocarriles</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=415"
-                                                                        target="contentFrame">362</a></span></li>
-
-                                                <li id="border-id-72"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Analizar costos y beneficios</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=423"
-                                                                        target="contentFrame">370</a></span></li>
-
-                                                <li id="border-id-73"><span class="txt">Lección 2: La independencia de
-                                                                Texas y California</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=425"
-                                                                        target="contentFrame">372</a></span></li>
-
-                                                <li id="border-id-74"><span class="txt">Lección 3: Los caminos hacia el
-                                                                Oeste</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=435"
-                                                                        target="contentFrame">382</a></span></li>
-
-                                                <li id="border-id-75"><span class="txt">Destrezas de lectura: Distinguir
-                                                                los hechos de la ficción</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=443"
-                                                                        target="contentFrame">390</a></span></li>
-
-                                                <li id="border-id-76"><span class="txt">Lección 4: La fiebre del oro de
-                                                                California</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=445"
-                                                                        target="contentFrame">392</a></span></li>
-
-                                                <li id="border-id-77"><span class="txt">Fuentes primarias: Destino
-                                                                manifiesto</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=451"
-                                                                        target="contentFrame">398</a></span></li>
-
-                                                <li id="border-id-78"><span class="txt">Capítulo 8:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=455"
-                                                                        target="contentFrame">402</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-79"><span class="txt"><img src="images/up.jpg" id="img-id-21"
-                                                        onClick="displayImg21();" style="display:none;" /><img
-                                                        id="img-id-22" src="images/down.jpg"
-                                                        onClick="displayImg22();" />Capítulo 9: La Guerra Civil y la
-                                                Reconstrucción</span><span class="number"><a
-                                                        href="html/html5forpc.html?page=459"
-                                                        target="contentFrame">406</a></span></li>
-
-                                <li id="id-11" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-80"><span class="txt">Lección 1: La lucha contra la
-                                                                esclavitud</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=465"
-                                                                        target="contentFrame">412</a></span></li>
-
-                                                <li id="border-id-81"><span class="txt">Destrezas de razonamiento
-                                                                crítico: Tomar decisiones</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=473"
-                                                                        target="contentFrame">420</a></span></li>
-
-                                                <li id="border-id-82"><span class="txt">Lección 2: Comienza la
-                                                                guerra</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=475"
-                                                                        target="contentFrame">422</a></span></li>
-
-                                                <li id="border-id-83"><span class="txt">Destrezas de lectura: Clasificar
-                                                                y categorizar</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=481"
-                                                                        target="contentFrame">428</a></span></li>
-
-                                                <li id="border-id-84"><span class="txt">Lección 3: La vida durante la
-                                                                guerra</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=483"
-                                                                        target="contentFrame">430</a></span></li>
-
-                                                <li id="border-id-85"><span class="txt">Fuentes primarias: La
-                                                                Proclamación de Emancipación</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=491"
-                                                                        target="contentFrame">438</a></span></li>
-
-                                                <li id="border-id-86"><span class="txt">Lección 4: Termina la
-                                                                guerra</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=493"
-                                                                        target="contentFrame">440</a></span></li>
-
-                                                <li id="border-id-87"><span class="txt">Lección 5: La
-                                                                Reconstrucción</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=501"
-                                                                        target="contentFrame">448</a></span></li>
-
-                                                <li id="border-id-88"><span class="txt">Capítulo 9:
-                                                                Evaluación</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=509"
-                                                                        target="contentFrame">456</a></span></li>
-                                        </ol>
-                                </li>
-                                <li id="border-id-89"><span class="txt"><img src="images/up.jpg" id="img-id-23"
-                                                        onClick="displayImg23();" style="display:none;" /><img
-                                                        id="img-id-24" src="images/down.jpg"
-                                                        onClick="displayImg24();" />Páginas finales</span><span
-                                                class="number"><a href="html/html5forpc.html?page=513"
-                                                        target="contentFrame">R0</a></span></li>
-
-                                <li id="id-12" class="ul-hide">
-                                        <ol>
-
-                                                <li id="border-id-90"><span class="txt">La Declaración de
-                                                                Independencia</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=513"
-                                                                        target="contentFrame">R0</a></span></li>
-
-                                                <li id="border-id-91"><span class="txt">La Constitución de los Estados
-                                                                Unidos</span><span class="number"><a
-                                                                        href="html/html5forpc.html?page=517"
-                                                                        target="contentFrame">R4</a></span></li>
-
-                                                <li id="border-id-92"><span class="txt">Atlas</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=541"
-                                                                        target="contentFrame">R28</a></span></li>
-
-                                                <li id="border-id-93"><span class="txt">Glosario</span><span
-                                                                class="number"><a href="html/html5forpc.html?page=550"
-                                                                        target="contentFrame">R37</a></span></li>
-                                        </ol>
-                                </li>
-                        </ol>
-                </li>
-
-        </ol>
-        <div style="width:100%;text-align:right;">
-                <button id="expand" onclick="expandButton();">Expand All</button>
-                <button id="colapse" onclick="colapseButton();">Collapse All</button>
-        </div>
+<div id="header_container"><div id="header"><b>Pearson Florida Economics Student Edition</b></div></div><ol>
+
+<li id="border-id-1"><span class="txt"><img src="images/up.jpg" id="img-id-1" onClick="displayImg1();" style="display:none;"/><img id="img-id-2" src="images/down.jpg" onClick="displayImg2();"/>Contents</span><span class="number" style="color:#4977ff;">Link</span></li>
+
+<li id="id-1" class="ul-hide">
+<ol>
+<li id="border-id-2"><span class="txt"><img src="images/up.jpg" id="img-id-3" onClick="displayImg3();" style="display:none;"/><img id="img-id-4" src="images/down.jpg" onClick="displayImg4();"/>Celebrate Florida</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii</a></span></li>
+
+<li id="id-2" class="ul-hide">
+<ol>
+
+<li id="border-id-3"><span class="txt">Florida's Geography</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii</a></span></li>
+
+<li id="border-id-4"><span class="txt">Florida's People</span><span class="number"><a href="html/page38.html" target="contentFrame">xxxviii</a></span></li>
+
+<li id="border-id-5"><span class="txt">Florida's Government</span><span class="number"><a href="html/page44.html" target="contentFrame">xliv</a></span></li>
+
+<li id="border-id-6"><span class="txt">Florida's Economy</span><span class="number"><a href="html/page50.html" target="contentFrame">l</a></span></li>
+
+<li id="border-id-7"><span class="txt">Florida's Place in the World</span><span class="number"><a href="html/page56.html" target="contentFrame">lvi</a></span></li>
+
+<li id="border-id-8"><span class="txt">Quest Overview</span><span class="number"><a href="html/page60.html" target="contentFrame">lx</a></span></li>
+
+<li id="border-id-9"><span class="txt">Florida Quest</span><span class="number"><a href="html/page62.html" target="contentFrame">lxii</a></span></li>
+
+<li id="border-id-10"><span class="txt">Celebrate Freedom</span><span class="number"><a href="html/page64.html" target="contentFrame">lxiv</a></span></li>
+</ol>
+</li>
+<li id="border-id-11"><span class="txt"><img src="images/up.jpg" id="img-id-5" onClick="displayImg5();" style="display:none;"/><img id="img-id-6" src="images/down.jpg" onClick="displayImg6();"/>Topic 1: Fundamentals of Economics</span><span class="number"><a href="html/page66.html" target="contentFrame">lxvi</a></span></li>
+
+<li id="id-3" class="ul-hide">
+<ol>
+
+<li id="border-id-12"><span class="txt">Lesson 1: Scarcity</span><span class="number"><a href="html/page70.html" target="contentFrame">4</a></span></li>
+
+<li id="border-id-13"><span class="txt">Lesson 2: Opportunity Cost and Trade-Offs</span><span class="number"><a href="html/page75.html" target="contentFrame">9</a></span></li>
+
+<li id="border-id-14"><span class="txt">Lesson 3: Production Possibilities Curves</span><span class="number"><a href="html/page79.html" target="contentFrame">13</a></span></li>
+
+<li id="border-id-15"><span class="txt">Topic 1 Assessment</span><span class="number"><a href="html/page86.html" target="contentFrame">20</a></span></li>
+</ol>
+</li>
+<li id="border-id-16"><span class="txt"><img src="images/up.jpg" id="img-id-7" onClick="displayImg7();" style="display:none;"/><img id="img-id-8" src="images/down.jpg" onClick="displayImg8();"/>Topic 2: Free Enterprise and Other Economic Systems</span><span class="number"><a href="html/page88.html" target="contentFrame">22</a></span></li>
+
+<li id="id-4" class="ul-hide">
+<ol>
+
+<li id="border-id-17"><span class="txt">Lesson 1: The Three Key Economic Questions</span><span class="number"><a href="html/page92.html" target="contentFrame">26</a></span></li>
+
+<li id="border-id-18"><span class="txt">Lesson 2: Free Markets</span><span class="number"><a href="html/page97.html" target="contentFrame">31</a></span></li>
+
+<li id="border-id-19"><span class="txt">Primary Source: The Wealth of Nations: Adam Smith</span><span class="number"><a href="html/page103.html" target="contentFrame">37</a></span></li>
+
+<li id="border-id-20"><span class="txt">Lesson 3: Centrally Planned Economies</span><span class="number"><a href="html/page105.html" target="contentFrame">39</a></span></li>
+
+<li id="border-id-21"><span class="txt">Lesson 4: Mixed Economies</span><span class="number"><a href="html/page110.html" target="contentFrame">44</a></span></li>
+
+<li id="border-id-22"><span class="txt">Lesson 5: Benefits of Free Enterprise</span><span class="number"><a href="html/page116.html" target="contentFrame">50</a></span></li>
+
+<li id="border-id-23"><span class="txt">Lesson 6: Supporting Economic Growth</span><span class="number"><a href="html/page123.html" target="contentFrame">57</a></span></li>
+
+<li id="border-id-24"><span class="txt">Lesson 7: Public Goods and Externalities</span><span class="number"><a href="html/page128.html" target="contentFrame">62</a></span></li>
+
+<li id="border-id-25"><span class="txt">Topic 2 Assessment</span><span class="number"><a href="html/page138.html" target="contentFrame">72</a></span></li>
+</ol>
+</li>
+<li id="border-id-26"><span class="txt"><img src="images/up.jpg" id="img-id-9" onClick="displayImg9();" style="display:none;"/><img id="img-id-10" src="images/down.jpg" onClick="displayImg10();"/>Topic 3: Demand, Supply, and Prices</span><span class="number"><a href="html/page140.html" target="contentFrame">74</a></span></li>
+
+<li id="id-5" class="ul-hide">
+<ol>
+
+<li id="border-id-27"><span class="txt">Lesson 1: Fundamentals of Demand</span><span class="number"><a href="html/page144.html" target="contentFrame">78</a></span></li>
+
+<li id="border-id-28"><span class="txt">Lesson 2: Shifts in Demand</span><span class="number"><a href="html/page149.html" target="contentFrame">83</a></span></li>
+
+<li id="border-id-29"><span class="txt">Lesson 3: Elasticity of Demand</span><span class="number"><a href="html/page154.html" target="contentFrame">88</a></span></li>
+
+<li id="border-id-30"><span class="txt">Lesson 4: Fundamentals of Supply</span><span class="number"><a href="html/page161.html" target="contentFrame">95</a></span></li>
+
+<li id="border-id-31"><span class="txt">Lesson 5: Costs of Production</span><span class="number"><a href="html/page167.html" target="contentFrame">101</a></span></li>
+
+<li id="border-id-32"><span class="txt">Lesson 6: Changes in Supply</span><span class="number"><a href="html/page174.html" target="contentFrame">108</a></span></li>
+
+<li id="border-id-33"><span class="txt">Lesson 7: Equilibrium and Price Controls</span><span class="number"><a href="html/page180.html" target="contentFrame">114</a></span></li>
+
+<li id="border-id-34"><span class="txt">Lesson 8: Changes in Market Equilibrium</span><span class="number"><a href="html/page187.html" target="contentFrame">121</a></span></li>
+
+<li id="border-id-35"><span class="txt">Lesson 9: Prices at Work</span><span class="number"><a href="html/page193.html" target="contentFrame">127</a></span></li>
+
+<li id="border-id-36"><span class="txt">Topic 3 Assessment</span><span class="number"><a href="html/page202.html" target="contentFrame">136</a></span></li>
+</ol>
+</li>
+<li id="border-id-37"><span class="txt"><img src="images/up.jpg" id="img-id-11" onClick="displayImg11();" style="display:none;"/><img id="img-id-12" src="images/down.jpg" onClick="displayImg12();"/>Topic 4: Competition and Market Structures</span><span class="number"><a href="html/page204.html" target="contentFrame">138</a></span></li>
+
+<li id="id-6" class="ul-hide">
+<ol>
+
+<li id="border-id-38"><span class="txt">Lesson 1: Pure Competition</span><span class="number"><a href="html/page208.html" target="contentFrame">142</a></span></li>
+
+<li id="border-id-39"><span class="txt">Lesson 2: Monopolies</span><span class="number"><a href="html/page213.html" target="contentFrame">147</a></span></li>
+
+<li id="border-id-40"><span class="txt">Lesson 3: Monopolistic Competition and Oligopoly</span><span class="number"><a href="html/page221.html" target="contentFrame">155</a></span></li>
+
+<li id="border-id-41"><span class="txt">Lesson 4: Government Regulation and Competition</span><span class="number"><a href="html/page228.html" target="contentFrame">162</a></span></li>
+
+<li id="border-id-42"><span class="txt">Topic 4 Assessment</span><span class="number"><a href="html/page236.html" target="contentFrame">170</a></span></li>
+</ol>
+</li>
+<li id="border-id-43"><span class="txt"><img src="images/up.jpg" id="img-id-13" onClick="displayImg13();" style="display:none;"/><img id="img-id-14" src="images/down.jpg" onClick="displayImg14();"/>Topic 5: Business and Labor</span><span class="number"><a href="html/page238.html" target="contentFrame">172</a></span></li>
+
+<li id="id-7" class="ul-hide">
+<ol>
+
+<li id="border-id-44"><span class="txt">Lesson 1: Sole Proprietorships</span><span class="number"><a href="html/page242.html" target="contentFrame">176</a></span></li>
+
+<li id="border-id-45"><span class="txt">Lesson 2: Partnerships and Franchises</span><span class="number"><a href="html/page247.html" target="contentFrame">181</a></span></li>
+
+<li id="border-id-46"><span class="txt">Lesson 3: Corporations</span><span class="number"><a href="html/page253.html" target="contentFrame">187</a></span></li>
+
+<li id="border-id-47"><span class="txt">Lesson 4: Nonprofit Organizations</span><span class="number"><a href="html/page259.html" target="contentFrame">193</a></span></li>
+
+<li id="border-id-48"><span class="txt">Lesson 5: The Labor Force</span><span class="number"><a href="html/page264.html" target="contentFrame">198</a></span></li>
+
+<li id="border-id-49"><span class="txt">Lesson 6: Labor and Wages</span><span class="number"><a href="html/page272.html" target="contentFrame">206</a></span></li>
+
+<li id="border-id-50"><span class="txt">Lesson 7: Labor Unions</span><span class="number"><a href="html/page279.html" target="contentFrame">213</a></span></li>
+
+<li id="border-id-51"><span class="txt">Topic 5 Assessment</span><span class="number"><a href="html/page288.html" target="contentFrame">222</a></span></li>
+</ol>
+</li>
+<li id="border-id-52"><span class="txt"><img src="images/up.jpg" id="img-id-15" onClick="displayImg15();" style="display:none;"/><img id="img-id-16" src="images/down.jpg" onClick="displayImg16();"/>Topic 6: Money, Banking, and Financial Markets</span><span class="number"><a href="html/page290.html" target="contentFrame">224</a></span></li>
+
+<li id="id-8" class="ul-hide">
+<ol>
+
+<li id="border-id-53"><span class="txt">Lesson 1: The Role of Money</span><span class="number"><a href="html/page294.html" target="contentFrame">228</a></span></li>
+
+<li id="border-id-54"><span class="txt">Lesson 2: Changes in American Banking</span><span class="number"><a href="html/page300.html" target="contentFrame">234</a></span></li>
+
+<li id="border-id-55"><span class="txt">Primary Source: Opinions on Constitutionality</span><span class="number"><a href="html/page307.html" target="contentFrame">241</a></span></li>
+
+<li id="border-id-56"><span class="txt">Lesson 3: The Federal Reserve System</span><span class="number"><a href="html/page311.html" target="contentFrame">245</a></span></li>
+
+<li id="border-id-57"><span class="txt">Lesson 4: The Functions of Modern Banks</span><span class="number"><a href="html/page321.html" target="contentFrame">255</a></span></li>
+
+<li id="border-id-58"><span class="txt">Lesson 5: Investing</span><span class="number"><a href="html/page329.html" target="contentFrame">263</a></span></li>
+
+<li id="border-id-59"><span class="txt">Lesson 6: Bonds and Other Financial Assets</span><span class="number"><a href="html/page336.html" target="contentFrame">270</a></span></li>
+
+<li id="border-id-60"><span class="txt">Lesson 7: Stocks</span><span class="number"><a href="html/page343.html" target="contentFrame">277</a></span></li>
+
+<li id="border-id-61"><span class="txt">Topic 6 Assessment</span><span class="number"><a href="html/page354.html" target="contentFrame">288</a></span></li>
+</ol>
+</li>
+<li id="border-id-62"><span class="txt"><img src="images/up.jpg" id="img-id-17" onClick="displayImg17();" style="display:none;"/><img id="img-id-18" src="images/down.jpg" onClick="displayImg18();"/>Topic 7: Economic Performance and Challenges</span><span class="number"><a href="html/page356.html" target="contentFrame">290</a></span></li>
+
+<li id="id-9" class="ul-hide">
+<ol>
+
+<li id="border-id-63"><span class="txt">Lesson 1: Gross Domestic Product</span><span class="number"><a href="html/page360.html" target="contentFrame">294</a></span></li>
+
+<li id="border-id-64"><span class="txt">Lesson 2: Business Cycles</span><span class="number"><a href="html/page367.html" target="contentFrame">301</a></span></li>
+
+<li id="border-id-65"><span class="txt">Primary Source: Contrasting Views of the New Deal</span><span class="number"><a href="html/page374.html" target="contentFrame">308</a></span></li>
+
+<li id="border-id-66"><span class="txt">Lesson 3: Economic Growth</span><span class="number"><a href="html/page376.html" target="contentFrame">310</a></span></li>
+
+<li id="border-id-67"><span class="txt">Lesson 4: Unemployment</span><span class="number"><a href="html/page383.html" target="contentFrame">317</a></span></li>
+
+<li id="border-id-68"><span class="txt">Lesson 5: Inflation and Deflation</span><span class="number"><a href="html/page389.html" target="contentFrame">323</a></span></li>
+
+<li id="border-id-69"><span class="txt">Lesson 6: Poverty and Income Distribution</span><span class="number"><a href="html/page395.html" target="contentFrame">329</a></span></li>
+
+<li id="border-id-70"><span class="txt">Topic 7 Assessment</span><span class="number"><a href="html/page408.html" target="contentFrame">342</a></span></li>
+</ol>
+</li>
+<li id="border-id-71"><span class="txt"><img src="images/up.jpg" id="img-id-19" onClick="displayImg19();" style="display:none;"/><img id="img-id-20" src="images/down.jpg" onClick="displayImg20();"/>Topic 8: Taxes and Spending</span><span class="number"><a href="html/page410.html" target="contentFrame">344</a></span></li>
+
+<li id="id-10" class="ul-hide">
+<ol>
+
+<li id="border-id-72"><span class="txt">Lesson 1: Understanding Taxes</span><span class="number"><a href="html/page414.html" target="contentFrame">348</a></span></li>
+
+<li id="border-id-73"><span class="txt">Lesson 2: Federal Taxes</span><span class="number"><a href="html/page420.html" target="contentFrame">354</a></span></li>
+
+<li id="border-id-74"><span class="txt">Lesson 3: Federal Spending</span><span class="number"><a href="html/page426.html" target="contentFrame">360</a></span></li>
+
+<li id="border-id-75"><span class="txt">Lesson 4: State and Local Taxes and Spending</span><span class="number"><a href="html/page431.html" target="contentFrame">365</a></span></li>
+
+<li id="border-id-76"><span class="txt">Topic 8 Assessment</span><span class="number"><a href="html/page440.html" target="contentFrame">374</a></span></li>
+</ol>
+</li>
+<li id="border-id-77"><span class="txt"><img src="images/up.jpg" id="img-id-21" onClick="displayImg21();" style="display:none;"/><img id="img-id-22" src="images/down.jpg" onClick="displayImg22();"/>Topic 9: Fiscal and Monetary Policy</span><span class="number"><a href="html/page442.html" target="contentFrame">376</a></span></li>
+
+<li id="id-11" class="ul-hide">
+<ol>
+
+<li id="border-id-78"><span class="txt">Lesson 1: The Federal Budget and Fiscal Policy</span><span class="number"><a href="html/page446.html" target="contentFrame">380</a></span></li>
+
+<li id="border-id-79"><span class="txt">Lesson 2: Fiscal Policy Options</span><span class="number"><a href="html/page454.html" target="contentFrame">388</a></span></li>
+
+<li id="border-id-80"><span class="txt">Primary Source: The Economic Role of Government: Two Views</span><span class="number"><a href="html/page464.html" target="contentFrame">398</a></span></li>
+
+<li id="border-id-81"><span class="txt">Lesson 3: The National Debt and Deficits</span><span class="number"><a href="html/page466.html" target="contentFrame">400</a></span></li>
+
+<li id="border-id-82"><span class="txt">Lesson 4: Monetary Policy Options</span><span class="number"><a href="html/page473.html" target="contentFrame">407</a></span></li>
+
+<li id="border-id-83"><span class="txt">Lesson 5: The Effects of Monetary Policy</span><span class="number"><a href="html/page479.html" target="contentFrame">413</a></span></li>
+
+<li id="border-id-84"><span class="txt">Primary Source: The Role of Monetary Policy: Milton Friedman</span><span class="number"><a href="html/page485.html" target="contentFrame">419</a></span></li>
+
+<li id="border-id-85"><span class="txt">Topic 9 Assessment</span><span class="number"><a href="html/page490.html" target="contentFrame">424</a></span></li>
+</ol>
+</li>
+<li id="border-id-86"><span class="txt"><img src="images/up.jpg" id="img-id-23" onClick="displayImg23();" style="display:none;"/><img id="img-id-24" src="images/down.jpg" onClick="displayImg24();"/>Topic 10: Trade, Development, and Globalization</span><span class="number"><a href="html/page492.html" target="contentFrame">426</a></span></li>
+
+<li id="id-12" class="ul-hide">
+<ol>
+
+<li id="border-id-87"><span class="txt">Lesson 1: Why Nations Trade</span><span class="number"><a href="html/page496.html" target="contentFrame">430</a></span></li>
+
+<li id="border-id-88"><span class="txt">Lesson 2: Trade Barriers and Agreements</span><span class="number"><a href="html/page504.html" target="contentFrame">438</a></span></li>
+
+<li id="border-id-89"><span class="txt">Lesson 3: Exchange Rates and Trade</span><span class="number"><a href="html/page513.html" target="contentFrame">447</a></span></li>
+
+<li id="border-id-90"><span class="txt">Lesson 4: Development</span><span class="number"><a href="html/page521.html" target="contentFrame">455</a></span></li>
+
+<li id="border-id-91"><span class="txt">Lesson 5: Growth, Resources, and Development</span><span class="number"><a href="html/page526.html" target="contentFrame">460</a></span></li>
+
+<li id="border-id-92"><span class="txt">Lesson 6: Changing Economies</span><span class="number"><a href="html/page534.html" target="contentFrame">468</a></span></li>
+
+<li id="border-id-93"><span class="txt">Lesson 7: Globalization</span><span class="number"><a href="html/page541.html" target="contentFrame">475</a></span></li>
+
+<li id="border-id-94"><span class="txt">Primary Source: Monetary Policy in a Global Environment: Janet Yellen</span><span class="number"><a href="html/page550.html" target="contentFrame">484</a></span></li>
+
+<li id="border-id-95"><span class="txt">Topic 10 Assessment</span><span class="number"><a href="html/page554.html" target="contentFrame">488</a></span></li>
+</ol>
+</li>
+<li id="border-id-96"><span class="txt"><img src="images/up.jpg" id="img-id-25" onClick="displayImg25();" style="display:none;"/><img id="img-id-26" src="images/down.jpg" onClick="displayImg26();"/>Endmatter</span><span class="number"><a href="html/page556.html" target="contentFrame">490</a></span></li>
+
+<li id="id-13" class="ul-hide">
+<ol>
+
+<li id="border-id-97"><span class="txt">Constitution Quick Study Guide</span><span class="number"><a href="html/page556.html" target="contentFrame">490</a></span></li>
+
+<li id="border-id-98"><span class="txt">Primary Source: Declaration of Independence</span><span class="number"><a href="html/page580.html" target="contentFrame">514</a></span></li>
+
+<li id="border-id-99"><span class="txt">Personal Finance Handbook</span><span class="number"><a href="html/page582.html" target="contentFrame">516</a></span></li>
+
+<li id="border-id-100"><span class="txt">21st Century Skills</span><span class="number"><a href="html/page628.html" target="contentFrame">562</a></span></li>
+</ol>
+</li>
+</ol>
+</li>
+<li id="border-id-101"><span class="txt"><img src="images/up.jpg" id="img-id-27" onClick="displayImg27();" style="display:none;"/><img id="img-id-28" src="images/down.jpg" onClick="displayImg28();"/>Next Generation Sunshine State Standards</span><span class="number" style="color:#4977ff;">Link</span></li>
+
+<li id="id-14" class="ul-hide">
+<ol>
+
+<li id="border-id-102"><span class="txt"><b>ELD.K12.ELL.SI.1</b> English language learners communicate for social and instructional purposes within the school setting.</span><span class="number"><a href="html/page69.html" target="contentFrame">3</a><br/><a href="html/page143.html" target="contentFrame">77</a><br/><a href="html/page495.html" target="contentFrame">429</a><br/>Teacher's Edition: pp. 28, 389-390, 456<br/></span></li>
+
+<li id="border-id-103"><span class="txt"><b>ELD.K12.ELL.SS.1</b> English language learners communicate information, ideas and concepts necessary for academic success in the content area of Social Studies.</span><span class="number"><a href="html/page69.html" target="contentFrame">3</a><br/><a href="html/page143.html" target="contentFrame">77</a><br/><a href="html/page495.html" target="contentFrame">429</a><br/>Teacher's Edition: pp. 28, 389-390, 456<br/></span></li>
+
+<li id="border-id-104"><span class="txt"><b>HE.912.C.2.4</b> Evaluate how public health policies and government regulations can influence health promotion and disease prevention.</span><span class="number"><a href="html/page433.html" target="contentFrame">367</a><br/><a href="html/page440.html" target="contentFrame">374</a><br/></span></li>
+
+<li id="border-id-105"><span class="txt"><b>LAFS.1112.RH.1.1</b> Cite specific textual evidence to support analysis of primary and secondary sources, connecting insights gained from specific details to an understanding of the text as a whole.</span><span class="number"><a href="html/page374.html" target="contentFrame">308-309</a><br/><a href="html/page409.html" target="contentFrame">343</a><br/></span></li>
+
+<li id="border-id-106"><span class="txt"><b>LAFS.1112.RH.1.2</b> Determine the central ideas or information of a primary or secondary source; provide an accurate summary that makes clear the relationships among the key details and ideas.</span><span class="number"><a href="html/page289.html" target="contentFrame">223</a><br/><a href="html/page307.html" target="contentFrame">241-244</a><br/></span></li>
+
+<li id="border-id-107"><span class="txt"><b>LAFS.1112.RH.1.3</b> Evaluate various explanations for actions or events and determine which explanation best accords with textual evidence, acknowledging where the text leaves matters uncertain.</span><span class="number"><a href="html/page237.html" target="contentFrame">171</a><br/><a href="html/page409.html" target="contentFrame">343</a><br/><a href="html/page464.html" target="contentFrame">398-399</a><br/><a href="html/page491.html" target="contentFrame">425</a><br/></span></li>
+
+<li id="border-id-108"><span class="txt"><b>LAFS.1112.RH.2.4</b> Determine the meaning of words and phrases as they are used in a text, including analyzing how an author uses and refines the meaning of a key term over the course of a text (e.g., how Madison defines faction in Federalist No. 10).</span><span class="number"><a href="html/page307.html" target="contentFrame">241-244</a></span></li>
+
+<li id="border-id-109"><span class="txt"><b>LAFS.1112.RH.2.5</b> Analyze in detail how a complex primary source is structured, including how key sentences, paragraphs, and larger portions of the text contribute to the whole.</span><span class="number"><a href="html/page307.html" target="contentFrame">241-244</a></span></li>
+
+<li id="border-id-110"><span class="txt"><b>LAFS.1112.RH.2.6</b> Evaluate authors differing points of view on the same historical event or issue by assessing the authors claims, reasoning, and evidence.</span><span class="number"><a href="html/page237.html" target="contentFrame">171</a><br/><a href="html/page409.html" target="contentFrame">343</a><br/><a href="html/page464.html" target="contentFrame">398-399</a><br/><a href="html/page491.html" target="contentFrame">425</a><br/></span></li>
+
+<li id="border-id-111"><span class="txt"><b>LAFS.1112.RH.3.7</b> Integrate and evaluate multiple sources of information presented in diverse formats and media (e.g., visually, quantitatively, as well as in words) in order to address a question or solve a problem.</span><span class="number"><a href="html/page87.html" target="contentFrame">21</a><br/><a href="html/page207.html" target="contentFrame">141</a><br/><a href="html/page241.html" target="contentFrame">175</a><br/><a href="html/page355.html" target="contentFrame">289</a><br/><a href="html/page359.html" target="contentFrame">293</a><br/></span></li>
+
+<li id="border-id-112"><span class="txt"><b>LAFS.1112.RH.3.8</b> Evaluate an authors premises, claims, and evidence by corroborating or challenging them with other information.</span><span class="number"><a href="html/page103.html" target="contentFrame">37-38</a><br/><a href="html/page139.html" target="contentFrame">73</a><br/><a href="html/page650.html" target="contentFrame">584-585</a><br/></span></li>
+
+<li id="border-id-113"><span class="txt"><b>LAFS.1112.RH.3.9</b> Integrate information from diverse sources, both primary and secondary, into a coherent understanding of an idea or event, noting discrepancies among sources.</span><span class="number"><a href="html/page237.html" target="contentFrame">171</a><br/><a href="html/page409.html" target="contentFrame">343</a><br/><a href="html/page464.html" target="contentFrame">398-399</a><br/><a href="html/page491.html" target="contentFrame">425</a><br/></span></li>
+
+<li id="border-id-114"><span class="txt"><b>LAFS.1112.RH.4.10</b> By the end of grade 12, read and comprehend history/social studies texts in the grades 11CCR text complexity band independently and proficiently.</span><span class="number">Covered by entire student text.  See the following pages, for example:<br/><a href="html/page208.html" target="contentFrame">142-167</a><br/><a href="html/page236.html" target="contentFrame">170-171</a></span></li>
+
+<li id="border-id-115"><span class="txt"><b>LAFS.1112.SL.1.1</b> Initiate and participate effectively in a range of collaborative discussions (one-on-one, in groups, and teacher-led) with diverse partners on grades 1112 topics, texts, and issues, building on others ideas and expressing their own clearly and persuasively. Come to discussions prepared, having read and researched material under study; explicitly draw on that preparation by referring to evidence from texts and other research on the topic or issue to stimulate a thoughtful, well-reasoned exchange of ideas. Work with peers to promote civil, democratic discussions and decision-making, set clear goals and deadlines, and establish individual roles as needed. Propel conversations by posing and responding to questions that probe reasoning and evidence; ensure a hearing for a full range of positions on a topic or issue; clarify, verify, or challenge ideas and conclusions; and promote divergent and creative perspectives. Respond thoughtfully to diverse perspectives; synthesize comments, claims, and evidence made on all sides of an issue; resolve contradictions when possible; and determine what additional information or research is required to deepen the investigation or complete the task.</span><span class="number"><a href="html/page91.html" target="contentFrame">25</a><br/><a href="html/page292.html" target="contentFrame">226</a><br/><a href="html/page652.html" target="contentFrame">586</a><br/></span></li>
+
+<li id="border-id-116"><span class="txt"><b>LAFS.1112.SL.1.2</b> Integrate multiple sources of information presented in diverse formats and media (e.g., visually, quantitatively, orally) in order to make informed decisions and solve problems, evaluating the credibility and accuracy of each source and noting any discrepancies among the data.</span><span class="number"><a href="html/page50.html" target="contentFrame">l-lv</a><br/><a href="html/page555.html" target="contentFrame">489</a><br/></span></li>
+
+<li id="border-id-117"><span class="txt"><b>LAFS.1112.SL.1.3</b> Evaluate a speakers point of view, reasoning, and use of evidence and rhetoric, assessing the stance, premises, links among ideas, word choice, points of emphasis, and tone used.</span><span class="number"><a href="html/page374.html" target="contentFrame">308-309</a><br/><a href="html/page485.html" target="contentFrame">419-420</a><br/><a href="html/page550.html" target="contentFrame">484-485</a><br/><a href="html/page649.html" target="contentFrame">583-584</a><br/></span></li>
+
+<li id="border-id-118"><span class="txt"><b>LAFS.1112.SL.2.4</b> Present information, findings, and supporting evidence, conveying a clear and distinct perspective, such that listeners can follow the line of reasoning, alternative or opposing perspectives are addressed, and the organization, development, substance, and style are appropriate to purpose, audience, and a range of formal and informal tasks.</span><span class="number"><a href="html/page69.html" target="contentFrame">3</a><br/><a href="html/page143.html" target="contentFrame">77</a><br/><a href="html/page495.html" target="contentFrame">429</a><br/><a href="html/page652.html" target="contentFrame">586-587</a><br/></span></li>
+
+<li id="border-id-119"><span class="txt"><b>LAFS.1112.WHST.1.1</b> Write arguments focused on discipline-specific content. Introduce precise, knowledgeable claim(s), establish the significance of the claim(s), distinguish the claim(s) from alternate or opposing claims, and create an organization that logically sequences the claim(s), counterclaims, reasons, and evidence. Develop claim(s) and counterclaims fairly and thoroughly, supplying the most relevant data and evidence for each while pointing out the strengths and limitations of both claim(s) and counterclaims in a discipline-appropriate form that anticipates the audiences knowledge level, concerns, values, and possible biases. Use words, phrases, and clauses as well as varied syntax to link the major sections of the text, create cohesion, and clarify the relationships between claim(s) and reasons, between reasons and evidence, and between claim(s) and counterclaims. Establish and maintain a formal style and objective tone while attending to the norms and conventions of the discipline in which they are writing. Provide a concluding statement or section that follows from or supports the argument presented.</span><span class="number"><a href="html/page354.html" target="contentFrame">288</a><br/><a href="html/page651.html" target="contentFrame">585-586</a><br/></span></li>
+
+<li id="border-id-120"><span class="txt"><b>LAFS.1112.WHST.1.2</b> Write informative/explanatory texts, including the narration of historical events, scientific procedures/ experiments, or technical processes. Introduce a topic and organize complex ideas, concepts, and information so that each new element builds on that which precedes it to create a unified whole; include formatting (e.g., headings), graphics (e.g., figures, tables), and multimedia when useful to aiding comprehension. Develop the topic thoroughly by selecting the most significant and relevant facts, extended definitions, concrete details, quotations, or other information and examples appropriate to the audiences knowledge of the topic. Use varied transitions and sentence structures to link the major sections of the text, create cohesion, and clarify the relationships among complex ideas and concepts. Use precise language, domain-specific vocabulary and techniques such as metaphor, simile, and analogy to manage the complexity of the topic; convey a knowledgeable stance in a style that responds to the discipline and context as well as to the expertise of likely readers. Provide a concluding statement or section that follows from and supports the information or explanation provided (e.g., articulating implications or the significance of the topic).</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii-xxxv</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/><a href="html/page653.html" target="contentFrame">587-588</a><br/></span></li>
+
+<li id="border-id-121"><span class="txt"><b>LAFS.1112.WHST.2.4</b> Produce clear and coherent writing in which the development, organization, and style are appropriate to task, purpose, and audience.</span><span class="number"><a href="html/page138.html" target="contentFrame">72</a><br/><a href="html/page203.html" target="contentFrame">137</a><br/><a href="html/page236.html" target="contentFrame">170</a><br/><a href="html/page653.html" target="contentFrame">587-588</a><br/></span></li>
+
+<li id="border-id-122"><span class="txt"><b>LAFS.1112.WHST.2.5</b> Develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on addressing what is most significant for a specific purpose and audience.</span><span class="number"><a href="html/page653.html" target="contentFrame">587-588</a></span></li>
+
+<li id="border-id-123"><span class="txt"><b>LAFS.1112.WHST.2.6</b> Use technology, including the Internet, to produce, publish, and update individual or shared writing products in response to ongoing feedback, including new arguments or information.</span><span class="number">Teacher's Edition: pp. 203, 211, 336, 482</span></li>
+
+<li id="border-id-124"><span class="txt"><b>LAFS.1112.WHST.3.7</b> Conduct short as well as more sustained research projects to answer a question (including a self-generated question) or solve a problem; narrow or broaden the inquiry when appropriate; synthesize multiple sources on the subject, demonstrating understanding of the subject under investigation.</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii–xxxvii</a><br/><a href="html/page44.html" target="contentFrame">xliv-xlix</a><br/>Teacher's Edition: p. 41<br/></span></li>
+
+<li id="border-id-125"><span class="txt"><b>LAFS.1112.WHST.3.8</b> Gather relevant information from multiple authoritative print and digital sources, using advanced searches effectively; assess the strengths and limitations of each source in terms of the specific task, purpose, and audience; integrate information into the text selectively to maintain the flow of ideas, avoiding plagiarism and overreliance on any one source and following a standard format for citation.</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii–xxxvii</a><br/><a href="html/page62.html" target="contentFrame">lxii-lxiii</a><br/><a href="html/page654.html" target="contentFrame">588</a><br/></span></li>
+
+<li id="border-id-126"><span class="txt"><b>LAFS.1112.WHST.3.9</b> Draw evidence from informational texts to support analysis, reflection, and research.</span><span class="number">All assessments, such as:<br/><a href="html/page78.html" target="contentFrame">12</a><br/><a href="html/page490.html" target="contentFrame">424</a><br/></span></li>
+
+<li id="border-id-127"><span class="txt"><b>LAFS.1112.WHST.4.10</b> Write routinely over extended time frames (time for reflection and revision) and shorter time frames (a single sitting or a day or two) for a range of discipline-specific tasks, purposes, and audiences.</span><span class="number"><a href="html/page44.html" target="contentFrame">xliv-xlix</a><br/><a href="html/page86.html" target="contentFrame">20</a><br/><a href="html/page138.html" target="contentFrame">72</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/></span></li>
+
+<li id="border-id-128"><span class="txt"><b>MAFS.K12.MP.1.1</b> Make sense of problems and persevere in solving them. Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution. They analyze givens, constraints, relationships, and goals. They make conjectures about the form and meaning of the solution and plan a solution pathway rather than simply jumping into a solution attempt. They consider analogous problems, and try special cases and simpler forms of the original problem in order to gain insight into its solution. They monitor and evaluate their progress and change course if necessary. Older students might, depending on the context of the problem, transform algebraic expressions or change the viewing window on their graphing calculator to get the information they need. Mathematically proficient students can explain correspondences between equations, verbal descriptions, tables, and graphs or draw diagrams of important features and relationships, graph data, and search for regularity or trends. Younger students might rely on using concrete objects or pictures to help conceptualize and solve a problem. Mathematically proficient students check their answers to problems using a different method, and they continually ask themselves, Does this make sense? They can understand the approaches of others to solving complex problems and identify correspondences between different approaches.</span><span class="number"><a href="html/page639.html" target="contentFrame">573</a><br/>Teacher's Edition: pp. 151, 320<br/></span></li>
+
+<li id="border-id-129"><span class="txt"><b>MAFS.K12.MP.3.1</b> Construct viable arguments and critique the reasoning of others. Mathematically proficient students understand and use stated assumptions, definitions, and previously established results in constructing arguments. They make conjectures and build a logical progression of statements to explore the truth of their conjectures. They are able to analyze situations by breaking them into cases, and can recognize and use counterexamples. They justify their conclusions, communicate them to others, and respond to the arguments of others. They reason inductively about data, making plausible arguments that take into account the context from which the data arose. Mathematically proficient students are also able to compare the effectiveness of two plausible arguments, distinguish correct logic or reasoning from that which is flawed, and if there is a flaw in an argument explain what it is. Elementary students can construct arguments using concrete referents such as objects, drawings, diagrams, and actions. Such arguments can make sense and be correct, even though they are not generalized or made formal until later grades. Later, students learn to determine domains to which an argument applies. Students at all grades can listen or read the arguments of others, decide whether they make sense, and ask useful questions to clarify or improve the arguments.</span><span class="number">Teacher's Edition: pp. 86, 145, 408</span></li>
+
+<li id="border-id-130"><span class="txt"><b>MAFS.K12.MP.5.1</b> Use appropriate tools strategically. Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software. Proficient students are sufficiently familiar with tools appropriate for their grade or course to make sound decisions about when each of these tools might be helpful, recognizing both the insight to be gained and their limitations. For example, mathematically proficient high school students analyze graphs of functions and solutions generated using a graphing calculator. They detect possible errors by strategically using estimation and other mathematical knowledge. When making mathematical models, they know that technology can enable them to visualize the results of varying assumptions, explore consequences, and compare predictions with data. Mathematically proficient students at various grade levels are able to identify relevant external mathematical resources, such as digital content located on a website, and use them to pose or solve problems. They are able to use technological tools to explore and deepen their understanding of concepts.</span><span class="number"><a href="html/page202.html" target="contentFrame">136</a><br/>Teacher's Edition: p. 104<br/></span></li>
+
+<li id="border-id-131"><span class="txt"><b>MAFS.K12.MP.6.1</b> Attend to precision. Mathematically proficient students try to communicate precisely to others. They try to use clear definitions in discussion with others and in their own reasoning. They state the meaning of the symbols they choose, including using the equal sign consistently and appropriately. They are careful about specifying units of measure, and labeling axes to clarify the correspondence with quantities in a problem. They calculate accurately and efficiently, express numerical answers with a degree of precision appropriate for the problem context. In the elementary grades, students give carefully formulated explanations to each other. By the time they reach high school they have learned to examine claims and make explicit use of definitions.</span><span class="number">Teacher's Edition: pp. 89, 151, 320</span></li>
+
+<li id="border-id-132"><span class="txt"><b>SS.912.E.1.1</b> Identify the factors of production and why they are necessary for the production of goods and services.</span><span class="number"><a href="html/page72.html" target="contentFrame">6</a><br/><a href="html/page86.html" target="contentFrame">20</a><br/></span></li>
+
+<li id="border-id-133"><span class="txt"><b>SS.912.E.1.10</b> Explain the use of fiscal policy (taxation, spending) to promote price stability, full employment, and economic growth.</span><span class="number"><a href="html/page388.html" target="contentFrame">322</a><br/><a href="html/page449.html" target="contentFrame">383-385</a><br/><a href="html/page490.html" target="contentFrame">424</a><br/></span></li>
+
+<li id="border-id-134"><span class="txt"><b>SS.912.E.1.11</b> Explain how the Federal Reserve uses the tools of monetary policy (discount rate, reserve requirement, open market operations) to promote price stability, full employment, and economic growth.</span><span class="number"><a href="html/page475.html" target="contentFrame">409-418</a><br/><a href="html/page490.html" target="contentFrame">424</a><br/></span></li>
+
+<li id="border-id-135"><span class="txt"><b>SS.912.E.1.12</b> Examine the four phases of the business cycle (peak, contraction - unemployment, trough, expansion - inflation).</span><span class="number"><a href="html/page367.html" target="contentFrame">301-307</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/>Teacher's Edition: pp. 302, 304, 305, 307<br/></span></li>
+
+<li id="border-id-136"><span class="txt"><b>SS.912.E.1.13</b> Explain the basic functions and characteristics of money, and describe the composition of the money supply in the United States.</span><span class="number"><a href="html/page294.html" target="contentFrame">228-233</a><br/><a href="html/page321.html" target="contentFrame">255-256</a><br/><a href="html/page354.html" target="contentFrame">288</a><br/>Teacher's Edition: pp. 228, 256<br/></span></li>
+
+<li id="border-id-137"><span class="txt"><b>SS.912.E.1.14</b> Compare credit, savings, and investment services available to the consumer from financial institutions.</span><span class="number"><a href="html/page322.html" target="contentFrame">256-261</a><br/><a href="html/page330.html" target="contentFrame">264-269</a><br/><a href="html/page354.html" target="contentFrame">288</a><br/></span></li>
+
+<li id="border-id-138"><span class="txt"><b>SS.912.E.1.15</b> Describe the risk and return profiles of various investment vehicles and the importance of diversification.</span><span class="number"><a href="html/page331.html" target="contentFrame">265-269</a><br/><a href="html/page354.html" target="contentFrame">288</a><br/></span></li>
+
+<li id="border-id-139"><span class="txt"><b>SS.912.E.1.16</b> Construct a one-year budget plan for a specific career path including expenses and construction of a credit plan for purchasing a major item.</span><span class="number"><a href="html/page327.html" target="contentFrame">261-262</a><br/><a href="html/page354.html" target="contentFrame">288</a><br/></span></li>
+
+<li id="border-id-140"><span class="txt"><b>SS.912.E.1.2</b> Analyze production possibilities curves to explain choice, scarcity, and opportunity costs.</span><span class="number"><a href="html/page79.html" target="contentFrame">13-16</a><br/><a href="html/page86.html" target="contentFrame">20</a><br/>Teacher's Edition: p. 15<br/></span></li>
+
+<li id="border-id-141"><span class="txt"><b>SS.912.E.1.3</b> Compare how the various economic systems (traditional, market, command, mixed) answer the questions: (1) What to produce?; (2) How to produce?; and (3) For whom to produce?</span><span class="number"><a href="html/page92.html" target="contentFrame">26-36</a><br/><a href="html/page105.html" target="contentFrame">39-49</a><br/><a href="html/page138.html" target="contentFrame">72</a><br/></span></li>
+
+<li id="border-id-142"><span class="txt"><b>SS.912.E.1.4</b> Define supply, demand, quantity supplied,and quantity demanded; graphically illustrate situations that would cause changes in each, and demonstrate how the equilibrium price of a product is determined by the interaction of supply and demand in the market place.</span><span class="number"><a href="html/page144.html" target="contentFrame">78-100</a><br/><a href="html/page174.html" target="contentFrame">108-132</a><br/><a href="html/page202.html" target="contentFrame">136</a><br/></span></li>
+
+<li id="border-id-143"><span class="txt"><b>SS.912.E.1.5</b> Compare different forms of business organizations.</span><span class="number"><a href="html/page242.html" target="contentFrame">176-197</a><br/><a href="html/page288.html" target="contentFrame">222</a><br/></span></li>
+
+<li id="border-id-144"><span class="txt"><b>SS.912.E.1.6</b> Compare the basic characteristics of the four market structures (monopoly, oligopoly, monopolistic competition, pure competition).</span><span class="number"><a href="html/page208.html" target="contentFrame">142-161</a><br/><a href="html/page236.html" target="contentFrame">170</a><br/></span></li>
+
+<li id="border-id-145"><span class="txt"><b>SS.912.E.1.7</b> Graph and explain how firms determine price and output through marginal cost analysis.</span><span class="number"><a href="html/page77.html" target="contentFrame">11-12</a><br/><a href="html/page170.html" target="contentFrame">104-106</a><br/><a href="html/page202.html" target="contentFrame">136</a><br/></span></li>
+
+<li id="border-id-146"><span class="txt"><b>SS.912.E.1.8</b> Explain ways firms engage in price and nonprice competition.</span><span class="number"><a href="html/page100.html" target="contentFrame">34-36</a><br/><a href="html/page138.html" target="contentFrame">72</a><br/><a href="html/page221.html" target="contentFrame">155-161</a><br/></span></li>
+
+<li id="border-id-147"><span class="txt"><b>SS.912.E.1.9</b> Describe how the earnings of workers are determined.</span><span class="number"><a href="html/page264.html" target="contentFrame">198-219</a><br/><a href="html/page288.html" target="contentFrame">222</a><br/></span></li>
+
+<li id="border-id-148"><span class="txt"><b>SS.912.E.2.1</b> Identify and explain broad economic goals.</span><span class="number"><a href="html/page94.html" target="contentFrame">28-30</a><br/><a href="html/page138.html" target="contentFrame">72</a><br/></span></li>
+
+<li id="border-id-149"><span class="txt"><b>SS.912.E.2.10</b> Describe the organization and functions of the Federal Reserve System.</span><span class="number"><a href="html/page303.html" target="contentFrame">237-238</a><br/><a href="html/page312.html" target="contentFrame">246-254</a><br/><a href="html/page354.html" target="contentFrame">288</a><br/></span></li>
+
+<li id="border-id-150"><span class="txt"><b>SS.912.E.2.11</b> Assess the economic impact of negative and positive externalities on the local, state, and national environment.</span><span class="number"><a href="html/page131.html" target="contentFrame">65-67</a><br/><a href="html/page138.html" target="contentFrame">72</a><br/></span></li>
+
+<li id="border-id-151"><span class="txt"><b>SS.912.E.2.12</b> Construct a circular flow diagram for an open-market economy including elements of households, firms, government, financial institutions, product and factor markets, and international trade.</span><span class="number"><a href="html/page112.html" target="contentFrame">46-47</a><br/><a href="html/page502.html" target="contentFrame">436-437</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/></span></li>
+
+<li id="border-id-152"><span class="txt"><b>SS.912.E.2.2</b> Use a decision-making model to analyze a public policy issue affecting the student's community that incorporates defining a problem, analyzing the potential consequences, and considering the alternatives.</span><span class="number"><a href="html/page50.html" target="contentFrame">l-lv</a><br/><a href="html/page62.html" target="contentFrame">lxii-lxiii</a><br/></span></li>
+
+<li id="border-id-153"><span class="txt"><b>SS.912.E.2.3</b> Research contributions of entrepreneurs, inventors, and other key individuals from various gender, social, and ethnic backgrounds in the development of the United States.</span><span class="number"><a href="html/page86.html" target="contentFrame">20</a><br/><a href="html/page280.html" target="contentFrame">214-215</a><br/><a href="html/page288.html" target="contentFrame">222</a><br/><a href="html/page300.html" target="contentFrame">234-236</a><br/></span></li>
+
+<li id="border-id-154"><span class="txt"><b>SS.912.E.2.4</b> Diagram and explain the problems that occur when government institutes wage and price controls, and explain the rationale for these controls.</span><span class="number"><a href="html/page183.html" target="contentFrame">117-120</a><br/><a href="html/page203.html" target="contentFrame">137</a><br/><a href="html/page231.html" target="contentFrame">165-167</a><br/>Teacher's Edition: pp. 117, 119<br/></span></li>
+
+<li id="border-id-155"><span class="txt"><b>SS.912.E.2.5</b> Analyze how capital investments may impact productivity and economic growth.</span><span class="number"><a href="html/page377.html" target="contentFrame">311-313</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/>Teacher's Edition: pp. 312-314<br/></span></li>
+
+<li id="border-id-156"><span class="txt"><b>SS.912.E.2.6</b> Examine the benefits of natural monopolies and the purposes of government regulation of these monopolies.</span><span class="number"><a href="html/page215.html" target="contentFrame">149-150</a><br/><a href="html/page236.html" target="contentFrame">170</a><br/></span></li>
+
+<li id="border-id-157"><span class="txt"><b>SS.912.E.2.7</b> Identify the impact of inflation on society.</span><span class="number"><a href="html/page389.html" target="contentFrame">323-324</a><br/><a href="html/page393.html" target="contentFrame">327-328</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/>Teacher's Edition: pp. 323, 324<br/></span></li>
+
+<li id="border-id-158"><span class="txt"><b>SS.912.E.2.8</b> Differentiate between direct and indirect taxes, and describe the progressivity of taxes (progressive, proportional, regressive).</span><span class="number"><a href="html/page414.html" target="contentFrame">348-358</a><br/><a href="html/page440.html" target="contentFrame">374</a><br/></span></li>
+
+<li id="border-id-159"><span class="txt"><b>SS.912.E.2.9</b> Analyze how changes in federal spending and taxation affect budget deficits and surpluses and the national debt.</span><span class="number"><a href="html/page426.html" target="contentFrame">360-361</a><br/><a href="html/page466.html" target="contentFrame">400-403</a><br/><a href="html/page490.html" target="contentFrame">424</a><br/>Teacher's Edition: pp. 376, 417<br/></span></li>
+
+<li id="border-id-160"><span class="txt"><b>SS.912.E.3.1</b> Demonstrate the impact of inflation on world economies.</span><span class="number"><a href="html/page393.html" target="contentFrame">327-328</a><br/><a href="html/page408.html" target="contentFrame">342</a><br/></span></li>
+
+<li id="border-id-161"><span class="txt"><b>SS.912.E.3.2</b> Examine absolute and comparative advantage, and explain why most trade occurs because of comparative advantage.</span><span class="number"><a href="html/page380.html" target="contentFrame">314</a><br/><a href="html/page496.html" target="contentFrame">430-434</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/>Teacher's Edition: p. 432<br/></span></li>
+
+<li id="border-id-162"><span class="txt"><b>SS.912.E.3.3</b> Discuss the effect of barriers to trade and why nations sometimes erect barriers to trade or establish free trade zones.</span><span class="number"><a href="html/page504.html" target="contentFrame">438-445</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/>Teacher's Edition: pp. 440-442, 446<br/></span></li>
+
+<li id="border-id-163"><span class="txt"><b>SS.912.E.3.4</b> Assess the economic impact of negative and positive externalities on the international environment.</span><span class="number"><a href="html/page523.html" target="contentFrame">457-458</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/>Teacher's Edition: p. 457<br/></span></li>
+
+<li id="border-id-164"><span class="txt"><b>SS.912.E.3.5</b> Compare the current United States economy with other developed and developing nations.</span><span class="number"><a href="html/page519.html" target="contentFrame">453-459</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/>Teacher's Edition: p. 457<br/></span></li>
+
+<li id="border-id-165"><span class="txt"><b>SS.912.E.3.6</b> Differentiate and draw conclusions about historical economic thought theorized by economists.</span><span class="number"><a href="html/page464.html" target="contentFrame">398-399</a><br/><a href="html/page483.html" target="contentFrame">417-418</a><br/><a href="html/page490.html" target="contentFrame">424</a><br/></span></li>
+
+<li id="border-id-166"><span class="txt"><b>SS.912.G.2.2</b> Describe the factors and processes that contribute to the differences between developing and developed regions of the world.</span><span class="number"><a href="html/page521.html" target="contentFrame">455-467</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/>Teacher's Edition: pp. 455-458<br/></span></li>
+
+<li id="border-id-167"><span class="txt"><b>SS.912.G.3.3</b> Use geographic terms and tools to explain differing perspectives on the use of renewable and non-renewable resources in Florida, the United States, and the world.</span><span class="number"><a href="html/page32.html" target="contentFrame">xxxii-xxxvii</a><br/><a href="html/page546.html" target="contentFrame">480-482</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/></span></li>
+
+<li id="border-id-168"><span class="txt"><b>SS.912.G.4.4</b> Use geographic terms and tools to analyze case studies of issues in globalization.</span><span class="number"><a href="html/page530.html" target="contentFrame">464-467</a><br/><a href="html/page546.html" target="contentFrame">480-483</a><br/><a href="html/page554.html" target="contentFrame">488</a><br/></span></li>
+
+<li id="border-id-169"><span class="txt"><b>SS.912.FL.1.1</b>  Discuss that people choose jobs or careers for which they are qualified based on non-income factors, such as job satisfaction, independence, risk, family, or location.</span><span class="number"><a href="html/page623.html" target="contentFrame">557</a></span></li>
+
+<li id="border-id-170"><span class="txt"><b>SS.912.FL.1.2</b>  Explain that people vary in their willingness to obtain more education or training because these decisions involve incurring immediate costs to obtain possible future benefits. Describe how discounting the future benefits of education and training may lead some people to pass up potentially high rates of return that more education and training may offer.</span><span class="number"><a href="html/page619.html" target="contentFrame">553-554</a></span></li>
+
+<li id="border-id-171"><span class="txt"><b>SS.912.FL.1.3</b>  Evaluate ways people can make more informed education, job, or career decisions by evaluating the benefits and costs of different choices.</span><span class="number"><a href="html/page610.html" target="contentFrame">544-547</a><br/><a href="html/page616.html" target="contentFrame">550</a><br/><a href="html/page619.html" target="contentFrame"> 553-554</a><br/></span></li>
+
+<li id="border-id-172"><span class="txt"><b>SS.912.FL.1.4</b>  Analyze the reasons why the wage or salary paid to workers in jobs is usually determined by the labor market and that businesses are generally willing to pay more productive workers higher wages or salaries than less productive workers.</span><span class="number"><a href="html/page270.html" target="contentFrame">204-205</a><br/><a href="html/page272.html" target="contentFrame">206-212</a><br/></span></li>
+
+<li id="border-id-173"><span class="txt"><b>SS.912.FL.1.5</b>  Discuss reasons why changes in economic conditions or the labor market can cause changes in a workers income or may cause unemployment.</span><span class="number"><a href="html/page270.html" target="contentFrame">204-205</a><br/><a href="html/page272.html" target="contentFrame">206-212</a><br/></span></li>
+
+<li id="border-id-174"><span class="txt"><b>SS.912.FL.1.6</b>  Explain that taxes are paid to federal, state, and local governments to fund government goods and services and transfer payments from government to individuals and that the major types of taxes are income taxes, payroll (Social Security) taxes, property taxes, and sales taxes.</span><span class="number"><a href="html/page625.html" target="contentFrame">559-560</a></span></li>
+
+<li id="border-id-175"><span class="txt"><b>SS.912.FL.1.7</b>  Discuss how peoples sources of income, amount of income, as well as the amount and type of spending affect the types and amounts of taxes paid.</span><span class="number"><a href="html/page420.html" target="contentFrame">354-371</a><br/><a href="html/page624.html" target="contentFrame">558-561</a></span></li>
+
+<li id="border-id-176"><span class="txt"><b>SS.912.FL.2.1</b>  Compare consumer decisions as they are influenced by the price of a good or service, the price of alternatives, and the consumers income as well as his or her preferences.</span><span class="number"><a href="html/page193.html" target="contentFrame">127-130</a></span></li>
+
+<li id="border-id-177"><span class="txt"><b>SS.912.FL.2.2</b>  Analyze situations in which when people consume goods and services, their consumption can have positive and negative effects on others.</span><span class="number"><a href="html/page196.html" target="contentFrame">130-131</a></span></li>
+
+<li id="border-id-178"><span class="txt"><b>SS.912.FL.2.3</b>  Discuss that when buying a good, consumers may consider various aspects of the product including the products features. Explain why for goods that last for a longer period of time, the consumer should consider the products durability and maintenance costs.</span><span class="number"><a href="html/page610.html" target="contentFrame">544-547</a></span></li>
+
+<li id="border-id-179"><span class="txt"><b>SS.912.FL.2.4</b>  Describe ways that consumers may be influenced by how the price of a good is expressed.</span><span class="number"><a href="html/page196.html" target="contentFrame">130</a></span></li>
+
+<li id="border-id-180"><span class="txt"><b>SS.912.FL.2.5</b>  Discuss ways people incur costs and realize benefits when searching for information related to their purchases of goods and services and describe how the amount of information people should gather depends on the benefits and costs of the information.</span><span class="number"><a href="html/page610.html" target="contentFrame">544-547</a></span></li>
+
+<li id="border-id-181"><span class="txt"><b>SS.912.FL.2.6</b>  Explain that people may choose to donate money to charitable organizations and other not-for-profits because they gain satisfaction from donating.</span><span class="number"><a href="html/page627.html" target="contentFrame">561</a></span></li>
+
+<li id="border-id-182"><span class="txt"><b>SS.912.FL.2.7</b>  Examine governments establishing laws and institutions to provide consumers with information about goods or services being purchased and to protect consumers from fraud.</span><span class="number"><a href="html/page121.html" target="contentFrame">55</a></span></li>
+
+<li id="border-id-183"><span class="txt"><b>SS.912.FL.3.1</b>  Discuss the reasons why some people have a tendency to be impatient and choose immediate spending over saving for the future.</span><span class="number"><a href="html/page582.html" target="contentFrame">516-517</a></span></li>
+
+<li id="border-id-184"><span class="txt"><b>SS.912.FL.3.2</b>  Examine the ideas that inflation reduces the value of money, including savings, that the real interest rate expresses the rate of return on savings, taking into account the effect of inflation and that the real interest rate is calculated as the nominal interest rate minus the rate of inflation.</span><span class="number"><a href="html/page393.html" target="contentFrame">327-328</a><br/><a href="html/page591.html" target="contentFrame">525</a><br/></span></li>
+
+<li id="border-id-185"><span class="txt"><b>SS.912.FL.3.3</b>  Compare the difference between the nominal interest rate which tells savers how the dollar value of their savings or investments will grow, and the real interest rate which tells savers how the purchasing power of their savings or investments will grow.</span><span class="number"><a href="html/page598.html" target="contentFrame">532</a></span></li>
+
+<li id="border-id-186"><span class="txt"><b>SS.912.FL.3.4</b>  Describe ways that money received (or paid) in the future can be compared to money held today by discounting the future value based on the rate of interest.</span><span class="number"><a href="html/page597.html" target="contentFrame">531</a></span></li>
+
+<li id="border-id-187"><span class="txt"><b>SS.912.FL.3.5</b>  Explain ways that government agencies supervise and regulate financial institutions to help protect the safety, soundness, and legal compliance of the nations banking and financial system.</span><span class="number"><a href="html/page120.html" target="contentFrame">54-55</a><br/><a href="html/page317.html" target="contentFrame">251-253</a><br/></span></li>
+
+<li id="border-id-188"><span class="txt"><b>SS.912.FL.3.6</b>  Describe government policies that create incentives and disincentives for people to save.</span><span class="number"><a href="html/page339.html" target="contentFrame">273</a><br/><a href="html/page476.html" target="contentFrame">410-411</a><br/><a href="html/page479.html" target="contentFrame">413-414</a><br/></span></li>
+
+<li id="border-id-189"><span class="txt"><b>SS.912.FL.3.7</b>  Explain how employer benefit programs create incentives and disincentives to save and how an employees decision to save can depend on how the alternatives are presented by the employer.</span><span class="number"><a href="html/page599.html" target="contentFrame">533-534</a></span></li>
+
+<li id="border-id-190"><span class="txt"><b>SS.912.FL.4.1</b>  Discuss ways that consumers can compare the cost of credit by using the annual percentage rate (APR), initial fees charged, and fees charged for late payment or missed payments.</span><span class="number"><a href="html/page603.html" target="contentFrame">537-538</a></span></li>
+
+<li id="border-id-191"><span class="txt"><b>SS.912.FL.4.2</b>  Discuss that banks and financial institutions sometimes compete by offering credit at low introductory rates, which increase after a set period of time or when the borrower misses a payment or makes a late payment.</span><span class="number"><a href="html/page603.html" target="contentFrame">537-538</a></span></li>
+
+<li id="border-id-192"><span class="txt"><b>SS.912.FL.4.3</b>  Explain that loans can be unsecured or secured with collateral, that collateral is a piece of property that can be sold by the lender to recover all or part of a loan if the borrower fails to repay. Explain why secured loans are viewed as having less risk and why lenders charge a lower interest rate than they charge for unsecured loans.</span><span class="number"><a href="html/page604.html" target="contentFrame">538</a></span></li>
+
+<li id="border-id-193"><span class="txt"><b>SS.912.FL.4.4</b>  Describe why people often make a cash payment to the seller of a goodcalled a down paymentin order to reduce the amount they need to borrow. Describe why lenders may consider loans made with a down payment to have less risk because the down payment gives the borrower some equity or ownership right away and why these loans may carry a lower interest rate.</span><span class="number"><a href="html/page604.html" target="contentFrame">538</a></span></li>
+
+<li id="border-id-194"><span class="txt"><b>SS.912.FL.4.5</b>  Explain that lenders make credit decisions based in part on consumer payment history. Credit bureaus record borrowers credit and payment histories and provide that information to lenders in credit reports.</span><span class="number"><a href="html/page601.html" target="contentFrame">535</a></span></li>
+
+<li id="border-id-195"><span class="txt"><b>SS.912.FL.4.6</b>  Discuss that lenders can pay to receive a borrowers credit score from a credit bureau and that a credit score is a number based on information in a credit report and assesses a persons credit risk.</span><span class="number"><a href="html/page601.html" target="contentFrame">535-536</a></span></li>
+
+<li id="border-id-196"><span class="txt"><b>SS.912.FL.4.7</b>  Describe that, in addition to assessing a persons credit risk, credit reports and scores may be requested and used by employers in hiring decisions, landlords in deciding whether to rent apartments, and insurance companies in charging premiums.</span><span class="number"><a href="html/page601.html" target="contentFrame">535</a></span></li>
+
+<li id="border-id-197"><span class="txt"><b>SS.912.FL.4.8</b>  Examine the fact that failure to repay a loan has significant consequences for borrowers such as negative entries on their credit report, repossession of property (collateral), garnishment of wages, and the inability to obtain loans in the future.</span><span class="number"><a href="html/page324.html" target="contentFrame">258</a></span></li>
+
+<li id="border-id-198"><span class="txt"><b>SS.912.FL.4.9</b>  Explain that consumers who have difficulty repaying debt can seek assistance through credit counseling services and by negotiating directly with creditors.</span><span class="number"><a href="html/page605.html" target="contentFrame">539</a></span></li>
+
+<li id="border-id-199"><span class="txt"><b>SS.912.FL.4.10</b>  Analyze the fact that, in extreme cases, bankruptcy may be an option for consumers who are unable to repay debt, and although bankruptcy provides some benefits, filing for bankruptcy also entails considerable costs, including having notice of the bankruptcy appear on a consumers credit report for up to 10 years.</span><span class="number"><a href="html/page605.html" target="contentFrame">539-540</a></span></li>
+
+<li id="border-id-200"><span class="txt"><b>SS.912.FL.4.11</b>  Explain that people often apply for a mortgage to purchase a home and identify a mortgage is a type of loan that is secured by real estate property as collateral.</span><span class="number"><a href="html/page616.html" target="contentFrame">550</a></span></li>
+
+<li id="border-id-201"><span class="txt"><b>SS.912.FL.4.12</b>  Discuss that consumers who use credit should be aware of laws that are in place to protect them and that these include requirements to provide full disclosure of credit terms such as APR and fees, as well as protection against discrimination and abusive marketing or collection practices.</span><span class="number"><a href="html/page601.html" target="contentFrame">535-538</a></span></li>
+
+<li id="border-id-202"><span class="txt"><b>SS.912.FL.4.13</b>  Explain that consumers are entitled to a free copy of their credit report annually so that they can verify that no errors were made that might increase their cost of credit.</span><span class="number"><a href="html/page601.html" target="contentFrame">535-536</a></span></li>
+
+<li id="border-id-203"><span class="txt"><b>SS.912.FL.5.1</b>  Compare the ways that federal, state, and local tax rates vary on different types of investments. Describe the taxes effect on the after-tax rate of return of an investment.</span><span class="number"><a href="html/page256.html" target="contentFrame">190</a><br/><a href="html/page434.html" target="contentFrame">368</a><br/></span></li>
+
+<li id="border-id-204"><span class="txt"><b>SS.912.FL.5.2</b>  Explain how the expenses of buying, selling, and holding financial assets decrease the rate of return from an investment.</span><span class="number"><a href="html/page591.html" target="contentFrame">525-529</a><br/><a href="html/page597.html" target="contentFrame">531</a><br/><a href="html/page598.html" target="contentFrame">532</a><br/><a href="html/page600.html" target="contentFrame">534</a><br/></span></li>
+
+<li id="border-id-205"><span class="txt"><b>SS.912.FL.5.3</b>  Discuss that buyers and sellers in financial markets determine prices of financial assets and therefore influence the rates of return on those assets.</span><span class="number"><a href="html/page591.html" target="contentFrame">525-529</a></span></li>
+
+<li id="border-id-206"><span class="txt"><b>SS.912.FL.5.4</b>  Explain that an investment with greater risk than another investment will commonly have a lower market price, and therefore a higher rate of return, than the other investment.</span><span class="number"><a href="html/page333.html" target="contentFrame">267-272</a><br/><a href="html/page591.html" target="contentFrame">525-529</a></span></li>
+
+<li id="border-id-207"><span class="txt"><b>SS.912.FL.5.5</b>  Explain that shorter-term investments will likely have lower rates of return than longer-term investments.</span><span class="number"><a href="html/page591.html" target="contentFrame">525-529</a></span></li>
+
+<li id="border-id-208"><span class="txt"><b>SS.912.FL.5.6</b>  Describe how diversifying investments in different types of financial assets can lower investment risk.</span><span class="number"><a href="html/page332.html" target="contentFrame">266</a><br/><a href="html/page594.html" target="contentFrame">528-529</a></span></li>
+
+<li id="border-id-209"><span class="txt"><b>SS.912.FL.5.7</b>  Describe how financial markets adjust to new financial news and that prices in those markets reflect what is known about those financial assets.</span><span class="number"><a href="html/page592.html" target="contentFrame">526</a></span></li>
+
+<li id="border-id-210"><span class="txt"><b>SS.912.FL.5.8</b>  Discuss ways that the prices of financial assets are affected by interest rates and explain that the prices of financial assets are also affected by changes in domestic and international economic conditions, monetary policy, and fiscal policy.</span><span class="number"><a href="html/page476.html" target="contentFrame">410-411</a><br/><a href="html/page479.html" target="contentFrame">413-414</a><br/></span></li>
+
+<li id="border-id-211"><span class="txt"><b>SS.912.FL.5.9</b>  Examine why investors should be aware of tendencies that people have that may result in poor choices, which may include avoiding selling assets at a loss because they weigh losses more than they weigh gains and investing in financial assets with which they are familiar, such as their own employers stock or domestic rather than international stocks.</span><span class="number"><a href="html/page592.html" target="contentFrame">526</a></span></li>
+
+<li id="border-id-212"><span class="txt"><b>SS.912.FL.5.10</b>  Explain that people vary in their willingness to take risks because the willingness to take risks depends on factors such as personality, income, and family situation.</span><span class="number"><a href="html/page594.html" target="contentFrame">528-529</a></span></li>
+
+<li id="border-id-213"><span class="txt"><b>SS.912.FL.5.11</b>  Describe why an economic role for a government may exist if individuals do not have complete information about the nature of alternative investments or access to competitive financial markets.</span><span class="number"><a href="html/page125.html" target="contentFrame">59-60</a></span></li>
+
+<li id="border-id-214"><span class="txt"><b>SS.912.FL.5.12</b>  Compare the Securities and Exchange Commission (SEC), the Federal Reserve, and other government agencies that regulate financial markets.</span><span class="number"><a href="html/page256.html" target="contentFrame">190</a><br/><a href="html/page314.html" target="contentFrame">248-254</a><br/></span></li>
+
+<li id="border-id-215"><span class="txt"><b>SS.912.FL.6.1</b>  Describe how individuals vary with respect to their willingness to accept risk and why most people are willing to pay a small cost now if it means they can avoid a possible larger loss later.</span><span class="number"><a href="html/page594.html" target="contentFrame">528-529</a></span></li>
+
+<li id="border-id-216"><span class="txt"><b>SS.912.FL.6.2</b>  Analyze how judgment regarding risky events is subject to errors because people tend to overestimate the probability of infrequent events, often because theyve heard of or seen a recent example.</span><span class="number"><a href="html/page606.html" target="contentFrame">540</a></span></li>
+
+<li id="border-id-217"><span class="txt"><b>SS.912.FL.6.3</b>  Describe why people choose different amounts of insurance coverage based on their willingness to accept risk, as well as their occupation, lifestyle, age, financial profile, and the price of insurance.</span><span class="number"><a href="html/page607.html" target="contentFrame">541</a></span></li>
+
+<li id="border-id-218"><span class="txt"><b>SS.912.FL.6.4</b>  Explain that people may be required by governments or by certain types of contracts (e.g., home mortgages) to purchase some types of insurance.</span><span class="number"><a href="html/page608.html" target="contentFrame">542</a></span></li>
+
+<li id="border-id-219"><span class="txt"><b>SS.912.FL.6.5</b>  Describe how an insurance contract can increase the probability or size of a potential loss because having the insurance results in the person taking more risks, and that policy features such as deductibles and copayments are cost-sharing features that encourage the policyholder to take steps to reduce the potential size of a loss (claim).</span><span class="number"><a href="html/page606.html" target="contentFrame">540-541</a></span></li>
+
+<li id="border-id-220"><span class="txt"><b>SS.912.FL.6.6</b>  Explain that people can lower insurance premiums by behaving in ways that show they pose a lower risk.</span><span class="number"><a href="html/page609.html" target="contentFrame">543</a></span></li>
+
+<li id="border-id-221"><span class="txt"><b>SS.912.FL.6.7</b>  Compare the purposes of various types of insurance, including that health insurance provides for funds to pay for health care in the event of illness and may also pay for the cost of preventative care; disability insurance is income insurance that provides funds to replace income lost while an individual is ill or injured and unable to work; property and casualty insurance pays for damage or loss to the insureds property; life insurance benefits are paid to the insureds beneficiaries in the event of the policyholders death.</span><span class="number"><a href="html/page606.html" target="contentFrame">540-541</a></span></li>
+
+<li id="border-id-222"><span class="txt"><b>SS.912.FL.6.8</b>  Discuss the fact that, in addition to privately purchased insurance, some government benefit programs provide a social safety net to protect individuals from economic hardship created by unexpected events.</span><span class="number"><a href="html/page94.html" target="contentFrame">28</a><br/><a href="html/page134.html" target="contentFrame">68</a><br/><a href="html/page401.html" target="contentFrame"> 335-337</a></span></li>
+
+<li id="border-id-223"><span class="txt"><b>SS.912.FL.6.9</b>  Explain that loss of assets, wealth, and future opportunities can occur if an individuals personal information is obtained by others through identity theft and then used fraudulently, and that by managing their personal information and choosing the environment in which it is revealed, individuals can accept, reduce, and insure against the risk of loss due to identity theft.</span><span class="number"><a href="html/page616.html" target="contentFrame">550-553</a></span></li>
+
+<li id="border-id-224"><span class="txt"><b>SS.912.FL.6.10</b>  Compare federal and state regulations that provide some remedies and assistance for victims of identity theft.</span><span class="number"><a href="html/page618.html" target="contentFrame">552-553</a></span></li>
+
+</ol>
+</li>
+
+</ol>
+<div style="width:100%;text-align:right;">
+    <button id="expand" onclick="expandButton();">Expand All</button>
+    <button id="colapse" onclick="colapseButton();">Collapse All</button>
+    </div>
 </body>
-
 </html>
