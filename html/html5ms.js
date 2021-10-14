@@ -2270,7 +2270,7 @@ core.Book = function() {
 	this.rightToLeft = false;
 	this.menuTocVisible = true;
 	this.menuThumbsVisible = true;
-	this.menuSearchVisible = true;
+	this.menuSearchVisible = false;
 	this.menuAutoFlipVisible = true;
 	this.menuZoomVisible = true;
 	this.menuBookmarkVisible = true;
@@ -2815,6 +2815,7 @@ RunTime.loadBookInfo = function() {
 	RunTime.flipBook.btnDownload.onclick = RunTime.onDownloadClick;
 	var bottomMenuIter = node.elementsNamed("bottommenu");
 	if(bottomMenuIter.hasNext() == true) {
+		debugger
 		var bottomMenuNode = bottomMenuIter.next();
 		RunTime.book.menuAutoFlipVisible = RunTime.getMenuVisible(bottomMenuNode,"autoflip");
 		RunTime.book.menuSearchVisible = RunTime.getMenuVisible(bottomMenuNode,"search");
@@ -2838,7 +2839,7 @@ RunTime.loadBookInfo = function() {
 	RunTime.setMenuVisible(RunTime.flipBook.btnSearch,RunTime.book.menuSearchVisible);
 	RunTime.setMenuVisible(RunTime.flipBook.btnAutoFlip,RunTime.book.menuAutoFlipVisible);
 	RunTime.setMenuVisible(RunTime.flipBook.btnShowTxt,RunTime.book.menuTxtVisible);
-	RunTime.setMenuVisible(RunTime.flipBook.btnZoom,false);
+	RunTime.setMenuVisible(RunTime.flipBook.btnZoom,RunTime.book.menuZoomVisible);
 	RunTime.setMenuVisible(RunTime.flipBook.btnDownload,RunTime.book.menuDownloadVisible);
 	RunTime.setMenuVisible(RunTime.flipBook.btnEmail,RunTime.book.menuEmailVisible);
 	RunTime.setMenuVisible(RunTime.flipBook.btnSns,RunTime.book.menuSnsVisible);

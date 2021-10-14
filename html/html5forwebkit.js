@@ -2149,7 +2149,7 @@ core.Book = function() {
 	this.rightToLeft = false;
 	this.menuTocVisible = true;
 	this.menuThumbsVisible = true;
-	this.menuSearchVisible = true;
+	this.menuSearchVisible = false;
 	this.menuAutoFlipVisible = true;
 	this.menuZoomVisible = true;
 	this.menuBookmarkVisible = true;
@@ -2701,6 +2701,7 @@ RunTime.loadBookInfo = function() {
 	RunTime.flipBook.btnDownload.onclick = RunTime.onDownloadClick;
 	var bottomMenuIter = node.elementsNamed("bottommenu");
 	if(bottomMenuIter.hasNext() == true) {
+		debugger
 		var bottomMenuNode = bottomMenuIter.next();
 		RunTime.book.menuAutoFlipVisible = RunTime.getMenuVisible(bottomMenuNode,"autoflip");
 		RunTime.book.menuSearchVisible = RunTime.getMenuVisible(bottomMenuNode,"search");

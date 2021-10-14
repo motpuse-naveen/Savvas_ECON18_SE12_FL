@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eBook>
     <page pageNumber="1">
-        <text><![CDATA[]]></text>
+        <text><![CDATA[Page 1 Test]]></text>
     </page>
 <page pageNumber="2">
-        <text><![CDATA[]]></text>
+        <text><![CDATA[Page 2 Test]]></text>
     </page>
 <page pageNumber="3">
         <text><![CDATA[]]></text>
