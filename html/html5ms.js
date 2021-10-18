@@ -461,6 +461,11 @@ FlipBook.prototype = {
 		this.bookContext.bookmarks = bms;
 	}
 	,removeAllBookmarks: function(){
+		var _g1 = 0, _g = RunTime.book.bookmarks.length;
+		while(_g1 < _g) {
+			var i1 = _g1++;
+			RunTime.book.bookmarks[i1].remove();
+		}
 		var tmp = new Array();
 		RunTime.book.bookmarks = tmp;
 		var bookmarks = RunTime.book.bookmarks;
