@@ -426,6 +426,16 @@ FlipBook.prototype = {
 		if(RunTime.book.rightToLeft) html = core.HtmlHelper.toBookmarksHtml(bookmarks,RunTime.singlePage,rv,lv);
 		this.topBarContent.innerHTML = html;
 	}
+	,removeAllBookmarks: function(){
+		var tmp = new Array();
+		RunTime.book.bookmarks = tmp;
+		var bookmarks = RunTime.book.bookmarks;
+		var lv = !this.checkIfExistBookmark(this.leftPageNum) && this.leftPageNum != -1;
+		var rv = !this.checkIfExistBookmark(this.rightPageNum) && this.rightPageNum != -1;
+		var html = core.HtmlHelper.toBookmarksHtml(bookmarks,RunTime.singlePage,lv,rv);
+		if(RunTime.book.rightToLeft) html = core.HtmlHelper.toBookmarksHtml(bookmarks,RunTime.singlePage,rv,lv);
+		this.topBarContent.innerHTML = html;
+	}
 	,removeBookmark: function(pageNum) {
 		var i = 0;
 		var tmp = new Array();
@@ -4373,7 +4383,7 @@ core.HtmlHelper.toBookmarksHtml = function(bookmarks,singleMode,lbEnable,rbEnabl
 		if(lbEnable) s += "<button onclick=\"addBookmark(-1)\">Add Left Bookmark</button>"; else s += "<button disabled=\"disabled\">Add Left Bookmark</button>";
 		if(rbEnable) s += "<button onclick=\"addBookmark(1)\">Add Right Bookmark</button>"; else s += "<button disabled=\"disabled\">Add Right Bookmark</button>";
 	}
-	s += "<button>Remove All</button>";
+	s += "<button onclick=\"removeAllBookmarks()\">Remove All</button>";
 	s += "</div>";
 	s += "<ul style=\"margin:20px 0px 0px 0px;padding-left:5px;padding-right:5px;\">";
 	if(bookmarks != null) {
