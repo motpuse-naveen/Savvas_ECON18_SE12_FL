@@ -382,6 +382,10 @@ FlipBook.prototype = {
 		if(this.topMenuBarBg.style.opacity == 0) return;
 		this.zoomAt(null,null);
 	}
+	,onZoomBtnClick: function(e) {
+		if(this.topMenuBarBg.style.opacity == 0) return;
+		this.ZoomWithCSS();
+	}
 	,onAutoFlipClick: function(e) {
 		if(this.topMenuBarBg.style.opacity == 0) return;
 		if(this.zoomLeftPage.src != "") {
@@ -1414,6 +1418,7 @@ FlipBook.prototype = {
 		this.btnShowTxt.onclick = $bind(this,this.onShowTxtClick);
 		this.tbPage.onfocus = $bind(this,this.onTbPageFocus);
 		this.btnZoom.ontouchstart = $bind(this,this.onZoomClick);
+		this.btnZoom.onclick = $bind(this,this.onZoomBtnClick);
 		this.btnMask.onclick = $bind(this,this.onButtonMaskClick);
 		this.btnBookMark.onclick = $bind(this,this.onButtonBookmark);
 		this.btnNote.onclick = $bind(this,this.onButtonNoteClick);
@@ -2862,7 +2867,6 @@ RunTime.loadBookInfo = function() {
 	RunTime.flipBook.btnDownload.onclick = RunTime.onDownloadClick;
 	var bottomMenuIter = node.elementsNamed("bottommenu");
 	if(bottomMenuIter.hasNext() == true) {
-		debugger
 		var bottomMenuNode = bottomMenuIter.next();
 		RunTime.book.menuAutoFlipVisible = RunTime.getMenuVisible(bottomMenuNode,"autoflip");
 		RunTime.book.menuSearchVisible = RunTime.getMenuVisible(bottomMenuNode,"search");

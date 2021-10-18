@@ -16,7 +16,7 @@
     <bottommenu iconSameSize="false" showBackground="false" background="content/images/menuBackground.png" visible="true" position="top" autoHideOnFullScreen="true" limitTo100="false" hideAfterZoom="false">
         <help visible="false"></help>
         <info visible="false"></info>
-        <zoom visible="false" mode="normal"></zoom>
+        <zoom visible="false"></zoom>
         <autoflip visible="true"></autoflip>
         <search visible="false"></search>
         <bookmark visible="true"></bookmark>
