@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=35";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=36",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=35";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=36" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼ca ur60°O 40°OAmérica del Sur20°O40°E60°EM0003002MES2Manual de destrezas de geografíaECUADOR60°Omeridiano principal, es la línea de longitud marcada con 0o. ElLatitud60°N América 40°NUsar mapas y globos terráqueosLos globos terráqueos y los mapas sirven para aprender sobre la Tierra. Un globo terráqueo es un modelo de la Tierra con forma de esfera. Es útil para ver todo el mundo. Los globos terráqueos muestran los continentes y los océanos con su forma real.Los mapas como los que aparecen en este libro muestran una imagen distinta de la Tierra. Son menos precisos que los globos terráqueos porque deben estirar algunas partes del mundo para volverlas planas. Esto se conoce como distorsión. De todos modos, los mapas presentan ventajas. Pueden doblarse o colgarse en la pared. También son útiles para observar áreas pequeñas como un país, un estado o un condado especí co.El ecuador es la línea imaginaria que atraviesa el centrodelaTLieonrgraitu.dSehallaa0grado(0o)delatitud.Laslíneasdedel Norteel globo al norte y al sur del ecuador. Las líneas de longitud Asia20°N0°20°S40°S 60°SLongitudEuropaAsiaÁfrica0° 20°Eestán separadas por la misma distancia y se extienden de norte a sur entre el Polo Norte y el Polo Sur. El primer meridiano, oAmérica del Sur40°O 20°O 0° 20°E 40°E 60°EESS19_SE05_SKHB_M0003002 24p1 x 13p1Second Proof1.30.17latitud están separadas por la misma distancia y atraviesan EuropaAméricaÁfricaresto de las líneas de longitud se miden en grados este u oeste apartir del primer meridiano. La longitud y la latitud se usan para ubicar un lugar. La ubicación absoluta es la ubicación exacta de un lugar, y no varía. Por ejemplo, Los Ángeles está a 34 grados norte del ecuador y 118 grados oeste del primer meridiano. La ubicación absoluta de Los Ángeles se escribe 34 oN, 118 oO.El ecuador divide a la Tierra en hemisferio norte y hemisferio sur. El primer meridiano y la línea de longitud de 180o dividen a la Tierra en hemisferio occidental y hemisferio oriental. Cada hemisferio es un medio de la Tierra.La ubicación relativa describe dónde está un lugar en relación con otro. Por ejemplo, puedes decir que la biblioteca está pasando la estación de policía. Una ciudad puede crecer gracias a su ubicación relativa respecto de un río o una ruta comercial.3.  Revisar la lectura Mira el mapa de Nueva York. usa las líneas de latitud y longitud para determinar la ubicación absoluta de Syracuse.del SurPRIMER MERIDIANOPRIMER MERIDIANO </noscript> 
- </body>
-</html>

@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=569";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=570",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=569";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=570" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼R56Colonia de Plymouth, 110mColonias del Noreste, 240mColonias europeas, mediados del sigloXVII, 120mColonias fundadas en tierras de losindígenas norteamericanos, 169m Colonias, productos de las trece, 150m Comercio triangular, 151mComercio, 68–69mComienza la Revolución, 208m Condiciones de la sequía en 2006,MES16mCondiciones de la sequía en 2016,MES8mEl Territorio del Noroeste, 1781, 257m ¿En qué lugar del Oeste se encuentraWashington?, MES0 Europa, 44mExpansión de los Estados Unidos, 1783–1853, 380mExpansión hacia el Oeste, 358m Expediciones, 44mExploradores españoles, 63m, 79m Exploradores portugueses, 1487-1499,53mExpulsión de los indígenas, 335m Fuerte Sumter, 408m, 456mFort Necessity, 175mFuerte Vincennes, Indiana, 188m Grupos culturales indígenas, 14m Indígenas norteamericanos, gruposculturales, 14mIndígenas y colonos, 169m Intercambio colombino, 68m Jinetes exprés, 202mLa travesía de Lewis y Clark, 317m Las colonias inglesas, 139mLey Kansas-Nebraska, 415m Leyendas de los mapas, 93mLos Estados Unidos a principios delsiglo xix, 298mLos Estados Unidos después del Tratadode París, 239mLos Estados Unidos en 1800, 313m Los Estados Unidos, 1850, MES6m,MES7mLos Estados Unidos, mapa físico de,MES4m, R30–31Los Estados Unidos, mapa político de,MES3m, R28–29Los trece Estados, 246mMapa de las elecciones presidencialesde 1796, 309mMapa de los resultados de las eleccionespresidenciales de 2016, MES9m mapamundi político, R32–R33 mapas con propósitos especiales,MES75mMapas de altitud, MES5mapas de regiones, MES5Mapas de sucesos actuales, MES9m mapas físicos, MES4Mapas históricos, MES7mapas políticos, MES3Misiones españolas, 1600–1650, 93m Norte de México, 1835, 374mNueva España alrededor de 1600, 91m Pico Pikes, 319mPosibles rutas de los primerospobladores desde Asia hasta lasAméricas, 7mPrimeras colonias en América del Norte,84m–85Primeros pobladores de las Américas,2mque usaban los que escapaban, 416m Reclamaciones en América del Norte,178mReclamaciones en América del Norte,178m, 182mReclamos territoriales, 1817, 331m Regiones de los Estados Unidos,MES6m, 134mRevolución de Texas, 375mRevolución Estadounidense, ubicacionesde las batallas, 188mRutas comerciales en el siglo XV, 44m St. Augustine, Florida, 94mTratado de Tordesillas, 89mTravesías de Colón a las Américas, 60m Victorias británicas y estadounidenses1776–1777, 225m Washington, D.C., como capitaldesignada, 308mMapas de altitud, MES5Mapas físicos, MES4Mapas históricos, MES7Máquinas de coser, 363Máquinas de hilar, 365Máquinas tejedoras, 365“Marcha de Sherman hacia el mar”, 443 Marina Británica, 206Marina de los Estados Unidos, 282i, 304 Marineros, 46–47, 65, 81, 282iMarion, Francis “Zorro del Pantano” 234 Marshall, James, 393Marshall, John, 299, 299i, 336, 337, 337i Marshall, Thurgood, 288, 288i Marylandentrega a Lord Baltimore, 144 esclavitud en, 160Harriet Tubman en, 454Lincoln visita a soldados y oficiales delejército de la Unión en Antietam, 441 la proclamación y, 431Masacre, 201Masacre de Boston, 201, 201i Mason, Biddy, 345Mason, George, 262, 280i, 281 Massachusettsbajo la ley marcial después del Motín del Té de Boston, 204los pawtuxet en, 126Rebelión de Shay en, 254–255, 254iMassasoit (jefe wampanoag), 111, 126 Mataoaka (Pocahontas), 104, 171 Materias primas, 150Maternidad republicana, 227Mayas, 9–10, 39Mayflower (barco), MES12, 110Meade, General George, 441McCormick, Cyrus, 363Medalla Presidencial de la Libertad, 29, 36 Mediateca, MES14Medio ambiente, 8, 10, 11, 12 Mercantilismo, 151Mercenarios, 223Merrimack (barco de la Unión), 425 Mestizos como clase, 92Metacom (jefe wampanoag), 135, 135i, 173 México. Ver también Colonias de NuevaEspañaen contra de Texas fuera un estado, 377 Guerra con México, 381invadido por Hernán Cortés, 61Norte de México, 1835, 374mrebelión en California contra, 378–379 Texas como parte de, 373trabajadores mexicanos en los camposde oro de California, 396Migración, 1, 7, 24, 38 Milicias, 180, 207, 223, 288 Minuit, Peter, 122 Minutemen, 207–208 Misioneros, 83, 113, 385 Misiones, 64, 88, 92, 96 Misiones¡A favor o en contra! 248–249, 265, 269, 278, 279, 285, 289, 295¿El Oeste es lo mejor? 360–361, 382, 389, 394, 397, 405Encuentra tu camino, 300–301, 317, 319, 326, 327, 343, 347, 355¡Estás en casa! 136–137, 141, 145, 155, 185¡Hola, marineros! 46–47, 54, 55, 64, 65, 81¡Lee todo sobre el tema! 19, 190–191, 195, 226, 229, 236, 237, 243 ¿Qué se está cocinando? 4–5, 11, 13,33, 41¡Vívelo! ¡Escríbelo! 86–87, 90, 97, 100,105, 111, 131Mississippi, 419, 441, 450 Missouricomo el primer Estado del territorio de Louisiana, 343como estado esclavista según el Acuerdo de Missouri, 377En 1819, 414el esclavizado Dred Scott de, 417 proclamación y, 431Mobile, Alabama, 234Moctezuma, 61Molineros, 149Molinos harineros, 149, 149i Moneda, 253, 268, 269i, 276, 307. Vertambién DineroMonitor (el acorazado), 425Monmouth, Nueva Jersey, 234 Monopolios, 118, 120, 128Monroe, James, 299, 299i, 315, 331, 351, 351i Montañas Rocosas, 384Montañeses, 382Montes Apalaches, 313Montículo Serpent, 11iMontreal, Canadá, 177Monumento Nacional Salinas PuebloMissions, valle Salinas, Nuevo México,64i Mormones, 386Morse, Samuel F.B., 359, 359i, 363 Mosquitos, 139Motín del Té de Boston, 203i, 204–205 Mott, Lucrecia, 346, 348Mount Vernon, 238, 238i, 302Mourt’s Relation (Bradford y Winslow), 114 Movimiento, MES1Movimiento abolicionista, 340, 344–347 Movimiento del sufragio. VerDecimonovena Enmienda y elmovimiento del sufragioMozart, Amadeus, 270Mudarse a nuevos lugares, 98Muelle de Griffin, Puerto de Boston, 203 </noscript> 
- </body>
-</html>

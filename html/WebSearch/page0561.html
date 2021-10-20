@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=560";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=561",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=560";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=561" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Banneker, Benjamin, 308, 308iBanyos, 163iBarcazas, 140, 367Barcos cargueros, 285iBarcos de vapor, 367, 367iBarton, Clara, 409, 433, 437Batalla de Fredericksburg, en diciembrede 1862, 426i BatallasBatalla de Antietam, 427, 433, 437, 441, 443Batalla de Brandywine, 232Batalla de Bunker Hill, 208Batalla de Concord, 242Batalla de El Álamo, 375Batalla de Fredricksburt, en diciembre de1862, 426iBatalla de Eutaw Springs, 235Batalla de Germantown, 232Batalla de Gettysburg, 409, 441Batalla de Guilford Courthouse, 235 Batalla de Horseshoe Bend, 325Batalla de Kings Mountain, 234Batalla de Lexington, 242Batalla de Nueva Orleans, 325, 325i Batalla de San Jacinto, 376Batalla de Saratoga, 225Batalla de Tippecanoe, 322Batalla de Trenton, 224, 231Batalla del lago Erie, 323Ejército de Cortés contra los aztecas, 61i “El grito de batalla de la libertad”, 413 Guerra Civil, 432Guerra Civil, estados en los que hubo 15o más batallas, 455tRevolución Estadounidense, 1778–1781,234mBates, Katharine Lee, 372 Bell, John, 418Baton Rouge, Louisiana, 234 Beringia, 7Bibliotecas, 180Bienes de consumo, 26, 32Bienestar general, promover el, 283 Bifocales, invención de las gafas, 146i Biografías, MES16. Ver también CivismoAdams, Abigail, 290Douglass, Frederick, 350Franklin, Benjamín, 180, 180i Mankiller, Wilma, 36Príncipe Enrique, el Navegante, 76 Tubman, Harriet, 454Tisquantum, 126Washington, George, 238 Whitman, Narcissa, 400Blogs, 86–87, 131Bloqueos, 228, 422, 425, 432, 441 Boicots, 195, 196–198, 203Bonaparte, Napoleón, 315, 320–321, 328i Boomtowns, 393Boone, Daniel, 314, 314i Boonesborough, Kentucky, 314Booth, John Wilkes, 447Boston, Massachusetts, 112, 153Bowie, James, 375Boyd, Belle, 436Braddock, Edward, 177Bradford, William, 110, 113, 114, 114i Brady, Matthew, 436, 436iBrandywine, Batalla de, 232Breed’s Hill, 208Brooklyn Heights, Nueva York, 224 Brown contra la Junta de Educación deTopeka (1954), 288, 288i Brown, John, 418Bruce, Blanche K., 450 Brujas, 141Brújulas, 54Búfalo (bisonte), 16i, 20, 30Bull Run, primera batalla de, 423, 437 Bunker Hill, Batalla de, 208 Burgoyne, John, 225Burr, Aaron, 309CCaballos, 70, 70iCabo Cod, 110Cabo de Buena Esperanza, África, 53 Cacique, 28Calabaza, 11, 70Calendario maya, 10Calhoun, John C., 322, 334, 334i California, 414categoría de Estado, 1850, 396 comercio con, 388conflicto con México, 378–379en el Tratado de Guadalupe Hidalgo, 380 espíritu de frontera, 372fiebre del oro en, 392–397población antes y después de la fiebredel oro, 393Cámara de los Burgueses, 84, 105, 144 Cámara de Representantes de los EstadosUnidos, 264, 276, 276iCamden, Nueva Jersey, 234Camino de California, 388Camino de los mormones, 386, 386i Camino de Oregón, 383–385Camino de Santa Fe, 387Caminos, 382, 388mCampamento en tierras vírgenes, 312 CanadáLeif Ericsson, asentamiento de, 50Canal del Erie, 367, 367i Canales, MES1, 367i, 367, 386 Canalones, 394, 394i CancionesAmerica the Beautiful (Ward y Bates), 372 canciones africanas con mensajessecretos, 165 ”Dixie”, 445“El grito de batalla de la libertad”, 413 escribir tu, 421planificar y escribir, 459“The Star-Spangled Banner”, 324Canoa hecha con corteza de abedul, 31i Canoas, 31i, 72iCaña de azúcar, 70–71Capitanes de barco, 46–47Caracoles, 12Características físicas y humanas, MES5 Caravana de carretas, 382–383, 383i Caravanas, 313, 384Carabelas, 51i, 54–55Caricaturas políticas, 195i, 328iCarleton, Dudley, 130Carlos I (rey de Inglaterra), 112, 144 Carlos II (rey de Inglaterra), 143, 144 Carlos V (rey de España), 90–91, 90i Carolina como colonia de propietarios,144Carolina del Norte, 423 Carolina del Norteen la Guerra Civil, 423colonias inglesas en, 96exploración francesa de, 117isla Roanoke, 99protestas coloniales por los impuestosbritánicos, 196iseparación de Carolina en 1712, 144Carolina del Sur , 419. Ver también Charleston, Carolina del Sur exploradores franceses en, 117la fuerza de la Unión controlaba el fuerteSumter en, 423levantamientos de los afroamericanosesclavizados en, 164monumento nacional del fuerte Sumteren, 408separación de Carolina, 144 exploración francesa de, 117 rebeliones de esclavos en, 164 separación de Carolina, 144Carpetbaggers, 448, 450Carretas, 382–384, 387iCarretera nacional y principales canales,principios del siglo XIX, 366m Carromatos de carga, 387 Carson, Kit, 378“Carta al rey Carlos V de España”(Cortés), 61“Carta para Sir Dudley Carleton” (Pory),130Cartas al editor, 241, 248–249, 295 Cartas realesde Jacobo I a la Compañía de Virginia, 101de la reina Isabel a Raleigh, 99en el rap Viajando a América del Norte,83en Nueva Francia, 119Cartier, Jacques, 106, 117, 118Casa Blanca incendiada por los ingleses,324Casa Presidencial (Casa Blanca), 309 Casacas rojas. Ver Ejército británico(casacas rojas)Casamientos entre personas blancas eindígenas, 121Casas con cortezas de árbol, 3i Casas de tablones, 31iCasas, 37t, 148Castigo público, 112iCastillo de San Marcos, 45Castores y pieles de castor, 118, 140 Catalina II (Rusia), 226Causa y efecto, 230–231Caza, 12, 140 Cazadores-recolectores, 7, 8, 19, 20 Centro de reuniones, 141Cerdos, 70, 367Cereales, 93, 149, 363Ceremonia del maíz verde, 18, 22 Ceremonia del Potlatch, 18iR47 </noscript> 
- </body>
-</html>

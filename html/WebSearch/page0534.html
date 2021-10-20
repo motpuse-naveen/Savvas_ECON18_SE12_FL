@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=533";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=534",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=533";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=534" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Decimotercera Enmienda: 1865 Abolición de la esclavitudLos Estados Unidos prohíben la esclavitud.El Congreso puede aprobar todas las leyes necesarias para hacer cumplir esta enmienda.Decimocuarta Enmienda: 1868 Derechos de los ciudadanos Las personas que nacieron en los Estados Unidos son ciudadanos tanto de los Estados Unidoscomo del estado donde viven. Los estados deben ofrecer un trato igualitario a sus ciudadanos. Los estados no pueden negara sus ciudadanos los derechos enumerados en la Declaración de Derechos.Esta sección de la enmienda convirtió a los antiguos esclavos en ciudadanos de los Estados Unidos y de su estado de origen.Según su población, cada estado tiene un número determinado de representantesen el Congreso. El número de representantes de un estado puede disminuir si no se permite el voto a determinados ciudadanos.El objetivo de esta sección era obligar a los estados del Sur a permitir el voto de los antiguos esclavos.14. Explica por qué un estado puede no querer que se reduzca el número de representantes que tiene en el Congreso.Enmienda 13Sección 1. Ni en los Estados Unidos ni en ningún lugar sujeto a su jurisdicción habrá esclavitud ni trabajo forzado, excepto como castigo de un delito del que el responsable haya quedado debidamente convicto.Sección 2. El Congreso estará facultado para hacer cumplir este artículo por medio de leyes apropiadas.Enmienda 14Sección 1. Todas las personas nacidas o naturalizadas en los Estados Unidos y sometidas a su jurisdicción son ciudadanos de los Estados Unidos y de los Estados en que residen. Ningún Estado podrá dictar ni dar efecto a cualquier ley que limite los privilegios o inmunidades de los ciudadanos de los Estados Unidos; tampoco podrá Estado alguno privar a cualquier persona de la vida, la libertad o la propiedad sin el debido proceso legal; ni negar a cualquier persona que se encuentre dentro de sus límites jurisdiccionales la protección de las leyes, igual para todos.Sección 2. Los representantes se distribuirán proporcionalmente entre los diversos Estados de acuerdo con su población respectiva, en la que se tomará en cuenta el número total de personas que haya en cada Estado, con excepción de los indios que no paguen contribuciones. Pero cuandoa los habitantes varones de un Estado que tengan veintiún años de edady sean ciudadanos de los Estados Unidos se les niegue o se les coarte enla forma que sea el derecho de votar en cualquier elección en que se trate de escoger a los electores para Presidente y Vicepresidente de los Estados Unidos, a los representantes del Congreso, a los funcionarios ejecutivosy judiciales de un Estado o a los miembros de su legislatura, excepto con motivo de su participación en una rebelión o en algún otro delito, la base de la representación de dicho Estado se reducirá en la misma proporción en que se halle el número de los ciudadanos varones a que se hace referencia, con el número total de ciudadanos varones de veintiún años del repetido Estado.R20 </noscript> 
- </body>
-</html>

@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=568";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=569",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=568";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=569" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼KKayak, 11“Kansas sangrienta”, 415, 417, 421 Kentucky, 424, 431 Key, Francis Scott, 324 King, Martin Luther, Jr., 286, 286iKings Mountain, Carolina del Sur, 234 Knox, Henry, 304Kósciuszko, Tadeusz (Kosciusko,Thaddeus), 225 Ku Klux Klan, 452LL’Enfant, Pierre-Charles, 308La Belle (barco), 119i“La Belle Rebelle”, 435La Cabaña del Tío Tom, (Beecher), 436La Isabela, República Dominicana, 60, 75 La lucha por la libertad (rap), 187La nación crece (rap), 297La pequeña casa en la pradera (Wilder),404La Salle, Robert de, 119, 174“La sangrienta masacre perpetrada enKing-Street” (Revere, grabado), 210i,211“La vida, la libertad y la búsqueda de lafelicidad” (frase de Locke), 215 Lacrosse, 20i, 21Lafayette, Marqués de, 228, 235 Lago Champlain, 323, 324Lago Erie, Batalla del, 323 Latín, 99Latitud, MES2i, MES4 Leales al rey, 187, 205, 212 Lee, Charles, 234Lee, Robert E.condujo sus fuerzas al norte de la línea Mason-Dixon, 440Grant contra, 442, 442i reunión entre Grant y, 444-445 uno de los brillantes generalesconfederados, 426, 426iLewis, Meriwether, MES19, 316, 316i Lexington, Batalla de, 242Ley de Expulsión de Indígenas de 1830,334, 335–336, 353Ley de Residencia de 1790, 308 Ley Declaratoria de 1766, 196–197 Ley del Poder Judicial, 304Ley del Puerto de Boston, 205i Ley del Té, 198, 203Ley del Timbrecomo impuesto al papel impreso, 194 Congreso de la Ley del Timbre, 194i, 195 discurso de Pitt sobre la, 197pedido de derogación de las colonias,195Resoluciones de la Ley del Timbre, 195 sello de un centavo, 194itensión entre las colonias y GranBretaña, 195–196, 198Ley Kansas-Nebraska (1854), 345 Ley marcial, 204Leyes Coercitivas, 204–205iLeyes de derecho de autor, 304Leyes de Jim Crow, 452Leyes de Reconstrucción, 449, 455Leyes de Extranjería y Sedición, 310, 314 Leyes Intolerables, 204–205, 205i, 206, 207 Leyes justas e igualitarias, 114Leyes. Ver también Declaración deDerechos; Constitución de los Estados Unidosde los ancestros, 40poderes compartidos por el gobiernofederal y los gobiernos de losestados, 276Leyes Townshend, 197–198, 198t, 200 Libertad, 419Escape a, 416luchar por, 454Libertad como un derecho humano, 214 Libertad de culto, 141–142, 278Libertad de expresión, 277–278, 277i Libertad de prensa, 278Life Among the Piutes (Winnemucca), 400 Liga de los Iroquois, 28–29Ligas, 28Límites, 169Línea Mason-Dixon, 414, 440Lincoln, Abraham, MES16, 430, 442i, 447iLos primeros pobladores de las Américas, 2–3lPrimeros presidentes, 351lSe establecen las colonias en Américadel Norte, 84–85lUna nueva nación, 246–247lLivingston, Robert, 215Llanuras, MES4Locke, John, 214–215, 214iLocomotora de vapor Tom Thumb, 368, 369i Logan (líder cayuga), 178, 178iLong Island, Nueva York, 224 Longitud, MES2i, MES2Los Ángeles, California, 388 Los del 49, 393, 395 Louisiana, 119Lowell, Francis Cabot, 365Lowell, Massachusetts, 364i, 365 Luchar por la libertad, 454Ludwig, Mary (Molly Pitcher), 227, 227i Lugar, MES1Luis XIV (rey de Francia), 119Luther, Martin, 99Lynn, Massachusetts, 112Lyon, Matthew, 310iMMadera, 140 Madison, Dolley, 324 Madison, Jamescomo presidente, 321, 321i, 351, 351i discurso de la Declaración de Derechos,275, 275iidea de un gobierno nacional fuerte, 261 nombrado para el gabinete, 304i opositor a las Leyes de Extranjería ySedición, 310quema de Washington, D.C., 324 The Federalist No 49, 294Ley Kansas-Nebraska, 415mMagnicidio, 440, 447Maine como estado libre según elAcuerdo de Missouri, 377, 414 Maíz, 11, 70, 93, 149, 367 Manhattan, Nueva York, 121 Mankiller, Wilma, 36Mankiller: Un jefe y su pueblo (Mankiller), 36 Mantener, 20MapasAcuerdo de Missouri, 1820, 343m Alaska, fines del siglo XVIII, 332m Animales, comercio de, con europeos,68–69m Asia, 44mBatallas, 1778–1781, 234m Cambios en los territorios y estadoslibres y esclavistas, 1820-1854,415mCaminos hacia el Oeste, década de1840, 388mCampos de batalla de la Guerra Civil,440mCarolina del Sur, 134mCarretera nacional y principales canales,principios del siglo XIX, 366m Colonia de Jamestown, Virginia, 84mbatalla de Antietam y, 427contra Davis, 424, 429dando el discurso de Gettysburg, 445i demócratas del Sur, elección, 418el Discurso de Gettysburg, 458 fragmento del discurso de aceptaciónal Partido Republicano de Illinois1858, 418Frederick Douglass y, 431la Proclamación de Emancipación, 438,438ilíder de los Estados Unidos durante laGuerra Civil, 409, 423 luego de la rendición de laConfederación, 445 magnicidio de, 447, 447imuerte de, 447Oficina de Libertos, 450recorrer Richmond, 444sobre detener la expansión de laesclavitud, 418psobre la esclavitud, 418sobre Ulysses Grant, 442visita a soldados del ejército en el campode batalla de Antietam, Maryland,441iLíneas de tiempoColonia de Jamestown, Virginia, 103l Colonias europeas en América del Norte,127lEra de la exploración, 44–45l Exploradores, 74–75lGuerra Civil y Reconstrucción, 408-409t Interpretar líneas de tiempo, 74, 74lLa Constitución de los Estados Unidos,291lLa expansión hacia el Oeste, 358–359l,401lLa Revolución de Texas, 377lLa Revolución Estadounidense, 188–189l La vida en la nueva república, 298–299l La vida en las Colonias, 134–135lR55 </noscript> 
- </body>
-</html>

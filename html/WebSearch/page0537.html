@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=536";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=537",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=536";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=537" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Enmienda 19El derecho de sufragio de los ciudadanos de los Estados Unidos no será desconocido ni limitado por los Estados Unidos o por Estado alguno por razón de sexo.El Congreso estará facultado para hacer cumplir este artículo por medio de leyes apropiadas.Enmienda 20Sección 1. Los períodos del Presidente y el Vicepresidente terminaránal medio día del veinte de enero y los períodos de los senadores y representantes al medio día del tres de enero, de los años en que dichos períodos habrían terminado si este artículo no hubiera sido ratificado, y en ese momento principiarán los períodos de sus sucesores.Sección 2. El Congreso se reunirá, cuando menos, una vez cada año y dicho período de sesiones se iniciará al mediodía del tres de enero, a no ser que por medio de una ley fije una fecha diferente.Sección 3. Si el Presidente electo hubiera muerto en el momento fijado para el comienzo del período presidencial, el Vicepresidente electo será Presidente. Si antes del momento fijado para el comienzo de su período no se hubiere elegido Presidente o si el Presidente electo no llenarelos requisitos exigidos, entonces el Vicepresidente electo fungirá como Presidente electo hasta que haya un Presidente idóneo, y el Congreso podrá prever por medio de una ley el caso de que ni el Presidente electo ni el Vicepresidente electo satisfagan los requisitos constitucionales, declarando quien hará las veces de Presidente en ese supuesto o la forma en que se escogerá a la persona que habrá de actuar como tal, y la referida persona actuará con ese carácter hasta que se cuente con un Presidente o un Vicepresidente que reúna las condiciones legales.Sección 4. El Congreso podrá prever mediante una ley el casode que muera cualquiera de las personas de las cuales la Cámarade Representantes está facultada para elegir Presidente cuando le corresponda el derecho de elección, así como el caso de que muera alguna de las personas entre las cuales el Senado está facultado para escoger Vicepresidente cuando pasa a él el derecho de elegir.Sección 5. Las secciones 1 y 2 entrarán en vigor el día quince de octubre siguiente a la ratificación de este artículo.Sección 6. Este artículo quedará sin efecto a menos de que sea ratificado como enmienda a la Constitución por las legislaturas de las tres cuartas partes de los distintos Estados, dentro de los siete años posteriores a la fecha en que se les someta.Decimonovena enmienda: 1920 Derecho al voto femeninoNingún gobierno puede impedir el voto a las personas basándose en su sexo.El Congreso puede aprobar las leyes necesarias para hacer cumplir esta enmienda.Vigésima Enmienda: 1933 Duración de los mandatosEl mandato de un Presidente comienza el 20 de enero. Esta fecha se conoce como Día de la toma de posesión. Los miembros del Congreso pueden ocupar su cargo el 3 de enero. (Originalmente, su mandato comenzaba el 4 de marzo).El Congreso debe sesionaral menos una vez al año. Deben realizar la primera sesión el 3 de enero a menos que se designe un día diferente.Si un candidato a Presidenteno obtiene la mayoría de los votos en el Colegio Electoral y muere mientras se resuelve la elecciónen la cámara, el Congreso tienela facultad de crear leyes que resuelvan el conflicto. El Congreso tiene una facultad similar si el candidato a Vicepresidente muere mientras se resuelve la elección en el Senado.Las secciones 1 y 2 de esta enmienda entran en vigencia el 15 de octubre posterior a la fecha en que la enmienda se convierte en parte de la Constitución.Esta enmienda debe obtener el voto a favor de tres cuartos de los estados dentro de un plazo de siete años.R23 </noscript> 
- </body>
-</html>

@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=563";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=564",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=563";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=564" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Derechos, 266, 277–278Derechos civiles protegidos por elgobierno, 266Derechos de los estados, 412, 414, 456 Derechos sobre la planificación de unaciudad, 192Derechos, Declaración de. VerDeclaración de Derechos Derogación de leyesAcuerdo de Missouri, 1820, 345 Decimoctava Enmienda, R22, R24 Ley del Timbre, 195–198Leyes Intolerables, 207Leyes Townshend, 198, 200Descontento, crecimiento del, 417 Desmotadora de algodón, 342, 347, 363,364,Despotismo, 270Destino manifiesto, 377, 381, 398 Destrezas de análisis, MES1-MES9,MES15-MES19, 28–29, 56–57, 74–75, 106–107, 230–231, 258–259, 370–371, 390–391Destrezas de escrituraDescubre más, 36Escribir informes y bibliografías, 294 Escribir usando fuentes, 190–191, 243 Hechos contra opiniones, 125, 130 Idea principal, 147Organizadores, 107Razonamiento crítico y escritura, 39, 79 Resultados de la Misión de escritura, 5,41, 46, 81, 86–87, 90, 111, 113, 131, 136–137, 185, 191, 226, 229, 243, 248–249, 269, 285, 295, 300–301, 355, 360–361, 405 , 459Secuencia, 80Taller de escritura, MES10-MES14, 79,129, 183, 241, 294, 354, 403Destrezas de gráficas. Ver Destrezas de gráficas y mapasDestrezas de investigación, MES14, 106–107, 411Destrezas de lecturaCausa y efecto, 230–231 Clasificar y categorizar, 428-429 Comparar y contrastar, 34–35 Distinguir los hechos de la ficción,390–391Distinguir los hechos de las opiniones,124Hacer inferencias, 328–329Idea principal y detalles, 146–147 Resumir, 258Secuencia, 56–57Destrezas de mapas y gráficashacer mapas, 54Interpretar datos culturales en mapas, 14 Interpretar líneas de tiempo, 74, 74lLeer gráficas circulares, 156–157 leyendas de los mapas, SCH3, 93m Manual de destrezas de Geografía, MES1 rosa de los vientos, MES3usar mapas y globos terráqueos, MES2Destrezas de razonamiento críticoAnalizar costos y beneficios, 370, 388 Analizar imágenes, 210Comparar puntos de vista, 280 Evaluación, 353Hacer y responder preguntas, 106Taller de escritura, 183Tomar decisiones, 420, 420iUsar e interpretar evidencia, 338–339Destrucción, 166Deuda, 144, 194Día de la evacuación, 230iDía de la Independencia, 218iDiagramas de Venn, 34Diario de Meriwether Lewis (Lewis), 316i Diario del primer viaje de Cristóbal Colón,59, 66, 80Dias, Bartolomeu, 45, 53, 56 Díaz del Castillo, Bernal, MES18 Dickinson, John, 206 Dinamarca, 49, 121Dinero. Ver también Monedaanálisis de costos y beneficios, 370 Cláusula de Apropiaciones para el usode fondos públicos, 284 Cláusula de gastos para recaudarimpuestos, 283Compañía de Virginia financiando barcosy provisiones, 101–102, 104 Continentals, 258ganancias, 363, 395Ley del Timbre para recaudar impuestospara Inglaterra, 194, 196 Leyes Townshend para recaudarimpuestos para Inglaterra, 197para financiar las guerras, 223, 226–227,234–235, 315para las travesías de los exploradores,51, 53, 59pedir préstamos, 283Rebelión de Shays por los impuestos,254recaudar impuestos, 283Diques, 149Discriminación, 286, 396. Ver tambiénClases y sistema de clases “Discurso ante el Congreso” (Polk), 378 Discurso de Tecumseh al gobernadorHarrison, 321“Discurso en la Primera Reunión Anual dela Asociación Estadounidense por laIgualdad de Derechos” (Truth), 345 Diseño de la moneda. Ver Moneda “Disparo que resonó en todo el mundo”208Distinguir los hechos de la ficción,390–391Distinguir los hechos de las opiniones,124–125Distribución de los poderes, 268t“Dixie”, 445Doctrina Monroe, 332, 354Dorchester Heights, Boston, 224, 230–231 Dorchester, Massachusetts, 112 Douglas, Stephen, 418Dos espíritus, 22Douglass, Frederick, 299, 299i, 344, 345i,350, 431Drake, Francis, 96 Dunmore, Lord, 178, 228 Duque de York, 143EEconomíabajo los Artículos de la Confederación, 253del Norte, 419, 457de los ancestros, 39 economías de los indígenasnorteamericanos, 26, 30en California durante y después de lafiebre del oro, 395, 397en la Constitución, 283, 285, 289 problemas bajo los Artículos de laConfederación, 258 regulaciones del Congreso sobre elcomercio, 284, 284i seccionalismo y, 457 del Sur, 445, 457Ecuador, MES2Edificio del Capitolio (en Washington,D.C.), 276i, 308, 324Edificio del Tribunal Supremo, 266i EducaciónAcademia para Mujeres Jóvenes, 346 autodidactismo de los afroamericanosesclavizados, 164de los afroamericanos, 161, 164de los niños, 153en la Nación Cheroquí, 36puritanos en Massachusetts, 112 sistema de escritura del idioma cheroquíde Sequoyah, 334 Winnemucca como educadora, 400Edwards, Jonathan, 154Ejército británico (casacas rojas), 222i,223t, 238 Ejército/soldados de la Uniónbatalla de Gettysburg y, 441 celebración de la victoria contra el Sur,445composición de, 431tcontrol de Grant sobre, 442ejército de Lee en Virginia y, 444 indígenas norteamericanos formaronparte de, 431marchar para unirse a la Guerra Civil,412irenuncia de Lee al, 442 sentados fuera de su tienda decampaña, 432iEjército Continental, 213El Álamo, Batalla de, 375“El grito de batalla de la libertad”, 413El progreso americano (Gast), 398iEl sentido común (Paine), 214, 220–221 Elecciones de 1860, 418“El silbato” (Franklin), 150Electricidad, descubrimiento de la, 363 Embarcaciones, 66Emerson, Ralph Waldo, 242Empresario, 395¡En marcha!, 6, 16, 26, 42, 48, 58, 68, 82, 88,98, 108, 116, 132, 138, 148, 158, 168, 174, 186, 188, 192, 200, 212, 222, 232, 244, 250, 260, 272, 282, 296, 302, 312, 320, 330, 340, 356, 362, 372, 380, 382, 392Enciclopedias, MES16, MES16i Encuentro (Yolen), 170R50 </noscript> 
- </body>
-</html>

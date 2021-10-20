@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=441";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=442",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=441";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=442" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼4. Revisar la lectura Analiza el mapa de los caminos hacia el oeste. Encierra en un círculo los caminos que cumplen el concepto del destino manifiesto. Comenta con un compañero las similitudes y diferencias entre los Caminos de Oregón, de California y de los Mormones.Los caminos hacia CaliforniaEn 1829, el comercio con California se convirtió en una posibilidad. Un comerciante mexicano exploró un nuevo camino desde Santa Fe hasta la costa oeste. Los comerciantes vendían artículos de lana de Nuevo México y volvían con caballos y mulas de California. El camino, llamado Antiguo Camino Español, cruzaba los desiertos y las montañas del territorio del nortede México y  nalizaba en el pequeño pueblo fronterizo deLos Ángeles.Los colonos no usaban la misma ruta hacia California que los comerciantes. Viajaban a California desde Missouri por el Camino de California. Ese camino seguía la misma ruta que el Caminode Oregón por el este de las montañas Rocosas. El camino se separaba cerca del río Snake. El Camino de California iba haciael suroeste y cruzaba las altas montañas de la Sierra Nevada. Finalizaba en Sacramento, que en la actualidad es la capitalde California.MOGNRRTíAosAMNiÑsDouriAESVLRío PlatteSRaIAEOllRNA eRCUACOReNnSREAítoSArAVLrkaanisaASSppiosdsariolsosCoíiMoíR00200 mi 200 kmLEYENDAPunto de partida: Santa Fe, NM Destino: Los Ángeles, CADistancia: Aproximadamente 900 millas Quiénes: Comerciantes de plata, pielesGolfo de MéxicoCiudad o asentamiento El mapa muestralas fronteras actuales.CAMINO DE OREGÓNPunto de partida: Independence, MO Destino: Región del río Columbia, ORfértiles en el Territorio de OregónFt. VancouverSacramentoOCÉANO PACÍFICOCAMINO DE CALIFORNIADistancia: Aproximadamente 2,000 millas Quiénes: Personas en busca de tierras de cultivoPunto de partida: Independence, MO Destino: Sacramento, CALos ÁngelesSanta FeMÉXICOCAMINO DE SANTA FECaminos hacia el Oeste, década de 1840CANADÁPunto de partida: Nauvoo, IL Destino: Salt Lake City, UTlDRRínoGradeN OE S388 Capítulo 8 • La expansión hacia el Oeste ESS19_SE05_CA_M0002009Gran Lago SaladoSalt Lake CityOmahaSt. JosephIndependenceNauvooSt. LouisANTIGUO CAMINO ESPAÑOLPunto de partida: Cerca de Independence, MO Destino: Santa Fe, NMDistancia: Aproximadamente 1,100 millas Quiénes: Comerciantesy bienes industrialesDistancia: Aproximadamente 2,000 millas Quiénes: Personas en busca deCAMINO DE LOS MORMONEStierras de cultivo y orosDistancia: Aproximadamente 1,300 millas Quiénes: Mormones en buscade libertad religiosa </noscript> 
- </body>
-</html>

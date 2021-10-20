@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=566";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=567",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=566";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=567" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Gran Bretaña. Ver Inglaterra Gran Concertación, 264Gran Despertar, 154–155Gran Hambruna Irlandesa, 342 Grandes Llanurasbúfalos en las, 20carretas cruzando las, 382, 384, 386 comercio de bienes de las, 33ten el rap Nación en movimiento, 357 indígenas cazadores en las, 17 nómades y granjeros en las, 9 pobladores de las, 3reservas en las, 336siux en las, 18, 119Granger, General Gordon, 431Grant, General Ulysses S., 441, 442, 442i,444-445Greene, Nathanael, 234 Griswold, Roger, 310i Guerra Civilcampos de batalla, 440p Clara Barton en, 409 comienzos de, 408, 409, 423 costo de, 445derechos de los afroamericanos después de, 453derechos de los estados en, 456 destrucción de Richmond, Virginiadurante, 448iedad de los soldados en, 432épocas difíciles, 458en imágenes, 436estados donde hubo 15 o más batallas,455tfin de, 409, 431, 440–447fuerte Sumter, 422iHarriet Tubman en, 454Jefferson Davis en, 409la vida durante, 430–437los estados del Norte y ganar, 457 nuevos instrumentos de, 425pelear en, 457reconstrucción y, 406–407secuencia de sucesos que llevaron a,417significado de, 419Sojourner Truth en, 409soldados de la Unión que se unieron a,412itropas confederadas dispararon contraelUnión y la Confederación durante, la, 428Guerra con México, 442Guadaña, 363Guerra de Dunmore, 178Guerra de los Siete Años, 174 Guerra de Pequot, 172, 172tGuerra del Rey Philip, 173Guerra Franco-India, 174–179, 176c,192–194, 238, 314Guerra total, 440, 443Guerras contra los powhatanos, 171–172,172t, 173Guerras. Ver también RevoluciónEstadounidensecontra los pequots, 172, 172tcontra los powhatanos, 171, 172, 172t declaración de guerra del Congreso, 276 entre Francia e Inglaterra, 119, 123entre Gran Bretaña y Holanda, 226entre grupos indígenas, 70entre Inglaterra y España, 96, 99–100, 226entre Inglaterra y Holanda, 123entre los colonos y la ConfederaciónPowhatan, 171entre los colonos y los indígenas, 169 entre los indígenas Iroquois yFrancia, 119entre los indígenas Iroquois y los Huron,119Guerra con México, 378–379Guerra de 1812, 322–327Guerra de Dunmore, 178Guerra de los Siete Años, 174Guerra del Rey Philip, 173Guerra Franco-India, 174–179, 192–194,238por la religión, 99Guilford Courthouse, Batalla de, 235HHacer inferencias, 328–329 Hacer un trueque, 133, 148 Halcones de guerra, 322 Hale, Nathan, 224Half Moon (barco), 120 Hamacas, 72 Hambruna, 103, 342 Hamilton, Alexandercomo Secretario del Tesoro, 304en el Partido Federalista, 247, 247i, 273i,305, 306, 306iensayos para The Federalist, 275 sobre la debilidad de los Artículos de laConfederación, 262sobre los poderes del Congreso, 307Harper’s Ferry, Virginia, 417Hancock, John, 207Harrison, William Henry, 321–322 Haudenosaunee (Pueblo de la ViviendaComunal), 28Hayes, George E. C., 288, 288i Hayes, Rutherford B., 400 Hecho, 124Hemisferios, MES2Henry, Patrickapoyo a los Artículos de la Confederación, 261–262como antifederalista, 247, 247i, 273, 273i crítico de la Ley del Timbre, 195discurso de los derechos de los estados,274en el Primer Congreso Continental, 206Herreros, 154iHessianos, 223, 225Hiawatha, Jefe del grupo Onondaga, 29i Hijas de la Libertad, 196, 203Hijos de la Libertad, 195, 203, 203i Hilanderas, 365, 365iHimno de Concord (Emerson), 242 Historia verdadera de la conquista de laNueva España, 1576 (Díaz del Castillo),MES18HMS Guerriere, 322, 323iHolanda como aliado de los EstadosUnidos en la Revolución, 226Homógrafo, 22, 443Homónimo, 119, 226Hooker, Thomas, 142Horseshoe Bend, Batalla de, 325 Hopkins, Juliet Opie, 433 Houston, Sam, 376Howe, Elias, 363Howe, William, 224Hudson, Henry, 85, 85i, 120, 124i Hutchinson, Anne, 135, 135i, 142IIdahoderecho a votar de las mujeres en, 347en el territorio de Oregón, 383Idea principal y detalles, 146–147 Idiomas, 17, 72, 73c, 99Iglesia Católica, 92, 93, 95, 144 Iglesia de Inglaterra, 102, 109–110 Iglús, 11Igualdad, 214Igualdad, de todos los ciudadanos, 451 Igualdad de derechos, 290Ilustración, 214Imperio de la ley, 282–283Imperios, 61Importación, 150, 285iImpuesto a los mineros extranjeros, 396 Impuestos, 285Impuestos. Ver también Ley del TimbreCláusula de Gastos para recaudar impuestos, 283Constitución de los Estados Unidos y, 285impuesto para mineros extranjeros, 396 impuestos para las personas que nofueran ciudadanas, 396Ley del Té, 198, 203Leyes Townshend, 197–198, 198t, 200 Plan de Unión de Albany y los, 193–194 protestas coloniales por los impuestosbritánicos, 196iRebelión de Shay contra los, 254Inalienable, 348Inauguración, 297, 303 Independence, Missouri, 382, 387 Independencia, 213, 214. Ver tambiénRevolución Estadounidense India, especias de la, 44, 53 Indias Occidentales, 60, 160 Indígenas de las Llanuras, 16i Indígenas norteamericanosalgonquinos, 12, 122, 122i alimentos, 4–5, 41 anasazis, 11apaches, 17i, 373armas de Inglaterra, 321ataques a comerciantes, 387–388, 389 caballos para cazar y para la guerra, 70i cahuillas, 31calusas, 12cayugas, 28, 178cheroquíes, 12, 36, 223, 334, 353 Chickasaw, 334Choctaw, 334chumash, 12R53 </noscript> 
- </body>
-</html>

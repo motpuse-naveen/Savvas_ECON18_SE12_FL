@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=564";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=565",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=564";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=565" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Enfermeras, 433Enfermedades, 102, 126. Ver tambiénEpidemiasEnmiendas, 276, 278t, 285, 289. Vertambién Declaración de Derechos Ensayos de The Federalist, 275, 280, 294 Envíos, innovaciones en los, 367–368 Epidemias, 64. Ver también Enfermedades Equiano, Olaudah, 159, 166–167, 184“Era de los buenos sentimientos” 330 Eric, El Rojo, 49Ericsson, Leif, 49–50“¿Es un crimen que una ciudadanaestadounidense vote?” (Anthony), 346 Escala, MES3Escandinavia, 49 Escasez, 228 Esclavitudeliminación de, 457en el territorio del Noroeste, 414en los Estados Unidos, 1790-1860, 413t Lincoln y, 430lucha, 412-419Reconstrucción y, 451Stephen Douglas en, 418territorio de Kansas y, 415Esclavos y comercio de esclavos. Ver también Afroamericanosabolición, 345–347Acuerdo de los Tres Quintos, 264 Acuerdo de Missouri de 1820, 342–343,377africanos en barcos de esclavos, 158i aprender a leer y escribir comoresistencia, 164barcos de esclavos, 158i, 159 cabañas de esclavos, 162 condena en la Declaración deIndependencia original, 218 cultivos, trabajo de los esclavos en los,161–162cultura de los, 162–163Decimoquinta Enmienda, 286, 451, 455 Decimotercera Enmienda, 286definición, 159en Carolina del Sur, 144en el patrón del comercio triangular, 151,151men el Territorio del Noroeste, 256en las colonias, 158–165en las plantaciones de caña de azúcar,71en las plantaciones del Caribe, 71en los estados del sur, 144–145, 145i,256, 264 en Texas, 374escape de esclavos de la Florida, 331 familias rotas, 162, 164Frederick Douglass, 350indígenas pequot como esclavos, 172 liberados por sus dueños, 161 maltrato a los, 164marineros portugueses como comerciantes de esclavos, 51–52narración de las experiencias de Equiano, 166–167poblaciones esclavizadas, 163t rebeliones de afroamericanosesclavizados, 164–165sin derecho a votar, 152trabajo hecho por los afroamericanosesclavizados, 160–161Escritura basada en los documentos, 86–87, 100, 111, 131, 300–301, 355Escritura de un borrador, de una canción, 459Escritura de un guión, 300–301 Escritura de una anotación de diario,86–87, 113, 131 Españaaliada de los Estados Unidos en la Revolución Estadounidense, 234colonia de Nueva España, 64 conquista de las Américas, 61 cooperación y conflictos con losindígenas norteamericanos, 96t cristianismo en, 59indígenas timucuas y, 95reclamo de tierra de Coronado enAmérica, 63Tratado de Tordesillas con Portugal, 89 venta de la Florida a los Estados Unidos,331y la guerra con Inglaterra, 96, 226Especias, 44, 53, 117Espíritu de frontera, 372Estado de la Estrella Solitaria, 376 Estado de Nueva Yorkaltitud, MES15, MES5mesclavitud abolida en, 417 levantamientos de los afroamericanosesclavizados en, 164-165 movimientos de Washington en, 224 rebelión de esclavos en, 164–165Estados. Ver también Antifederalistas; estados específicosconstituciones de los estados, 260 convenciones de los estados, 273, 279 derechos de los estados, 272, 274 diferencias en los derechos al votosegún los estados, 260la Constitución y los, 272, 276la Declaración de Derechos y los, 274,274ila Gran Concertación y los, 264 moneda emitida por los, 253 Ordenanza del Noroeste de 1787,255–257, 293plan de Nueva Jersey, 263poderes de los estados, 268, 272, 276,284poderes estatales y el gobierno nacional,268tratificación de la Constitución, 275 sistema de voto por Colegio Electoral,R10, 303votos bajo los Artículos de laConfederación, 252Estados de la Confederación de los Estados Unidos, 419Estados del Norteseparados de los estados del Sur, 413 gente de, 434ganar la guerra para, 457Estados del Surcódigos negros en, 450luego de la Reconstrucción, 452 mujeres en, 434separados de los estados del Norte, 413Estilo, 440, 442Estrategia, 440, 442Estados Unidos, gente esclavizada en ladécada de 1860, 416Estilo de vida de los pueblos antiguos, 9tEstrecho de Bering, 7Estrecho de Cumberland, Tennessee, 314,314i, 342 Europacolonias europeas en América del Norte, 120m, 127tcomercio con, 70comercio y rutas comerciales hacia,1400s, 44minmigración europea (1789–1850), 341t inmigración europea a los EstadosUnidos, 340–341, 352t viajar por el océano desde, 49Eutaw Springs, Batalla de, 235 Evaluaciones, 38, 78, 128, 182, 240–241,292, 352, 400, 456-458 Expansión hacia el Oeste1783–1853, 380m después de la RevoluciónEstadounidense, 313en el área de los Grandes Lagos, 326en el valle del río Ohio, 173hacia el océano Pacífico, 358m, 358–359l línea de tiempo, 401lpermitida por el Tratado de París, 236Expedición de Lewis y Clark, SCH19, 316, 317mExpediciones, 44m, 51–52, 51i, 53, 61 Exploración española. Ver también Intercambio colombino; Colón,Cristóbalcolonias de Nueva España, 64, 88, 92, 130colonias en las Américas, 88–97 Coronado, 63, 63iCortés, MES17, 45, 61, 90De Soto, 63Magallanes, 45, 62mapas de la, 60m, 63m, 79m misiones españolas, 93mMisiones, 88, 92–93Ponce de León, 63St. Augustine, Florida, 64, 94, 94i, 96Exploración portuguesaconstrucción de barcos y la, 54–55 Da Gama, Vasco, 53, 56–57Dias, Bartolomeu, 45, 53, 56 hechos sobre los, 52tmapa de la, 53mPríncipe Enrique El Navegante, 51–53,56–57, 76Exploradores españoles, 64 Exploradores. Ver también Colón,Cristóbalcolonias europeas en América del Norte, 123Coronado, Francisco Vásquez de, 63i da Gama, Vasco 53de Soto, Hernando, 63Dias, Bartolomeu, 45, 53, 56Eric El Rojo, 49Ericsson, Leif, 49–50exploradores españoles, 51i, 58–65 exploradores portugueses, 51i Hernán, Cortés, 45, 61líneas de tiempo, 74–75Magallanes, Fernando de, 45, 62 Ponce de León, Juan, 63primeros exploradores, 49, 77t Príncipe Enrique, el Navegante, 51–53,76viajes exitosos, 54R51 </noscript> 
- </body>
-</html>

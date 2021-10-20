@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=573";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=574",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=573";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=574" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Proceso de escritura, MES10i Proclamación de 1763, 179tRecursos militares, 223tSistema de controles y equilibrios, 267t Sucesos que llevaron a la guerra, 176t Sucesos y personas clave (entre 1788 y1828), 351tUnión y la confederación, La, 424Taínos, 60Taller de escrituraClaves para la buena escritura, MES10- MES14Escritura de opinión, MES11 Escritura informativa, MES12 Escritura narrativa, MES13Tasas de aduana, 285Taylor, Zachary, 378Tecnología, 8, 48, 55, 72, 401, 401t, 436 Tecumseh, 321–322, 321tTejanos, 373, 376Telégrafos y líneas telegráficas, 363, 396,398i Tennessee, 423Tenochtitlán, México, 10, 61Territorio de Indiana, 321Territorio de Louisiana, 315, 343 Territorio de Oregón, 383Territorio del Noroeste, 255–256, 322, 323 Territorio indígena, 334, 336Texasanexado y convertido en estado, 1845, 377asentamientos españoles en, 93 bandera, 376icolonos estadounidenses en, 373–374,373icomo Estado de la Estrella Solitaria, 376i como parte de México en la década de1820, 373declaración de independencia, 376 en la Guerra Civil, 414, 419, 431 espíritu de frontera en, 372 República de Texas, 376Revolución de Texas, 374–375, 375m,377l“The American’s Creed” (Page), 288 The Federalist Nro. 2 (Jay), 280The Federalist Nro. 45 (Madison), 275 The Federalist Nro. 49 (Madison), 294 The Liberator (periódico), 344The North Star (periódico afroamericano), 345i, 350The Star-Spangled Banner (Key), 324 Thornton, William, 308Tipis, 3iTippecanoe, Batalla de, 322Tirana, 280Tisquantum (Squanto), 126, 126i Título, MES3Tocados, 18Tocino, 458Toma de decisiones en grupos, 29 Tomates, 70Tomochichi (jefe yamacraw), 144 Topógrafos, 308Townshend, Charles, 197Trabajo, 36, 228, 370Trabajos, 148, 153–154, 155 Tradiciones, 17, 340Tradiciones orales, 24Traición, 215–216Traidor, 225Tranquilidad doméstica, 282–283 Transgredir, 336Transporte y viajesa California por barco, 393ia comienzos del siglo XIX, 368ta nuevos lugares, 58, 356, 362 Antes y ahora, 384tbarcos de vapor, 367Carretera Nacional, 366, 366m ferrocarriles, 368–369paradas en las misiones de NuevaEspaña, 93Tratado de Adams-Onís de 1819, 331Tratado de alianza entre los Estados Unidos de América y su majestad más cristiana [Francia], 226Tratado de Guadalupe Hidalgo, 380 Tratado de París, 236, 236i, 238 Tratado de Gante, 325, 326i Tratados, 177Tratados de paz, 126Travesía intermedia, 159, 165, 166Tren Clandestino, 412, 416Trenton, Batalla de, 224, 231Trenton, Nueva Jersey, 224Tribunal Supremo de los Estados Unidos,288, 304, 336derechos afroamericanos y, 417Trigo, 70, 140, 149, 367Trituradoras de roca para buscar oro, 394 Tropas confederadas del Sur, 408Truth, Sojourner, 345, 345i, 409, 417, 435,435i Tsenacommacah, 171 Tubman, Harriet, 416, 454 Tubman, John, 454 Turner, Nat, 164, 164iUUbicación, MES1m, MES1iUbicaciones absolutas, MES2 Ubicaciones relativas, MES2“Una ciudad sobre una colina”, 112Una nueva vida en las colonias (rap), 133 Una unión más perfecta (rap), 245 Uniformes, MES15, MES15iUnión, 412, 414antiguos estados confederados y, 451 Batalla de Gettysburg como victoriaclave para, 441 bloqueo, 432fuerza, Davis y, 423las fortalezas de, 428, 429 Lincoln en la, 419, 424total (cantidad estimada), 455t victoria en Vicksburg, 44Universidad de Harvard, 112Uso de bateas para buscar oro, 394 USS Constitution “Viejos Laterales deHierro”, 304, 322, 323i Usurpación, 220Utahasentamientos españoles en, 93 derecho de las mujeres a votar, 347en el Tratado de Guadalupe Hidalgo, 380Utensilios de cocina de Jamestown, 102i Uvas, 70, 130VValentía, 454 Valle del río Ohiocolonos deseosos de ocupar el valle, 178constructores de montículos cerca del, 11controlado por Inglaterra, 177en el sistema de clases español, 92 Guerra Franco-India y el, 193reclamado por La Salle, 174según los Artículos de la Confederación,253–254Valley Forge, Pennsylvania, 225, 232, 238, 240Vaqueros, 373Vegetales, 93Venado, 12, 140Veto, 266Viajando a América del Norte (rap), 83 Vida cotidiana de los indígenasnorteamericanos, 19–21 Vicksburg, victoria de la Unión en, 441 Vida cotidiana en las colonias, 148–153 VirginiaCámara de los Burgueses en, 105 durante la Guerra Civil, 417, 423, 426,434colonias inglesas en, 96, 98–105 Patrick Henry en la convención estatal,273rebeliones de esclavos en, 164Virginia, el, 425Virginia Occidental, 431 Virreyes, 83, 90Viruela, 64, 71, 71iViviendas en los acantilados, 11 Votar, derecho a, 451WWard, Samuel A., 372Warren, Mercy Otis, 227Washington (estado), en el Territorio deOregón, 383Washington, D.C., 308, 324, 324i, 424 Washington, Georgeaplicación de la Ordenanza del Noroeste de 1785, 256batallas de la Revolución Estadounidense, 224–225civismo, 238como comandante en jefe del EjércitoContinental, 189, 189icomo consejero de Braddock, 177 como el primer presidente, 238, 238i,303, 351, 351iR60 </noscript> 
- </body>
-</html>

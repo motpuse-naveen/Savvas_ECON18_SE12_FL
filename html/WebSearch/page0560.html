@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=559";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=560",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=559";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=560" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼ÍndiceEl índice enumera las páginas en las que aparecen los temas de este libro. La m que sigue a los números de página se refiere a mapas. La i que sigue a los números de página se refiere a imágenes. La t que sigue a los números de página se refiere a tablas y gráficas. La l que sigue a los números de página se refiere a líneas de tiempo. Los números de página en negritas indican dónde aparecen las definiciones de vocabulario. Ver y Ver también dirigen al lector a entradas alternativas.AAbolicionista, 412, 414Abrumado, 422, 423Academia para Mujeres Jóvenes, 346 Accidentes geográficos, MES1, MES4 Actividades, 15, 35, 57, 75, 107, 125, 147,157, 211, 231, 259, 281, 329, 339, 371,391. Ver también ¡En marcha!; Misión Acorazado, 425Acuerdo de los Tres Quintos, 264 Acuerdo de Missouri de 1820, 345, 377,414, 415m, 455Acuerdos, 245, 251, 260–262, 264, 412de 1850, 408, 455, 457Congreso, 456la aprobación por el Congreso en 1850, 408 difíciles, 414, 421Adams, Abigail, 218, 218i, 290, 309 Adams, John, 207como presidente, 309, 351, 351icomo vicepresidente, 303Declaración de Independencia y, 215i en el Primer Congreso Continental, 206 en la negociación del Tratado de París,236, 236iMasacre de Boston y, 201Adams, Samuel, 202, 203, 206 Adaptarse, 336Aduana de Boston, 201 Áfricacomercio triangular y, 151, 151m exploración portuguesa de, 53, 56 intercambio colombino y, 70Afroamericanos. Ver también Esclavos y Comercio de esclavosalistamiento en el ejército dela Unión, 430i, 431aparcería, 452, 452icargos públicos, 450códigos negros, 448, 450cultura de los, 158derechos luego de la Guerra Civil, 453 desarrollo de las plantaciones y, 457 discriminación, 218, 286educación de, 161, 164en el Oeste, 345en la Revolución Estadounidense, 228,228iescape de la esclavitud, 416escuelas para, 450ifiesta del 19 de junio en Texas, 431 impedir la votación, 453, 453iLey del Derecho al Voto, 286leyes de Reconstrucción, 449Leyes de Jim Crow, 542libertad y, 439libres, 161población en 1830, 343Proclamación de Emancipación y, 457 segregación de los, 288seminolas y los, 331sentencia del Tribunal Supremo sobre losderechos, 417Sojourner Truth, 435Soldados del 107° regimiento de colorde los Estados Unidos, 430i votación de los hombres, 451y Decimoquinta Enmienda, 29y DecimoterceraEnmienda, 451, 455Agricultura, 1, 8, 31, 38, 140, 148, 161, 165, 398i. Ver también los cultivos específicosAlaska 332mAldea timucua, 95iAlemania, 121, 341–342Algodón, 162i, 363, 365, 367, 373 Alimentos. Ver también los alimentosespecíficosafricanos esclavizados y los, 164 cocinar, 41como artículos de intercambio, 32,68–69mde los indígenas norteamericanos, 4–5,11, 37tefectos del medio ambiente en los, 148 en la Guerra Civil, 432, 434, 458 escasez en la colonia de Jamestown,103escasez en la isla de Roanoke, 100 especias, 44, 53, 117mantener una provisión de, 20 planificar un menú, 4Alistarse, 422, 423, 431Alojar (dar albergue), 204America the Beautiful (Ward y Bates), 372 Analizar imágenes, 210–211Anasazi, 11Ancestrales, 11, 20, 22, 38, 40Anglicanos, 102Animales marinos, 11Animismo, 22Anthony, Susan. B., 346, 346iAntietam, Batalla de, 427, 433, 437, 441,443Antifederalistas, 272–273, 274, 279, 281,291tAntiguo Camino Español, 388Aparcería, 448, 452, 452i, 456Appomattox, el camino a, 444 Aprendices, 152Aprendizaje basado en proyectos, 4–5, 41,46–47, 64, 81, 136–137, 185Arabia, tecnología de, 55Aranceles, 197, 307, 334, 338Arco Gateway, St. Louis, 298iÁreas de América del Norte reclamadas,182tAristocracia, 280Arizona, 93, 380, 381Armistead, James, 189, 189i, 228 Armónica, 270Arnold, Benedict, 225Arpones, 8Arroz, 140, 144, 161Artefactos, MES15i, MES15 Artesanos, 153, 154iArtículos de la Confederación. Vertambién Convención Constitucional como forma de gobierno débil, 252 debates sobre los, 263definidos, 251derechos de los estados, 252, 257 inflación, 253opiniones sobre los, 262tpolíticas territoriales, 255 resumen, 258–259, 259tAsamblea, 255Asentamientos en el Suroeste, 379t Asentamientos en la costa, 140 Asiabúsqueda de rutas hacia, 50 intercambio colombino y, 70primera migración a América del Norte, 6 rutas comerciales en el siglo XV, 44m Asociación Nacional Americana parael Sufragio Femenino, 346 Astrolabios, 54i, 54Astronomía practicada por los mayas, 10 Ataúdes, 201iAtlanta, 443AtlasAmérica del Norte, mapa físico de, R35 América del Norte, mapa político y dedensidad de población de, R34 Estados Unidos, mapa físico de, R30–R31Estados Unidos, mapa político de, R28–R29mapamundi, R32–R33Attucks, Crispus, 201, 201iAustin, Stephen F., 373, 373i, 376 Autobiografías, MES15Avilés, Pedro Menéndez de, 85, 85i, 94 Aztecas, 9–10, 10i, 39, 61BBahía de Baffin, 116pBahía de Chesapeake, 100, 102Bahía de Plattsburgh, Lago Champlain,323 Bailes, 18i, 22Ballenas y caza de ballenas, 11, 148 Baltimore, Lord, 144Banco (Nacional) 307, 333, 333i, 338 Banderade los Estados Unidos, 324, 324i de Texas, 376iJuramento a la bandera, xxvi reglas y regulaciones, xxivR46 </noscript> 
- </body>
-</html>

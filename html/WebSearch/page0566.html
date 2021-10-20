@@ -1,166 +1,0 @@
-<!-- saved from url=(0014)about:internet -->
-<html lang="en" itemscope itemtype="http://schema.org/Book">
-
-<!-- 
-Smart developers always View Source. 
-
-This application was built using Adobe Flex, an open source framework
-for building rich Internet applications that get delivered via the
-Flash Player or to desktops via Adobe AIR. 
-
-Learn more about Flex at http://flex.org 
-// -->
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta property="og:image" content="content/thumbs/thumb1.jpg" />
-<meta itemprop="image" content="content/thumbs/thumb1.jpg">
-<!--  BEGIN Browser History required section -->
-<link rel="stylesheet" type="text/css" href="../history/history.css" />
-<!--  END Browser History required section -->
-
-<title>NA_SE_SP_G5a</title>
-<script src="../AC_OETags.js" language="javascript"></script>
-
-<!--  BEGIN Browser History required section -->
-<script src="../history/history.js" language="javascript"></script>
-<!--  END Browser History required section -->
-
-<style type="text/css">
-  body { margin: 0px;
-         overflow:hidden;
-         background-color: ThisisBackgroundColor;
-	 background-image: url(ThisisBackgroundImage);
-         background-repeat:no-repeat;
-         background-position:center;
-       }
-        
-</style>
-
-<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=565";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
-
-<script language="JavaScript" type="text/javascript">
-<!--
-// -----------------------------------------------------------------------------
-// Globals
-// Major version of Flash required
-var requiredMajorVersion = 10;
-// Minor version of Flash required
-var requiredMinorVersion = 0;
-// Minor version of Flash required
-var requiredRevision = 0;
-// -----------------------------------------------------------------------------
-// -->
-</script>
-</head>
-
-<body scroll="no" onload="setBrowserFocus()">
-<script language="JavaScript" type="text/javascript">
-<!--
-
-function closeMe(){return window.close();}
-
-var gotoPage = function(page){
-	if (navigator.appName.indexOf("Microsoft") != -1) {
-		return window['main'].gotoPage(page);
-	}
-	else {
-		return document['main'].gotoPage(page);
-	}
-}
-
-// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
-var hasProductInstall = DetectFlashVer(6, 0, 65);
-
-// Version check based upon the values defined in globals
-var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-
-function getparafromurl() {
-    var url,pos,parastr,para;
-    url = window.location.href;
-    pos = url.indexOf("?")
-    parastr = url.substring(pos+1);
-    return parastr;
-}
-
-function setBrowserFocus(){ document.getElementById('main').focus();}
-
-if ( hasProductInstall && !hasRequestedVersion ) {
-	// DO NOT MODIFY THE FOLLOWING FOUR LINES
-	// Location visited after installation is complete if installation is required
-	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
-	var MMredirectURL = window.location;
-    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
-    var MMdoctitle = document.title;
-
-	AC_FL_RunContent(
-		"src", "playerProductInstall",
-		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
-		"width", "100%",
-		"height", "100%",
-		"align", "middle",
-		"id", "main",
-		"quality", "high",
-		"allowFullScreen","true",
-		"FlashVars", getparafromurl(),
-		"bgcolor", "#ffffff",
-		"name", "main",
-		"allowScriptAccess","sameDomain",
-		"type", "application/x-shockwave-flash",
-		"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-} else if (hasRequestedVersion) {
-	// if we've detected an acceptable version
-	// embed the Flash Content SWF when all tests are passed
-	AC_FL_RunContent(
-			"src", "../main?page=566",
-			"width", "100%",
-			"height", "100%",
-			"align", "middle",
-			"allowFullScreen","true",
-			"id", "main",
-			"FlashVars", getparafromurl(),
-			"quality", "high",
-			"bgcolor", "#ffffff",
-			"name", "main",
-			"allowScriptAccess","sameDomain",
-			"type", "application/x-shockwave-flash",
-			"pluginspage", "http://www.adobe.com/go/getflashplayer"
-	);
-  } else {  // flash is too old or we can't detect the plugin
-    var alternateContent = 'Adobe Flash Player not detected. '
-   	+ 'Redirecting to HTML5 version';
-    document.write(alternateContent);  // insert non-flash content
-
-    var url= "../html5.html?page=565";
-    if( false &&  window.parent)
-       window.parent.location=url;
-    else
-       window.location =url;
-  }
-// -->
-</script>
-<noscript>
-  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-			id="main" width="100%" height="100%"
-			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
-			<param name="movie" value="../main.swf?page=566" />
-			<param name="quality" value="high" />
-			<param name="allowFullScreen" value="true" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="allowScriptAccess" value="sameDomain" />
-			<embed src="main.swf" quality="high" bgcolor="#ffffff"
-				width="100%" height="100%" name="main" align="middle"
-				play="true"
-				loop="false"
-				allowFullScreen="true"
-				quality="high"
-				allowScriptAccess="sameDomain"
-				type="application/x-shockwave-flash"
-				pluginspage="http://www.adobe.com/go/getflashplayer">
-			</embed>
-	</object>
-</noscript>
-<noscript> ￼Vikingos, 49iExplorando el mundo (rap), 42–43 Exposición, 430, 436 Exportaciones, 133, 150FFabricación de pelucas, 154 Fabricación de relojes, 154 Fabricación de velas, 154Fábricas textiles, 364i, 365Fábricas y pueblos fabriles, 364–365,370–371Factor de atracción, 341Factor de expulsión, 341Federalistas, 272–275, 291tFerrocarril Baltimore & Ohio (B&O), 368 Ferrocarriles y asentamientos de losferrocarriles, 368, 369, 401t Festín de acción de gracias, 111 Fiebre del oro, 393Fiesta del 19 de junio, 430, 431, 437 Filadelfia, PAartesanos en, 153Artículos de la Confederación en, 251 casa colonial en, 143icomo primera capital de los EstadosUnidos, 308Constitución escrita en, 264 largas batallas de la RevoluciónEstadounidense en, 225 trabajos en, 149Filipinas, Magallanes asesinado en, 62 Financiar, 101Florida, 419Everglades de la Florida, 330i exploración española de la, 63 Francia en la, 90, 94misiones españolas en la, 93 timucuanos y los españoles, 95 Tratado de Adams-Onís de 1819, 331Focas, 11Folklore, 19Formación de palabras, 204 Franciaaliada con los Estados Unidos en la Revolución, 226, 233batallas en el mar con Inglaterra, 320i búsqueda de una ruta hacia el océanoPacífico desde el Atlántico, 116–117 captura de barcos estadounidenses,310, 321colonia de Nueva Francia, 106en la Florida, 90, 94España y, 90, 94, 106exploración de América del Norte, 117 exploradores franceses, 117–119 guerras con Inglaterra y los indígenasIroquois, 119Inglaterra y, 89, 119, 123, 174–178, 192,226tierra deseada en las Américas, 89 Timucuanos y, 95y la compra de Louisiana, 315Francisco I (rey de Francia), 117 Franklin, Benjamíncivismo, 180, 180iDeclaración de Independencia y, 215“El silbato”, 150en la Convención Constitucional,261–262, 262p, 270i talentos de, 146último discurso en la Convención Constitucional, 270–271y el Tratado de París, 236, 236iFrémont, John Charles, 318, 378, 378i Fronteras de los Estados Unidos despuésde la guerra, 236 Fuente de la juventud, 63 Fuentes primarias (Sección)Cuentos folklóricos indígenas, 24 Destino manifiesto, 398Diario de Cristóbal Colón, 66El Pacto del Mayflower, 114El sentido común, de Thomas Paine, MES15El último discurso de Benjamín Franklin, 270“La Declaración de Sentimientos”, 348 Narración de la vida de Olaudah Equiano,166proclamación de emancipación, 438 usar las, MES15Fuentes primarias, MES15-MES18, MES16, 32, 32p, 36, 40, 59, 61, 66, 80, 102, 110, 114, 130, 159, 170, 176, 184, 193, 195, 197,207, 217, 220 -221, 226, 236, 242, 256, 265, 270, 274, 275, 285, 288, 294, 301, 316p, 321, 324, 335, 345, 346, 348, 354, 372, 378, 398, 404, 413, 416, 418, 433, 435, 438, 446, 458Fuentes secundarias, MES16, MES19, 301 FuertesCaroline, 94–95Castillo de San Marcos, 45Cristina, 122Duquesne, 174–175, 177en Boonesboro, 314en el valle del río Ohio, 174, 177en Goliad, 375en Jamestown, 103en la isla de Roanoke, 99en Quebec, 118en Saratoga, 225en West Point, 225fuertes británicos atacados por España,234fuertes de la Florida capturados porAndrew Jackson, 331 McHenry, 324Sumter, 408m, 423, 456, 456m Necessity, 175, 175m, 175i Vincennes, 188iFuerzas Armadas, 282–283Fulton, Robert, 367Funciones familiares de los indígenasnorteamericanos, 20, 21tGGabinete, 297, 304i, 304 Gage, Thomas, 207 Galletas de marinero, 432 Gálvez, Bernardo de, 234 Ganado, 70, 367, 373 Ganancias, 363 Ganancias excesivas, 229Garrison, William Lloyd, 344, 344i, 417 Gast, John, 398Gates, Horacio, 225Generaciones, 56Geografía. Ver también Mapasde las colonias, 139, 140t, 145 definición, 1, 8Destrezas de geografía, MES1-MES9 rap de la geografía, 1temas de, MES7Geografía del Nortevs. la geografía del Sur, 413Georgia, 419, 443 Georgia, playa, MES1 Geografía del Survs. la geografía del NorteGeorgia, expulsión de los cheroquíes de, 336GettysburgEl discurso de, 446, 446ila batalla de, 409la victoria de la Unión en, 441Germantown, Batalla de, 232Globos terráqueos, MES2Gobierno. Ver también Constitución delos Estados Unidos; Convención ConstitucionalArtículos de la Confederación como unaforma de gobierno débil, 252de grandes naciones, 28–29de los indígenas norteamericanos, 26–27 federalistas y antifederalistas, 275 poderes de, 267–268propósito del, 293tipos de, 27Gobierno central débil, 252 Gobierno Imperial Ruso, 354 Goletas de la pradera, 383–384, 385 Goliad, Texas, 375Gráficas circulares, 156–157Gráficas lineales, 128t, 292tGráficas y tablas. Ver también TablasComparar exploraciones, 62t Comparar puntos de vista, 281t Disputas por la tierra, 170tDiversidad colonial, 1700, 156t Diversidad colonial, 1755, 157tEfecto de la inflación, 1775–1779, 253t,292tEsclavitud en los Estados Unidos, 1790-1860, 413tEstados en los que hubo 15 o másbatallas de la Guerra Civil, 455t Fuerzas y bajas de la Confederación y dela Unión, 455tEjército de la Unión, 431tGráfica lineal de los precios del tabaco,1700–1770, 128tGráficas circulares, 156–157t Gráficas de barras, 163t Inmigración europea a los EstadosUnidos, 1789–1850, 341t, 352tLos primeros partidos políticos, 306t Población esclavizada, Norte y Sur, 163t Precios del tabaco en la colonia deVirgina, 128tRecursos compartidos, 12tRecursos que usaban los indígenas dela zona boscosa y del desierto del Suroeste, 34tR52 </noscript> 
- </body>
-</html>
